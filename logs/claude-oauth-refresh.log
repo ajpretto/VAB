@@ -1,0 +1,1031 @@
+[2026-01-25 03:01:27] Refresh started
+[2026-01-25 03:01:27] Reading tokens from Keychain...
+[2026-01-25 03:01:27] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-25 03:01:27] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-25 03:01:27] Checking entry with account: anthonypretto
+[2026-01-25 03:01:27] ✓ Found complete OAuth tokens in this entry
+[2026-01-25 03:01:27] ✓ Using keychain account: anthonypretto
+[2026-01-25 03:01:27] Current expiry: 2026-01-25 09:31:24
+[2026-01-25 03:01:27] Token still valid for 389 minutes (buffer: 30m)
+[2026-01-25 03:01:27] Syncing token to auth-profiles.json...
+[2026-01-25 03:01:27] ✓ Token synced to auth-profiles.json
+[2026-01-25 03:02:01] Refresh started
+[2026-01-25 03:02:01] Reading tokens from Keychain...
+[2026-01-25 03:02:01] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-25 03:02:01] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-25 03:02:01] Checking entry with account: anthonypretto
+[2026-01-25 03:02:01] ✓ Found complete OAuth tokens in this entry
+[2026-01-25 03:02:01] ✓ Using keychain account: anthonypretto
+[2026-01-25 03:02:01] Current expiry: 2026-01-25 09:31:24
+[2026-01-25 03:02:01] Token still valid for 389 minutes (buffer: 30m)
+[2026-01-25 05:33:11] Refresh started
+[2026-01-25 05:33:11] Reading tokens from Keychain...
+[2026-01-25 05:33:11] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-25 05:33:11] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-25 05:33:11] Checking entry with account: anthonypretto
+[2026-01-25 05:33:11] ✓ Found complete OAuth tokens in this entry
+[2026-01-25 05:33:11] ✓ Using keychain account: anthonypretto
+[2026-01-25 05:33:11] Current expiry: 2026-01-25 09:31:24
+[2026-01-25 05:33:11] Token still valid for 238 minutes (buffer: 30m)
+[2026-01-25 05:33:11] Syncing token to auth-profiles.json...
+[2026-01-25 05:33:11] ✓ Token synced to auth-profiles.json
+[2026-01-25 08:36:35] Refresh started
+[2026-01-25 08:36:35] Reading tokens from Keychain...
+[2026-01-25 08:36:35] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-25 08:36:35] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-25 08:36:35] Checking entry with account: anthonypretto
+[2026-01-25 08:36:35] ✓ Found complete OAuth tokens in this entry
+[2026-01-25 08:36:35] ✓ Using keychain account: anthonypretto
+[2026-01-25 08:36:35] Current expiry: 2026-01-25 09:31:24
+[2026-01-25 08:36:35] Token still valid for 54 minutes (buffer: 30m)
+[2026-01-25 10:37:44] Refresh started
+[2026-01-25 10:37:44] Reading tokens from Keychain...
+[2026-01-25 10:37:44] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-25 10:37:44] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-25 10:37:44] Checking entry with account: anthonypretto
+[2026-01-25 10:37:45] ✓ Found complete OAuth tokens in this entry
+[2026-01-25 10:37:45] ✓ Using keychain account: anthonypretto
+[2026-01-25 10:37:45] Current expiry: 2026-01-25 18:32:58
+[2026-01-25 10:37:45] Force refresh requested (token expires in 475 minutes)
+[2026-01-25 10:37:45] Calling OAuth endpoint...
+[2026-01-25 10:37:45] ✓ Received new tokens
+[2026-01-25 10:37:45] New expiry: 2026-01-25 18:37:45 (28800s / 8h)
+[2026-01-25 10:37:45] Updating auth-profiles.json...
+[2026-01-25 10:37:45] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-25 10:37:45] Updating Keychain...
+[2026-01-25 10:37:45] ✓ Keychain updated
+[2026-01-25 10:37:45] Refresh complete
+[2026-01-25 10:53:06] Refresh started
+[2026-01-25 10:53:06] Reading tokens from Keychain...
+[2026-01-25 10:53:06] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-25 10:53:06] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-25 10:53:06] Checking entry with account: anthonypretto
+[2026-01-25 10:53:06] ✓ Found complete OAuth tokens in this entry
+[2026-01-25 10:53:06] ✓ Using keychain account: anthonypretto
+[2026-01-25 10:53:06] Current expiry: 2026-01-25 18:38:29
+[2026-01-25 10:53:06] Token still valid for 465 minutes (buffer: 30m)
+[2026-01-25 10:53:06] Syncing token to auth-profiles.json...
+[2026-01-25 10:53:06] ✓ Token synced to auth-profiles.json
+[2026-01-25 18:43:28] Refresh started
+[2026-01-25 18:43:28] Reading tokens from Keychain...
+[2026-01-25 18:43:28] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-25 18:43:28] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-25 18:43:28] Checking entry with account: anthonypretto
+[2026-01-25 18:43:29] ✓ Found complete OAuth tokens in this entry
+[2026-01-25 18:43:29] ✓ Using keychain account: anthonypretto
+[2026-01-25 18:43:29] Current expiry: 2026-01-26 02:41:53
+[2026-01-25 18:43:29] Token still valid for 478 minutes (buffer: 120m)
+[2026-01-25 18:43:29] Syncing token to auth-profiles.json...
+[2026-01-25 18:43:29] ✓ Token synced to auth-profiles.json
+[2026-01-25 18:43:37] Refresh started
+[2026-01-25 18:43:37] Reading tokens from Keychain...
+[2026-01-25 18:43:37] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-25 18:43:37] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-25 18:43:37] Checking entry with account: anthonypretto
+[2026-01-25 18:43:37] ✓ Found complete OAuth tokens in this entry
+[2026-01-25 18:43:37] ✓ Using keychain account: anthonypretto
+[2026-01-25 18:43:37] Current expiry: 2026-01-26 02:41:53
+[2026-01-25 18:43:37] Token still valid for 478 minutes (buffer: 120m)
+[2026-01-25 21:15:02] Refresh started
+[2026-01-25 21:15:02] Reading tokens from Keychain...
+[2026-01-25 21:15:02] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-25 21:15:02] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-25 21:15:02] Checking entry with account: anthonypretto
+[2026-01-25 21:15:03] ✓ Found complete OAuth tokens in this entry
+[2026-01-25 21:15:03] ✓ Using keychain account: anthonypretto
+[2026-01-25 21:15:03] Current expiry: 2026-01-26 02:41:53
+[2026-01-25 21:15:03] Token still valid for 326 minutes (buffer: 120m)
+[2026-01-26 01:56:38] Refresh started
+[2026-01-26 01:56:38] Reading tokens from Keychain...
+[2026-01-26 01:56:38] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 01:56:38] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 01:56:38] Checking entry with account: anthonypretto
+[2026-01-26 01:56:38] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 01:56:38] ✓ Using keychain account: anthonypretto
+[2026-01-26 01:56:38] Current expiry: 2026-01-26 02:41:53
+[2026-01-26 01:56:38] Token expires in 45 minutes, refreshing...
+[2026-01-26 01:56:38] Calling OAuth endpoint...
+[2026-01-26 01:56:39] ✓ Received new tokens
+[2026-01-26 01:56:39] New expiry: 2026-01-26 09:56:39 (28800s / 8h)
+[2026-01-26 01:56:39] Updating auth-profiles.json...
+[2026-01-26 01:56:39] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-26 01:56:39] Updating Keychain...
+[2026-01-26 01:56:39] ✓ Keychain updated
+[2026-01-26 01:56:39] Scheduling gateway reload...
+[2026-01-26 01:56:39] ✓ Gateway restart scheduled
+[2026-01-26 01:56:39] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-26 02:56:43] Refresh started
+[2026-01-26 02:56:43] Reading tokens from Keychain...
+[2026-01-26 02:56:43] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 02:56:43] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 02:56:43] Checking entry with account: anthonypretto
+[2026-01-26 02:56:43] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 02:56:43] ✓ Using keychain account: anthonypretto
+[2026-01-26 02:56:43] Current expiry: 2026-01-26 10:03:15
+[2026-01-26 02:56:43] Token still valid for 426 minutes (buffer: 120m)
+[2026-01-26 02:56:44] Syncing token to auth-profiles.json...
+[2026-01-26 02:56:44] ✓ Token synced to auth-profiles.json
+[2026-01-26 03:56:44] Refresh started
+[2026-01-26 03:56:44] Reading tokens from Keychain...
+[2026-01-26 03:56:44] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 03:56:44] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 03:56:44] Checking entry with account: anthonypretto
+[2026-01-26 03:56:44] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 03:56:44] ✓ Using keychain account: anthonypretto
+[2026-01-26 03:56:44] Current expiry: 2026-01-26 10:03:15
+[2026-01-26 03:56:44] Token still valid for 366 minutes (buffer: 120m)
+[2026-01-26 04:56:44] Refresh started
+[2026-01-26 04:56:44] Reading tokens from Keychain...
+[2026-01-26 04:56:44] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 04:56:44] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 04:56:44] Checking entry with account: anthonypretto
+[2026-01-26 04:56:44] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 04:56:44] ✓ Using keychain account: anthonypretto
+[2026-01-26 04:56:44] Current expiry: 2026-01-26 10:03:15
+[2026-01-26 04:56:44] Token still valid for 306 minutes (buffer: 120m)
+[2026-01-26 05:56:44] Refresh started
+[2026-01-26 05:56:44] Reading tokens from Keychain...
+[2026-01-26 05:56:44] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 05:56:45] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 05:56:45] Checking entry with account: anthonypretto
+[2026-01-26 05:56:45] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 05:56:45] ✓ Using keychain account: anthonypretto
+[2026-01-26 05:56:45] Current expiry: 2026-01-26 10:03:15
+[2026-01-26 05:56:45] Token still valid for 246 minutes (buffer: 120m)
+[2026-01-26 09:30:11] Refresh started
+[2026-01-26 09:30:11] Reading tokens from Keychain...
+[2026-01-26 09:30:11] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 09:30:11] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 09:30:11] Checking entry with account: anthonypretto
+[2026-01-26 09:30:11] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 09:30:11] ✓ Using keychain account: anthonypretto
+[2026-01-26 09:30:11] Current expiry: 2026-01-26 10:03:15
+[2026-01-26 09:30:11] Token expires in 33 minutes, refreshing...
+[2026-01-26 09:30:11] Calling OAuth endpoint...
+[2026-01-26 09:30:12] ✓ Received new tokens
+[2026-01-26 09:30:12] New expiry: 2026-01-26 17:30:12 (28800s / 8h)
+[2026-01-26 09:30:12] Updating auth-profiles.json...
+[2026-01-26 09:30:12] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-26 09:30:12] Updating Keychain...
+[2026-01-26 09:30:12] ✓ Keychain updated
+[2026-01-26 09:30:12] Scheduling gateway reload...
+[2026-01-26 09:30:12] ✓ Gateway restart scheduled
+[2026-01-26 09:30:12] Refresh complete
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+[2026-01-26 10:52:30] Refresh started
+[2026-01-26 10:52:30] Reading tokens from Keychain...
+[2026-01-26 10:52:30] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 10:52:30] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 10:52:30] Checking entry with account: anthonypretto
+[2026-01-26 10:52:31] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 10:52:31] ✓ Using keychain account: anthonypretto
+[2026-01-26 10:52:31] Current expiry: 2026-01-26 17:30:12
+[2026-01-26 10:52:31] Token still valid for 397 minutes (buffer: 120m)
+[2026-01-26 11:52:31] Refresh started
+[2026-01-26 11:52:31] Reading tokens from Keychain...
+[2026-01-26 11:52:31] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 11:52:31] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 11:52:31] Checking entry with account: anthonypretto
+[2026-01-26 11:52:31] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 11:52:32] ✓ Using keychain account: anthonypretto
+[2026-01-26 11:52:32] Current expiry: 2026-01-26 17:30:12
+[2026-01-26 11:52:32] Token still valid for 337 minutes (buffer: 120m)
+[2026-01-26 12:52:32] Refresh started
+[2026-01-26 12:52:32] Reading tokens from Keychain...
+[2026-01-26 12:52:32] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 12:52:32] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 12:52:32] Checking entry with account: anthonypretto
+[2026-01-26 12:52:32] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 12:52:32] ✓ Using keychain account: anthonypretto
+[2026-01-26 12:52:32] Current expiry: 2026-01-26 17:30:12
+[2026-01-26 12:52:32] Token still valid for 277 minutes (buffer: 120m)
+[2026-01-26 13:52:32] Refresh started
+[2026-01-26 13:52:32] Reading tokens from Keychain...
+[2026-01-26 13:52:32] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 13:52:32] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 13:52:32] Checking entry with account: anthonypretto
+[2026-01-26 13:52:32] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 13:52:32] ✓ Using keychain account: anthonypretto
+[2026-01-26 13:52:33] Current expiry: 2026-01-26 17:30:12
+[2026-01-26 13:52:33] Token still valid for 217 minutes (buffer: 120m)
+[2026-01-26 14:58:00] Refresh started
+[2026-01-26 14:58:00] Reading tokens from Keychain...
+[2026-01-26 14:58:00] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 14:58:00] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 14:58:00] Checking entry with account: anthonypretto
+[2026-01-26 14:58:00] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 14:58:00] ✓ Using keychain account: anthonypretto
+[2026-01-26 14:58:00] Current expiry: 2026-01-26 17:30:12
+[2026-01-26 14:58:00] Token still valid for 152 minutes (buffer: 120m)
+[2026-01-26 16:56:11] Refresh started
+[2026-01-26 16:56:11] Reading tokens from Keychain...
+[2026-01-26 16:56:11] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 16:56:11] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 16:56:11] Checking entry with account: anthonypretto
+[2026-01-26 16:56:11] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 16:56:11] ✓ Using keychain account: anthonypretto
+[2026-01-26 16:56:12] Current expiry: 2026-01-26 17:30:12
+[2026-01-26 16:56:12] Token expires in 34 minutes, refreshing...
+[2026-01-26 16:56:12] Calling OAuth endpoint...
+[2026-01-26 16:56:12] ✓ Received new tokens
+[2026-01-26 16:56:12] New expiry: 2026-01-27 00:56:12 (28800s / 8h)
+[2026-01-26 16:56:12] Updating auth-profiles.json...
+[2026-01-26 16:56:12] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-26 16:56:12] Updating Keychain...
+[2026-01-26 16:56:12] ✓ Keychain updated
+[2026-01-26 16:56:12] Scheduling gateway reload...
+[2026-01-26 16:56:12] ✓ Gateway restart scheduled
+[2026-01-26 16:56:12] Refresh complete
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-26 18:40:01] Refresh started
+[2026-01-26 18:40:01] Reading tokens from Keychain...
+[2026-01-26 18:40:01] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 18:40:01] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 18:40:01] Checking entry with account: anthonypretto
+[2026-01-26 18:40:01] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 18:40:01] ✓ Using keychain account: anthonypretto
+[2026-01-26 18:40:01] Current expiry: 2026-01-27 00:58:34
+[2026-01-26 18:40:01] Token still valid for 378 minutes (buffer: 120m)
+[2026-01-26 18:40:01] Syncing token to auth-profiles.json...
+[2026-01-26 18:40:01] ✓ Token synced to auth-profiles.json
+[2026-01-26 22:57:11] Refresh started
+[2026-01-26 22:57:11] Reading tokens from Keychain...
+[2026-01-26 22:57:11] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 22:57:11] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 22:57:11] Checking entry with account: anthonypretto
+[2026-01-26 22:57:11] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 22:57:11] ✓ Using keychain account: anthonypretto
+[2026-01-26 22:57:11] Current expiry: 2026-01-27 00:58:34
+[2026-01-26 22:57:11] Token still valid for 121 minutes (buffer: 120m)
+[2026-01-26 23:57:12] Refresh started
+[2026-01-26 23:57:12] Reading tokens from Keychain...
+[2026-01-26 23:57:12] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-26 23:57:12] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-26 23:57:12] Checking entry with account: anthonypretto
+[2026-01-26 23:57:12] ✓ Found complete OAuth tokens in this entry
+[2026-01-26 23:57:12] ✓ Using keychain account: anthonypretto
+[2026-01-26 23:57:12] Current expiry: 2026-01-27 00:58:34
+[2026-01-26 23:57:12] Token expires in 61 minutes, refreshing...
+[2026-01-26 23:57:12] Calling OAuth endpoint...
+[2026-01-26 23:57:13] ✓ Received new tokens
+[2026-01-26 23:57:13] New expiry: 2026-01-27 07:57:13 (28800s / 8h)
+[2026-01-26 23:57:13] Updating auth-profiles.json...
+[2026-01-26 23:57:13] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-26 23:57:13] Updating Keychain...
+[2026-01-26 23:57:14] ✓ Keychain updated
+[2026-01-26 23:57:14] Scheduling gateway reload...
+[2026-01-26 23:57:14] ✓ Gateway restart scheduled
+[2026-01-26 23:57:14] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-27 00:57:26] Refresh started
+[2026-01-27 00:57:26] Reading tokens from Keychain...
+[2026-01-27 00:57:26] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 00:57:26] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 00:57:26] Checking entry with account: anthonypretto
+[2026-01-27 00:57:26] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 00:57:26] ✓ Using keychain account: anthonypretto
+[2026-01-27 00:57:26] Current expiry: 2026-01-27 07:57:13
+[2026-01-27 00:57:26] Token still valid for 419 minutes (buffer: 120m)
+[2026-01-27 02:22:15] Refresh started
+[2026-01-27 02:22:15] Reading tokens from Keychain...
+[2026-01-27 02:22:15] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 02:22:15] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 02:22:15] Checking entry with account: anthonypretto
+[2026-01-27 02:22:16] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 02:22:16] ✓ Using keychain account: anthonypretto
+[2026-01-27 02:22:16] Current expiry: 2026-01-27 07:57:13
+[2026-01-27 02:22:16] Token still valid for 334 minutes (buffer: 120m)
+[2026-01-27 03:38:09] Refresh started
+[2026-01-27 03:38:09] Reading tokens from Keychain...
+[2026-01-27 03:38:09] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 03:38:09] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 03:38:09] Checking entry with account: anthonypretto
+[2026-01-27 03:38:09] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 03:38:09] ✓ Using keychain account: anthonypretto
+[2026-01-27 03:38:09] Current expiry: 2026-01-27 07:57:13
+[2026-01-27 03:38:09] Token still valid for 259 minutes (buffer: 120m)
+[2026-01-27 04:53:58] Refresh started
+[2026-01-27 04:53:58] Reading tokens from Keychain...
+[2026-01-27 04:53:58] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 04:53:59] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 04:53:59] Checking entry with account: anthonypretto
+[2026-01-27 04:53:59] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 04:53:59] ✓ Using keychain account: anthonypretto
+[2026-01-27 04:53:59] Current expiry: 2026-01-27 07:57:13
+[2026-01-27 04:53:59] Token still valid for 183 minutes (buffer: 120m)
+[2026-01-27 06:09:58] Refresh started
+[2026-01-27 06:09:58] Reading tokens from Keychain...
+[2026-01-27 06:09:58] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 06:09:59] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 06:09:59] Checking entry with account: anthonypretto
+[2026-01-27 06:09:59] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 06:10:00] ✓ Using keychain account: anthonypretto
+[2026-01-27 06:10:00] Current expiry: 2026-01-27 07:57:13
+[2026-01-27 06:10:00] Token expires in 107 minutes, refreshing...
+[2026-01-27 06:10:00] Calling OAuth endpoint...
+[2026-01-27 06:10:01] ✓ Received new tokens
+[2026-01-27 06:10:01] New expiry: 2026-01-27 14:10:01 (28800s / 8h)
+[2026-01-27 06:10:01] Updating auth-profiles.json...
+[2026-01-27 06:10:01] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-27 06:10:01] Updating Keychain...
+[2026-01-27 06:10:03] ✓ Keychain updated
+[2026-01-27 06:10:03] Scheduling gateway reload...
+[2026-01-27 06:10:03] ✓ Gateway restart scheduled
+[2026-01-27 06:10:03] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-27 07:20:55] Refresh started
+[2026-01-27 07:20:55] Reading tokens from Keychain...
+[2026-01-27 07:20:55] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 07:20:55] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 07:20:55] Checking entry with account: anthonypretto
+[2026-01-27 07:20:56] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 07:20:56] ✓ Using keychain account: anthonypretto
+[2026-01-27 07:20:56] Current expiry: 2026-01-27 14:10:01
+[2026-01-27 07:20:56] Token still valid for 409 minutes (buffer: 120m)
+[2026-01-27 08:36:21] Refresh started
+[2026-01-27 08:36:21] Reading tokens from Keychain...
+[2026-01-27 08:36:21] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 08:36:21] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 08:36:21] Checking entry with account: anthonypretto
+[2026-01-27 08:36:21] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 08:36:21] ✓ Using keychain account: anthonypretto
+[2026-01-27 08:36:21] Current expiry: 2026-01-27 14:10:01
+[2026-01-27 08:36:21] Token still valid for 333 minutes (buffer: 120m)
+[2026-01-27 09:47:32] Refresh started
+[2026-01-27 09:47:32] Reading tokens from Keychain...
+[2026-01-27 09:47:32] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 09:47:32] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 09:47:32] Checking entry with account: anthonypretto
+[2026-01-27 09:47:32] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 09:47:32] ✓ Using keychain account: anthonypretto
+[2026-01-27 09:47:32] Current expiry: 2026-01-27 14:10:01
+[2026-01-27 09:47:32] Token still valid for 262 minutes (buffer: 120m)
+[2026-01-27 11:18:47] Refresh started
+[2026-01-27 11:18:47] Reading tokens from Keychain...
+[2026-01-27 11:18:47] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 11:18:47] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 11:18:47] Checking entry with account: anthonypretto
+[2026-01-27 11:18:47] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 11:18:47] ✓ Using keychain account: anthonypretto
+[2026-01-27 11:18:47] Current expiry: 2026-01-27 14:10:01
+[2026-01-27 11:18:47] Token still valid for 171 minutes (buffer: 120m)
+[2026-01-27 12:25:10] Refresh started
+[2026-01-27 12:25:10] Reading tokens from Keychain...
+[2026-01-27 12:25:10] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 12:25:10] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 12:25:10] Checking entry with account: anthonypretto
+[2026-01-27 12:25:10] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 12:25:10] ✓ Using keychain account: anthonypretto
+[2026-01-27 12:25:10] Current expiry: 2026-01-27 14:10:01
+[2026-01-27 12:25:10] Token expires in 104 minutes, refreshing...
+[2026-01-27 12:25:10] Calling OAuth endpoint...
+[2026-01-27 12:25:11] ✓ Received new tokens
+[2026-01-27 12:25:11] New expiry: 2026-01-27 20:25:11 (28800s / 8h)
+[2026-01-27 12:25:11] Updating auth-profiles.json...
+[2026-01-27 12:25:11] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-27 12:25:11] Updating Keychain...
+[2026-01-27 12:25:11] ✓ Keychain updated
+[2026-01-27 12:25:11] Scheduling gateway reload...
+[2026-01-27 12:25:11] ✓ Gateway restart scheduled
+[2026-01-27 12:25:11] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-27 13:52:56] Refresh started
+[2026-01-27 13:52:56] Reading tokens from Keychain...
+[2026-01-27 13:52:56] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 13:52:56] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 13:52:56] Checking entry with account: anthonypretto
+[2026-01-27 13:52:57] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 13:52:57] ✓ Using keychain account: anthonypretto
+[2026-01-27 13:52:57] Current expiry: 2026-01-27 20:52:03
+[2026-01-27 13:52:57] Token still valid for 419 minutes (buffer: 120m)
+[2026-01-27 13:52:57] Syncing token to auth-profiles.json...
+[2026-01-27 13:52:57] ✓ Token synced to auth-profiles.json
+[2026-01-27 16:25:10] Refresh started
+[2026-01-27 16:25:10] Reading tokens from Keychain...
+[2026-01-27 16:25:10] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 16:25:10] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 16:25:10] Checking entry with account: anthonypretto
+[2026-01-27 16:25:11] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 16:25:11] ✓ Using keychain account: anthonypretto
+[2026-01-27 16:25:11] Current expiry: 2026-01-27 20:52:03
+[2026-01-27 16:25:11] Token still valid for 266 minutes (buffer: 120m)
+[2026-01-27 17:47:47] Refresh started
+[2026-01-27 17:47:47] Reading tokens from Keychain...
+[2026-01-27 17:47:47] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 17:47:47] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 17:47:47] Checking entry with account: anthonypretto
+[2026-01-27 17:47:47] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 17:47:47] ✓ Using keychain account: anthonypretto
+[2026-01-27 17:47:47] Current expiry: 2026-01-27 20:52:03
+[2026-01-27 17:47:47] Token still valid for 184 minutes (buffer: 120m)
+[2026-01-27 22:36:45] Refresh started
+[2026-01-27 22:36:45] Reading tokens from Keychain...
+[2026-01-27 22:36:45] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 22:36:45] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 22:36:45] Checking entry with account: anthonypretto
+[2026-01-27 22:36:45] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 22:36:46] ✓ Using keychain account: anthonypretto
+[2026-01-27 22:36:46] Current expiry: 2026-01-27 20:52:03
+[2026-01-27 22:36:46] Token expires in -104 minutes, refreshing...
+[2026-01-27 22:36:46] Calling OAuth endpoint...
+[2026-01-27 22:36:46] ✓ Received new tokens
+[2026-01-27 22:36:46] New expiry: 2026-01-28 06:36:46 (28800s / 8h)
+[2026-01-27 22:36:46] Updating auth-profiles.json...
+[2026-01-27 22:36:46] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-27 22:36:46] Updating Keychain...
+[2026-01-27 22:36:46] ✓ Keychain updated
+[2026-01-27 22:36:46] Scheduling gateway reload...
+[2026-01-27 22:36:46] ✓ Gateway restart scheduled
+[2026-01-27 22:36:46] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-27 23:36:51] Refresh started
+[2026-01-27 23:36:51] Reading tokens from Keychain...
+[2026-01-27 23:36:51] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-27 23:36:51] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-27 23:36:51] Checking entry with account: anthonypretto
+[2026-01-27 23:36:51] ✓ Found complete OAuth tokens in this entry
+[2026-01-27 23:36:51] ✓ Using keychain account: anthonypretto
+[2026-01-27 23:36:51] Current expiry: 2026-01-28 06:36:46
+[2026-01-27 23:36:51] Token still valid for 419 minutes (buffer: 120m)
+[2026-01-28 00:36:51] Refresh started
+[2026-01-28 00:36:51] Reading tokens from Keychain...
+[2026-01-28 00:36:51] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-28 00:36:51] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-28 00:36:51] Checking entry with account: anthonypretto
+[2026-01-28 00:36:51] ✓ Found complete OAuth tokens in this entry
+[2026-01-28 00:36:51] ✓ Using keychain account: anthonypretto
+[2026-01-28 00:36:51] Current expiry: 2026-01-28 06:36:46
+[2026-01-28 00:36:51] Token still valid for 359 minutes (buffer: 120m)
+[2026-01-28 01:36:52] Refresh started
+[2026-01-28 01:36:52] Reading tokens from Keychain...
+[2026-01-28 01:36:52] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-28 01:36:52] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-28 01:36:52] Checking entry with account: anthonypretto
+[2026-01-28 01:36:52] ✓ Found complete OAuth tokens in this entry
+[2026-01-28 01:36:52] ✓ Using keychain account: anthonypretto
+[2026-01-28 01:36:52] Current expiry: 2026-01-28 06:36:46
+[2026-01-28 01:36:52] Token still valid for 299 minutes (buffer: 120m)
+[2026-01-28 05:17:34] Refresh started
+[2026-01-28 05:17:34] Reading tokens from Keychain...
+[2026-01-28 05:17:34] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-28 05:17:34] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-28 05:17:34] Checking entry with account: anthonypretto
+[2026-01-28 05:17:34] ✓ Found complete OAuth tokens in this entry
+[2026-01-28 05:17:34] ✓ Using keychain account: anthonypretto
+[2026-01-28 05:17:34] Current expiry: 2026-01-28 06:36:46
+[2026-01-28 05:17:34] Token expires in 79 minutes, refreshing...
+[2026-01-28 05:17:34] Calling OAuth endpoint...
+[2026-01-28 05:17:35] ✓ Received new tokens
+[2026-01-28 05:17:35] New expiry: 2026-01-28 13:17:35 (28800s / 8h)
+[2026-01-28 05:17:35] Updating auth-profiles.json...
+[2026-01-28 05:17:35] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-28 05:17:35] Updating Keychain...
+[2026-01-28 05:17:35] ✓ Keychain updated
+[2026-01-28 05:17:35] Scheduling gateway reload...
+[2026-01-28 05:17:35] ✓ Gateway restart scheduled
+[2026-01-28 05:17:35] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-28 11:04:02] Refresh started
+[2026-01-28 11:04:02] Reading tokens from Keychain...
+[2026-01-28 11:04:02] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-28 11:04:02] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-28 11:04:02] Checking entry with account: anthonypretto
+[2026-01-28 11:04:02] ✓ Found complete OAuth tokens in this entry
+[2026-01-28 11:04:02] ✓ Using keychain account: anthonypretto
+[2026-01-28 11:04:02] Current expiry: 2026-01-28 13:17:35
+[2026-01-28 11:04:02] Token still valid for 133 minutes (buffer: 120m)
+[2026-01-28 12:04:02] Refresh started
+[2026-01-28 12:04:02] Reading tokens from Keychain...
+[2026-01-28 12:04:02] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-28 12:04:02] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-28 12:04:02] Checking entry with account: anthonypretto
+[2026-01-28 12:04:03] ✓ Found complete OAuth tokens in this entry
+[2026-01-28 12:04:03] ✓ Using keychain account: anthonypretto
+[2026-01-28 12:04:03] Current expiry: 2026-01-28 13:17:35
+[2026-01-28 12:04:03] Token expires in 73 minutes, refreshing...
+[2026-01-28 12:04:03] Calling OAuth endpoint...
+[2026-01-28 12:04:03] ✓ Received new tokens
+[2026-01-28 12:04:03] New expiry: 2026-01-28 20:04:03 (28800s / 8h)
+[2026-01-28 12:04:03] Updating auth-profiles.json...
+[2026-01-28 12:04:03] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-28 12:04:03] Updating Keychain...
+[2026-01-28 12:04:03] ✓ Keychain updated
+[2026-01-28 12:04:03] Scheduling gateway reload...
+[2026-01-28 12:04:03] ✓ Gateway restart scheduled
+[2026-01-28 12:04:03] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-28 13:04:08] Refresh started
+[2026-01-28 13:04:08] Reading tokens from Keychain...
+[2026-01-28 13:04:08] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-28 13:04:08] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-28 13:04:08] Checking entry with account: anthonypretto
+[2026-01-28 13:04:08] ✓ Found complete OAuth tokens in this entry
+[2026-01-28 13:04:08] ✓ Using keychain account: anthonypretto
+[2026-01-28 13:04:08] Current expiry: 2026-01-28 20:09:39
+[2026-01-28 13:04:08] Token still valid for 425 minutes (buffer: 120m)
+[2026-01-28 13:04:08] Syncing token to auth-profiles.json...
+[2026-01-28 13:04:08] ✓ Token synced to auth-profiles.json
+[2026-01-28 14:04:08] Refresh started
+[2026-01-28 14:04:08] Reading tokens from Keychain...
+[2026-01-28 14:04:08] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-28 14:04:08] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-28 14:04:08] Checking entry with account: anthonypretto
+[2026-01-28 14:04:08] ✓ Found complete OAuth tokens in this entry
+[2026-01-28 14:04:08] ✓ Using keychain account: anthonypretto
+[2026-01-28 14:04:08] Current expiry: 2026-01-28 20:09:39
+[2026-01-28 14:04:08] Token still valid for 365 minutes (buffer: 120m)
+[2026-01-28 15:04:08] Refresh started
+[2026-01-28 15:04:08] Reading tokens from Keychain...
+[2026-01-28 15:04:08] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-28 15:04:08] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-28 15:04:08] Checking entry with account: anthonypretto
+[2026-01-28 15:04:09] ✓ Found complete OAuth tokens in this entry
+[2026-01-28 15:04:09] ✓ Using keychain account: anthonypretto
+[2026-01-28 15:04:09] Current expiry: 2026-01-28 20:09:39
+[2026-01-28 15:04:09] Token still valid for 305 minutes (buffer: 120m)
+[2026-01-28 17:09:04] Refresh started
+[2026-01-28 17:09:04] Reading tokens from Keychain...
+[2026-01-28 17:09:04] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-28 17:09:04] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-28 17:09:04] Checking entry with account: anthonypretto
+[2026-01-28 17:09:04] ✓ Found complete OAuth tokens in this entry
+[2026-01-28 17:09:04] ✓ Using keychain account: anthonypretto
+[2026-01-28 17:09:04] Current expiry: 2026-01-28 20:09:39
+[2026-01-28 17:09:04] Token still valid for 180 minutes (buffer: 120m)
+[2026-01-29 03:25:09] Refresh started
+[2026-01-29 03:25:09] Reading tokens from Keychain...
+[2026-01-29 03:25:09] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-29 03:25:09] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-29 03:25:09] Checking entry with account: anthonypretto
+[2026-01-29 03:25:10] ✓ Found complete OAuth tokens in this entry
+[2026-01-29 03:25:10] ✓ Using keychain account: anthonypretto
+[2026-01-29 03:25:10] Current expiry: 2026-01-29 04:23:20
+[2026-01-29 03:25:10] Token expires in 58 minutes, refreshing...
+[2026-01-29 03:25:10] Calling OAuth endpoint...
+[2026-01-29 03:25:11] ✓ Received new tokens
+[2026-01-29 03:25:11] New expiry: 2026-01-29 11:25:11 (28800s / 8h)
+[2026-01-29 03:25:11] Updating auth-profiles.json...
+[2026-01-29 03:25:11] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-29 03:25:11] Updating Keychain...
+[2026-01-29 03:25:12] ✓ Keychain updated
+[2026-01-29 03:25:12] Scheduling gateway reload...
+[2026-01-29 03:25:12] ✓ Gateway restart scheduled
+[2026-01-29 03:25:12] Refresh complete
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-29 10:39:04] Refresh started
+[2026-01-29 10:39:04] Reading tokens from Keychain...
+[2026-01-29 10:39:04] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-29 10:39:04] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-29 10:39:04] Checking entry with account: anthonypretto
+[2026-01-29 10:39:04] ✓ Found complete OAuth tokens in this entry
+[2026-01-29 10:39:04] ✓ Using keychain account: anthonypretto
+[2026-01-29 10:39:04] Current expiry: 2026-01-29 11:25:11
+[2026-01-29 10:39:04] Token expires in 46 minutes, refreshing...
+[2026-01-29 10:39:04] Calling OAuth endpoint...
+[2026-01-29 10:39:05] ✓ Received new tokens
+[2026-01-29 10:39:05] New expiry: 2026-01-29 18:39:05 (28800s / 8h)
+[2026-01-29 10:39:05] Updating auth-profiles.json...
+[2026-01-29 10:39:05] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-29 10:39:05] Updating Keychain...
+[2026-01-29 10:39:05] ✓ Keychain updated
+[2026-01-29 10:39:05] Scheduling gateway reload...
+[2026-01-29 10:39:05] ✓ Gateway restart scheduled
+[2026-01-29 10:39:05] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-29 12:29:15] Refresh started
+[2026-01-29 12:29:15] Reading tokens from Keychain...
+[2026-01-29 12:29:15] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-29 12:29:15] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-29 12:29:15] Checking entry with account: anthonypretto
+[2026-01-29 12:29:15] ✓ Found complete OAuth tokens in this entry
+[2026-01-29 12:29:15] ✓ Using keychain account: anthonypretto
+[2026-01-29 12:29:15] Current expiry: 2026-01-29 18:59:41
+[2026-01-29 12:29:15] Token still valid for 390 minutes (buffer: 120m)
+[2026-01-29 12:29:15] Syncing token to auth-profiles.json...
+[2026-01-29 12:29:15] ✓ Token synced to auth-profiles.json
+[2026-01-29 13:29:16] Refresh started
+[2026-01-29 13:29:16] Reading tokens from Keychain...
+[2026-01-29 13:29:16] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-29 13:29:16] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-29 13:29:16] Checking entry with account: anthonypretto
+[2026-01-29 13:29:16] ✓ Found complete OAuth tokens in this entry
+[2026-01-29 13:29:16] ✓ Using keychain account: anthonypretto
+[2026-01-29 13:29:16] Current expiry: 2026-01-29 18:59:41
+[2026-01-29 13:29:16] Token still valid for 330 minutes (buffer: 120m)
+[2026-01-29 16:30:32] Refresh started
+[2026-01-29 16:30:32] Reading tokens from Keychain...
+[2026-01-29 16:30:32] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-29 16:30:32] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-29 16:30:32] Checking entry with account: anthonypretto
+[2026-01-29 16:30:32] ✓ Found complete OAuth tokens in this entry
+[2026-01-29 16:30:32] ✓ Using keychain account: anthonypretto
+[2026-01-29 16:30:32] Current expiry: 2026-01-29 18:59:41
+[2026-01-29 16:30:32] Token still valid for 149 minutes (buffer: 120m)
+[2026-01-29 17:49:06] Refresh started
+[2026-01-29 17:49:06] Reading tokens from Keychain...
+[2026-01-29 17:49:06] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-29 17:49:08] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-29 17:49:08] Checking entry with account: anthonypretto
+[2026-01-29 17:49:13] ✓ Found complete OAuth tokens in this entry
+[2026-01-29 17:49:16] ✓ Using keychain account: anthonypretto
+[2026-01-29 17:49:16] Current expiry: 2026-01-29 18:59:41
+[2026-01-29 17:49:18] Token expires in 70 minutes, refreshing...
+[2026-01-29 17:49:19] Calling OAuth endpoint...
+[2026-01-29 17:49:26] ✓ Received new tokens
+[2026-01-29 17:49:26] New expiry: 2026-01-30 01:49:26 (28800s / 8h)
+[2026-01-29 17:49:26] Updating auth-profiles.json...
+[2026-01-29 17:49:28] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-29 17:49:28] Updating Keychain...
+[2026-01-29 17:49:29] ✓ Keychain updated
+[2026-01-29 17:49:30] Scheduling gateway reload...
+[2026-01-29 17:49:30] ✓ Gateway restart scheduled
+[2026-01-29 17:49:30] Refresh complete
+[agents/auth-profiles] synced anthropic credentials from claude cli
+[agents/auth-profiles] synced anthropic credentials from claude cli
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-29 20:05:46] Refresh started
+[2026-01-29 20:05:46] Reading tokens from Keychain...
+[2026-01-29 20:05:46] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-29 20:05:46] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-29 20:05:46] Checking entry with account: anthonypretto
+[2026-01-29 20:05:46] ✓ Found complete OAuth tokens in this entry
+[2026-01-29 20:05:46] ✓ Using keychain account: anthonypretto
+[2026-01-29 20:05:46] Current expiry: 2026-01-30 01:59:05
+[2026-01-29 20:05:46] Token still valid for 353 minutes (buffer: 120m)
+[2026-01-29 20:05:46] Syncing token to auth-profiles.json...
+[2026-01-29 20:05:46] ✓ Token synced to auth-profiles.json
+[2026-01-29 21:05:46] Refresh started
+[2026-01-29 21:05:46] Reading tokens from Keychain...
+[2026-01-29 21:05:46] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-29 21:05:46] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-29 21:05:46] Checking entry with account: anthonypretto
+[2026-01-29 21:05:46] ✓ Found complete OAuth tokens in this entry
+[2026-01-29 21:05:47] ✓ Using keychain account: anthonypretto
+[2026-01-29 21:05:47] Current expiry: 2026-01-30 01:59:05
+[2026-01-29 21:05:47] Token still valid for 293 minutes (buffer: 120m)
+[2026-01-29 22:05:47] Refresh started
+[2026-01-29 22:05:47] Reading tokens from Keychain...
+[2026-01-29 22:05:47] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-29 22:05:47] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-29 22:05:47] Checking entry with account: anthonypretto
+[2026-01-29 22:05:47] ✓ Found complete OAuth tokens in this entry
+[2026-01-29 22:05:47] ✓ Using keychain account: anthonypretto
+[2026-01-29 22:05:47] Current expiry: 2026-01-30 01:59:05
+[2026-01-29 22:05:47] Token still valid for 233 minutes (buffer: 120m)
+[2026-01-29 23:15:45] Refresh started
+[2026-01-29 23:15:45] Reading tokens from Keychain...
+[2026-01-29 23:15:45] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-29 23:15:45] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-29 23:15:45] Checking entry with account: anthonypretto
+[2026-01-29 23:15:45] ✓ Found complete OAuth tokens in this entry
+[2026-01-29 23:15:45] ✓ Using keychain account: anthonypretto
+[2026-01-29 23:15:45] Current expiry: 2026-01-30 01:59:05
+[2026-01-29 23:15:45] Token still valid for 163 minutes (buffer: 120m)
+[2026-01-30 00:22:04] Refresh started
+[2026-01-30 00:22:04] Reading tokens from Keychain...
+[2026-01-30 00:22:04] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 00:22:04] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 00:22:04] Checking entry with account: anthonypretto
+[2026-01-30 00:22:05] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 00:22:05] ✓ Using keychain account: anthonypretto
+[2026-01-30 00:22:05] Current expiry: 2026-01-30 01:59:05
+[2026-01-30 00:22:05] Token expires in 97 minutes, refreshing...
+[2026-01-30 00:22:05] Calling OAuth endpoint...
+[2026-01-30 00:22:05] ✓ Received new tokens
+[2026-01-30 00:22:05] New expiry: 2026-01-30 08:22:05 (28800s / 8h)
+[2026-01-30 00:22:05] Updating auth-profiles.json...
+[2026-01-30 00:22:05] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-30 00:22:05] Updating Keychain...
+[2026-01-30 00:22:05] ✓ Keychain updated
+[2026-01-30 00:22:05] Scheduling gateway reload...
+[2026-01-30 00:22:05] ✓ Gateway restart scheduled
+[2026-01-30 00:22:05] Refresh complete
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-30 01:27:52] Refresh started
+[2026-01-30 01:27:52] Reading tokens from Keychain...
+[2026-01-30 01:27:52] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 01:27:52] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 01:27:52] Checking entry with account: anthonypretto
+[2026-01-30 01:27:53] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 01:27:53] ✓ Using keychain account: anthonypretto
+[2026-01-30 01:27:53] Current expiry: 2026-01-30 08:22:05
+[2026-01-30 01:27:53] Token still valid for 414 minutes (buffer: 120m)
+[2026-01-30 02:27:53] Refresh started
+[2026-01-30 02:27:53] Reading tokens from Keychain...
+[2026-01-30 02:27:53] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 02:27:53] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 02:27:53] Checking entry with account: anthonypretto
+[2026-01-30 02:27:53] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 02:27:53] ✓ Using keychain account: anthonypretto
+[2026-01-30 02:27:53] Current expiry: 2026-01-30 08:22:05
+[2026-01-30 02:27:53] Token still valid for 354 minutes (buffer: 120m)
+[2026-01-30 03:42:51] Refresh started
+[2026-01-30 03:42:51] Reading tokens from Keychain...
+[2026-01-30 03:42:51] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 03:42:51] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 03:42:51] Checking entry with account: anthonypretto
+[2026-01-30 03:42:52] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 03:42:52] ✓ Using keychain account: anthonypretto
+[2026-01-30 03:42:52] Current expiry: 2026-01-30 08:22:05
+[2026-01-30 03:42:52] Token still valid for 279 minutes (buffer: 120m)
+[2026-01-30 04:42:52] Refresh started
+[2026-01-30 04:42:52] Reading tokens from Keychain...
+[2026-01-30 04:42:52] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 04:42:52] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 04:42:52] Checking entry with account: anthonypretto
+[2026-01-30 04:42:52] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 04:42:52] ✓ Using keychain account: anthonypretto
+[2026-01-30 04:42:52] Current expiry: 2026-01-30 08:22:05
+[2026-01-30 04:42:52] Token still valid for 219 minutes (buffer: 120m)
+[2026-01-30 05:58:54] Refresh started
+[2026-01-30 05:58:54] Reading tokens from Keychain...
+[2026-01-30 05:58:54] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 05:58:54] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 05:58:54] Checking entry with account: anthonypretto
+[2026-01-30 05:58:54] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 05:58:54] ✓ Using keychain account: anthonypretto
+[2026-01-30 05:58:54] Current expiry: 2026-01-30 08:22:05
+[2026-01-30 05:58:54] Token still valid for 143 minutes (buffer: 120m)
+[2026-01-30 06:58:54] Refresh started
+[2026-01-30 06:58:54] Reading tokens from Keychain...
+[2026-01-30 06:58:54] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 06:58:54] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 06:58:54] Checking entry with account: anthonypretto
+[2026-01-30 06:58:54] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 06:58:54] ✓ Using keychain account: anthonypretto
+[2026-01-30 06:58:54] Current expiry: 2026-01-30 08:22:05
+[2026-01-30 06:58:54] Token expires in 83 minutes, refreshing...
+[2026-01-30 06:58:54] Calling OAuth endpoint...
+[2026-01-30 06:58:55] ✓ Received new tokens
+[2026-01-30 06:58:55] New expiry: 2026-01-30 14:58:55 (28800s / 8h)
+[2026-01-30 06:58:55] Updating auth-profiles.json...
+[2026-01-30 06:58:55] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-30 06:58:55] Updating Keychain...
+[2026-01-30 06:58:55] ✓ Keychain updated
+[2026-01-30 06:58:55] Scheduling gateway reload...
+[2026-01-30 06:58:55] ✓ Gateway restart scheduled
+[2026-01-30 06:58:55] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-30 08:16:11] Refresh started
+[2026-01-30 08:16:11] Reading tokens from Keychain...
+[2026-01-30 08:16:11] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 08:16:11] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 08:16:11] Checking entry with account: anthonypretto
+[2026-01-30 08:16:11] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 08:16:11] ✓ Using keychain account: anthonypretto
+[2026-01-30 08:16:11] Current expiry: 2026-01-30 14:58:55
+[2026-01-30 08:16:11] Token still valid for 402 minutes (buffer: 120m)
+[2026-01-30 09:31:13] Refresh started
+[2026-01-30 09:31:13] Reading tokens from Keychain...
+[2026-01-30 09:31:13] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 09:31:13] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 09:31:13] Checking entry with account: anthonypretto
+[2026-01-30 09:31:13] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 09:31:13] ✓ Using keychain account: anthonypretto
+[2026-01-30 09:31:13] Current expiry: 2026-01-30 14:58:55
+[2026-01-30 09:31:13] Token still valid for 327 minutes (buffer: 120m)
+[2026-01-30 13:43:49] Refresh started
+[2026-01-30 13:43:49] Reading tokens from Keychain...
+[2026-01-30 13:43:49] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 13:43:49] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 13:43:49] Checking entry with account: anthonypretto
+[2026-01-30 13:43:49] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 13:43:49] ✓ Using keychain account: anthonypretto
+[2026-01-30 13:43:49] Current expiry: 2026-01-30 14:58:55
+[2026-01-30 13:43:49] Token expires in 75 minutes, refreshing...
+[2026-01-30 13:43:50] Calling OAuth endpoint...
+[2026-01-30 13:43:50] ERROR: Network error calling OAuth endpoint
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-30 14:45:17] Refresh started
+[2026-01-30 14:45:17] Reading tokens from Keychain...
+[2026-01-30 14:45:17] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 14:45:17] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 14:45:17] Checking entry with account: anthonypretto
+[2026-01-30 14:45:17] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 14:45:17] ✓ Using keychain account: anthonypretto
+[2026-01-30 14:45:17] Current expiry: 2026-01-30 14:58:55
+[2026-01-30 14:45:17] Token expires in 13 minutes, refreshing...
+[2026-01-30 14:45:17] Calling OAuth endpoint...
+[2026-01-30 14:45:18] ✓ Received new tokens
+[2026-01-30 14:45:18] New expiry: 2026-01-30 22:45:18 (28800s / 8h)
+[2026-01-30 14:45:18] Updating auth-profiles.json...
+[2026-01-30 14:45:18] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-30 14:45:18] Updating Keychain...
+[2026-01-30 14:45:18] ✓ Keychain updated
+[2026-01-30 14:45:18] Scheduling gateway reload...
+[2026-01-30 14:45:18] ✓ Gateway restart scheduled
+[2026-01-30 14:45:18] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-30 15:45:22] Refresh started
+[2026-01-30 15:45:22] Reading tokens from Keychain...
+[2026-01-30 15:45:22] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 15:45:22] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 15:45:22] Checking entry with account: anthonypretto
+[2026-01-30 15:45:23] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 15:45:23] ✓ Using keychain account: anthonypretto
+[2026-01-30 15:45:23] Current expiry: 2026-01-30 22:45:18
+[2026-01-30 15:45:23] Token still valid for 419 minutes (buffer: 120m)
+[2026-01-30 16:47:51] Refresh started
+[2026-01-30 16:47:51] Reading tokens from Keychain...
+[2026-01-30 16:47:51] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-30 16:47:51] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-30 16:47:51] Checking entry with account: anthonypretto
+[2026-01-30 16:47:51] ✓ Found complete OAuth tokens in this entry
+[2026-01-30 16:47:51] ✓ Using keychain account: anthonypretto
+[2026-01-30 16:47:51] Current expiry: 2026-01-30 22:45:18
+[2026-01-30 16:47:51] Token still valid for 357 minutes (buffer: 120m)
+[2026-01-31 06:52:27] Refresh started
+[2026-01-31 06:52:27] Reading tokens from Keychain...
+[2026-01-31 06:52:27] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-31 06:52:27] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-31 06:52:27] Checking entry with account: anthonypretto
+[2026-01-31 06:52:28] ✓ Found complete OAuth tokens in this entry
+[2026-01-31 06:52:28] ✓ Using keychain account: anthonypretto
+[2026-01-31 06:52:28] Current expiry: 2026-01-30 22:45:18
+[2026-01-31 06:52:28] Token expires in -487 minutes, refreshing...
+[2026-01-31 06:52:28] Calling OAuth endpoint...
+[2026-01-31 06:52:28] ✓ Received new tokens
+[2026-01-31 06:52:28] New expiry: 2026-01-31 14:52:28 (28800s / 8h)
+[2026-01-31 06:52:28] Updating auth-profiles.json...
+[2026-01-31 06:52:28] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-31 06:52:28] Updating Keychain...
+[2026-01-31 06:52:28] ✓ Keychain updated
+[2026-01-31 06:52:28] Scheduling gateway reload...
+[2026-01-31 06:52:28] ✓ Gateway restart scheduled
+[2026-01-31 06:52:28] Refresh complete
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-01-31 13:34:02] Refresh started
+[2026-01-31 13:34:02] Reading tokens from Keychain...
+[2026-01-31 13:34:02] Scanning for all 'Claude Code-credentials' entries...
+[2026-01-31 13:34:02] Found 1 'Claude Code-credentials' entry/entries
+[2026-01-31 13:34:02] Checking entry with account: anthonypretto
+[2026-01-31 13:34:02] ✓ Found complete OAuth tokens in this entry
+[2026-01-31 13:34:03] ✓ Using keychain account: anthonypretto
+[2026-01-31 13:34:03] Current expiry: 2026-01-31 14:52:28
+[2026-01-31 13:34:03] Token expires in 78 minutes, refreshing...
+[2026-01-31 13:34:03] Calling OAuth endpoint...
+[2026-01-31 13:34:04] ✓ Received new tokens
+[2026-01-31 13:34:04] New expiry: 2026-01-31 21:34:04 (28800s / 8h)
+[2026-01-31 13:34:04] Updating auth-profiles.json...
+[2026-01-31 13:34:05] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-01-31 13:34:05] Updating Keychain...
+[2026-01-31 13:34:06] ✓ Keychain updated
+[2026-01-31 13:34:06] Scheduling gateway reload...
+[2026-01-31 13:34:06] ✓ Gateway restart scheduled
+[2026-01-31 13:34:06] Refresh complete
+[agents/auth-profiles] synced anthropic credentials from claude cli
+[agents/auth-profiles] synced anthropic credentials from claude cli
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-02-01 03:53:22] Refresh started
+[2026-02-01 03:53:22] Reading tokens from Keychain...
+[2026-02-01 03:53:22] Scanning for all 'Claude Code-credentials' entries...
+[2026-02-01 03:53:22] Found 1 'Claude Code-credentials' entry/entries
+[2026-02-01 03:53:22] Checking entry with account: anthonypretto
+[2026-02-01 03:53:23] ✓ Found complete OAuth tokens in this entry
+[2026-02-01 03:53:23] ✓ Using keychain account: anthonypretto
+[2026-02-01 03:53:23] Current expiry: 2026-01-31 21:34:04
+[2026-02-01 03:53:23] Token expires in -379 minutes, refreshing...
+[2026-02-01 03:53:23] Calling OAuth endpoint...
+[2026-02-01 03:53:24] ✓ Received new tokens
+[2026-02-01 03:53:24] New expiry: 2026-02-01 11:53:24 (28800s / 8h)
+[2026-02-01 03:53:24] Updating auth-profiles.json...
+[2026-02-01 03:53:24] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-02-01 03:53:24] Updating Keychain...
+[2026-02-01 03:53:24] ✓ Keychain updated
+[2026-02-01 03:53:24] Scheduling gateway reload...
+[2026-02-01 03:53:24] ✓ Gateway restart scheduled
+[2026-02-01 03:53:24] Refresh complete
+[agents/auth-profiles] synced anthropic credentials from claude cli
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-02-01 16:54:06] Refresh started
+[2026-02-01 16:54:06] Reading tokens from Keychain...
+[2026-02-01 16:54:06] Scanning for all 'Claude Code-credentials' entries...
+[2026-02-01 16:54:08] Found 1 'Claude Code-credentials' entry/entries
+[2026-02-01 16:54:08] Checking entry with account: anthonypretto
+[2026-02-01 16:54:08] ✓ Found complete OAuth tokens in this entry
+[2026-02-01 16:54:09] ✓ Using keychain account: anthonypretto
+[2026-02-01 16:54:09] Current expiry: 2026-02-01 11:53:24
+[2026-02-01 16:54:09] Token expires in -300 minutes, refreshing...
+[2026-02-01 16:54:09] Calling OAuth endpoint...
+[2026-02-01 16:54:44] ERROR: Network error calling OAuth endpoint
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-02-01 21:01:23] Refresh started
+[2026-02-01 21:01:23] Reading tokens from Keychain...
+[2026-02-01 21:01:23] Scanning for all 'Claude Code-credentials' entries...
+[2026-02-01 21:01:23] Found 1 'Claude Code-credentials' entry/entries
+[2026-02-01 21:01:23] Checking entry with account: anthonypretto
+[2026-02-01 21:01:24] ✓ Found complete OAuth tokens in this entry
+[2026-02-01 21:01:24] ✓ Using keychain account: anthonypretto
+[2026-02-01 21:01:24] Current expiry: 2026-02-01 11:53:24
+[2026-02-01 21:01:24] Token expires in -548 minutes, refreshing...
+[2026-02-01 21:01:24] Calling OAuth endpoint...
+[2026-02-01 21:01:24] ✓ Received new tokens
+[2026-02-01 21:01:24] New expiry: 2026-02-02 05:01:24 (28800s / 8h)
+[2026-02-01 21:01:24] Updating auth-profiles.json...
+[2026-02-01 21:01:24] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-02-01 21:01:24] Updating Keychain...
+[2026-02-01 21:01:25] ✓ Keychain updated
+[2026-02-01 21:01:25] Scheduling gateway reload...
+[2026-02-01 21:01:25] ✓ Gateway restart scheduled
+[2026-02-01 21:01:25] Refresh complete
+[agents/auth-profiles] synced anthropic credentials from claude cli
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-02-01 23:30:26] Refresh started
+[2026-02-01 23:30:26] Reading tokens from Keychain...
+[2026-02-01 23:30:26] Scanning for all 'Claude Code-credentials' entries...
+[2026-02-01 23:30:26] Found 1 'Claude Code-credentials' entry/entries
+[2026-02-01 23:30:26] Checking entry with account: anthonypretto
+[2026-02-01 23:30:26] ✓ Found complete OAuth tokens in this entry
+[2026-02-01 23:30:26] ✓ Using keychain account: anthonypretto
+[2026-02-01 23:30:26] Current expiry: 2026-02-02 05:01:24
+[2026-02-01 23:30:26] Token still valid for 330 minutes (buffer: 120m)
+[2026-02-02 10:36:54] Refresh started
+[2026-02-02 10:36:54] Reading tokens from Keychain...
+[2026-02-02 10:36:54] Scanning for all 'Claude Code-credentials' entries...
+[2026-02-02 10:36:54] Found 1 'Claude Code-credentials' entry/entries
+[2026-02-02 10:36:54] Checking entry with account: anthonypretto
+[2026-02-02 10:36:54] ✓ Found complete OAuth tokens in this entry
+[2026-02-02 10:36:55] ✓ Using keychain account: anthonypretto
+[2026-02-02 10:36:55] Current expiry: 2026-02-02 05:01:24
+[2026-02-02 10:36:55] Token expires in -335 minutes, refreshing...
+[2026-02-02 10:36:55] Calling OAuth endpoint...
+[2026-02-02 10:36:55] ✓ Received new tokens
+[2026-02-02 10:36:55] New expiry: 2026-02-02 18:36:55 (28800s / 8h)
+[2026-02-02 10:36:55] Updating auth-profiles.json...
+[2026-02-02 10:36:55] ✓ Auth file updated: /Users/anthonypretto/.clawdbot/agents/main/agent/auth-profiles.json
+[2026-02-02 10:36:55] Updating Keychain...
+[2026-02-02 10:36:55] ✓ Keychain updated
+[2026-02-02 10:36:55] Scheduling gateway reload...
+[2026-02-02 10:36:55] ✓ Gateway restart scheduled
+[2026-02-02 10:36:55] Refresh complete
+[agents/auth-profiles] synced anthropic credentials from claude cli
+Restarted LaunchAgent: gui/501/com.clawdbot.gateway
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-02-02 11:37:01] Refresh started
+[2026-02-02 11:37:01] Reading tokens from Keychain...
+[2026-02-02 11:37:01] Scanning for all 'Claude Code-credentials' entries...
+[2026-02-02 11:37:01] ERROR: No 'Claude Code-credentials' entries found in Keychain.
+
+Run Claude CLI first:
+  claude auth
+
+This will create the required Keychain entry.
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-02-02 12:37:05] Refresh started
+[2026-02-02 12:37:05] Reading tokens from Keychain...
+[2026-02-02 12:37:05] Scanning for all 'Claude Code-credentials' entries...
+[2026-02-02 12:37:05] ERROR: No 'Claude Code-credentials' entries found in Keychain.
+
+Run Claude CLI first:
+  claude auth
+
+This will create the required Keychain entry.
+Error: Channel is required when multiple channels are configured: telegram, whatsapp
+[2026-02-02 13:37:10] Refresh started
+[2026-02-02 13:37:10] Reading tokens from Keychain...
+[2026-02-02 13:37:10] Scanning for all 'Claude Code-credentials' entries...
+[2026-02-02 13:37:10] Found 1 'Claude Code-credentials' entry/entries
+[2026-02-02 13:37:10] Checking entry with account: anthonypretto
+[2026-02-02 13:37:10] ✓ Found complete OAuth tokens in this entry
+[2026-02-02 13:37:10] ✓ Using keychain account: anthonypretto
+[2026-02-02 13:37:10] Current expiry: 2026-02-02 21:29:22
+[2026-02-02 13:37:10] Token still valid for 472 minutes (buffer: 120m)
+[2026-02-02 13:37:10] Syncing token to auth-profiles.json...
+[2026-02-02 13:37:10] ✓ Token synced to auth-profiles.json
+[2026-02-02 14:37:11] Refresh started
+[2026-02-02 14:37:11] Reading tokens from Keychain...
+[2026-02-02 14:37:11] Scanning for all 'Claude Code-credentials' entries...
+[2026-02-02 14:37:11] Found 1 'Claude Code-credentials' entry/entries
+[2026-02-02 14:37:11] Checking entry with account: anthonypretto
+[2026-02-02 14:37:11] ✓ Found complete OAuth tokens in this entry
+[2026-02-02 14:37:11] ✓ Using keychain account: anthonypretto
+[2026-02-02 14:37:11] Current expiry: 2026-02-02 21:29:22
+[2026-02-02 14:37:11] Token still valid for 412 minutes (buffer: 120m)
+[2026-02-02T20:51:41+00:00] Refreshing token...
+[2026-02-02T20:51:42+00:00] SUCCESS: Token refreshed, expires in 28800s
+[2026-02-02T20:52:49+00:00] Token valid for 478m, skipping refresh
+[2026-02-03T00:52:54+00:00] Token valid for 238m, skipping refresh
+[2026-02-03T04:53:54+00:00] Refreshing token...
+[2026-02-03T04:53:55+00:00] SUCCESS: Token refreshed, expires in 28800s
+[2026-02-03T08:54:53+00:00] Token valid for 239m, skipping refresh
+[2026-02-03T12:55:54+00:00] Refreshing token...
+[2026-02-03T12:55:54+00:00] SUCCESS: Token refreshed, expires in 28800s
+[2026-02-03T15:04:42+00:00] Refreshing token...
+[2026-02-03T15:04:43+00:00] SUCCESS: Token refreshed, expires in 28800s

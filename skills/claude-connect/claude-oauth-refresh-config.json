@@ -1,0 +1,10 @@
+{
+  "refresh_buffer_minutes": 120,
+  "log_file": "~/clawd/logs/claude-oauth-refresh.log",
+  "notifications": {
+    "on_success": true,
+    "on_failure": true
+  },
+  "notification_channel": "whatsapp",
+  "notification_target": "+18477326735"
+}
