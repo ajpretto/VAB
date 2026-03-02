@@ -1,170 +1,139 @@
-# Premium AI Operations Suite — $2,497/month
+# AI Operations Suite — Enterprise Plan
 
-## The Complete "AI-Powered Business" Package
+## Your AI-Powered Front Office
 
-*For home service businesses serious about scaling without adding headcount.*
-
----
-
-## Everything Included
-
-### Core Systems ($1,685 value)
-| System | What It Does |
-|--------|--------------|
-| AI Voice Receptionist | 24/7 call answering, booking, qualification |
-| Automated Review System | Post-job review requests, reputation management |
-| Lead Qualification Bot | Website chat that qualifies and scores leads |
-| Appointment Reminders | Text/call reminders, no-show reduction |
-| After-Hours Chat Widget | Capture leads while you sleep |
-
-### Premium Additions ($1,000+ value)
-| Feature | What It Does |
-|---------|--------------|
-| Dedicated AI Training | Custom-trained on YOUR business, updated monthly |
-| Multi-Channel Intake | Phone + web + text + email — all unified |
-| Smart Dispatch Suggestions | AI recommends optimal tech for each job |
-| Customer History Intelligence | AI knows repeat customers, past issues |
-| Real-Time Dashboard | Live view of calls, leads, appointments |
-| Weekly Strategy Calls | 15-min with our team to optimize |
-| Priority Support | Response within 1 hour, not 24 |
-| Competitor Alert System | Know when competitors change pricing/marketing |
+### The Complete Package
+Everything a growing home services business needs to never miss an opportunity — voice, text, reviews, and follow-ups, all automated.
 
 ---
 
-## The $2,497 ROI Case
+## What's Included
 
-### What You're Losing Without This
+### 1. AI Voice Receptionist (24/7)
+- Answers every call instantly
+- Books appointments into your calendar
+- Qualifies emergencies
+- Texts you summaries
+- Handles unlimited simultaneous calls
 
-| Loss Category | Monthly Impact |
-|---------------|----------------|
-| Missed calls (5/week × $500) | $10,000 |
-| Bad leads (time wasted) | $2,000 |
-| No-shows (8/month × $400) | $3,200 |
-| After-hours leads lost | $5,000 |
-| Poor online reviews | $3,000 (lost trust) |
-| **Total Leakage** | **$23,200/month** |
+### 2. SMS Follow-Up System
+- Automated appointment confirmations
+- Day-before reminders (reduces no-shows 40%+)
+- Post-job follow-up texts
+- Review request sequences
 
-### What This System Captures
+### 3. AI Review Manager
+- Automatically requests reviews from happy customers
+- Alerts you to negative feedback before it goes public
+- Suggests responses to reviews
+- Tracks review velocity
 
-| Capture Category | Monthly Impact |
-|------------------|----------------|
-| Recovered missed calls | $8,000 |
-| Time saved on bad leads | $2,000 |
-| No-shows prevented | $2,500 |
-| After-hours leads | $4,000 |
-| Review improvement | $2,000 (better ranking) |
-| **Total Recovery** | **$18,500/month** |
+### 4. Lead Qualification Bot
+- Website chat widget
+- Facebook/Instagram DM responses
+- After-hours lead capture
+- Instant text alerts for hot leads
 
-### Net ROI
-- Investment: $2,497/month
-- Return: $18,500/month
-- **ROI: 640%**
+### 5. Outbound Reminder Calls
+- AI calls to confirm appointments
+- Reschedule no-shows automatically
+- Follow up on unsold estimates
 
-*Even at 25% efficiency, you're still making $4,600/month net.*
-
----
-
-## Why $2,497 is the Sweet Spot
-
-**You could hire:**
-- Part-time receptionist: $2,000/mo (limited hours, one call at a time)
-- Virtual assistant: $1,500/mo (timezone issues, training required)
-- Marketing agency: $3,000/mo (no operational improvement)
-
-**Or you get:**
-- 24/7/365 coverage
-- Unlimited simultaneous calls
-- No training needed
-- No sick days
-- Instant deployment
-- Continuous improvement
+### 6. Monthly Analytics & Optimization
+- Call volume reports
+- Booking conversion rates
+- Peak time analysis
+- Ongoing AI improvements
 
 ---
 
-## The Performance Guarantee
+## Pricing
 
-**We're confident enough to guarantee results:**
+| | Enterprise |
+|---|---|
+| **Setup Fee** | Custom (typically $2,500-5,000) |
+| **Monthly** | $2,497/month |
 
-> If our system doesn't capture at least 3 additional jobs in your first month (worth $1,500+ at minimum), we'll refund your first month entirely.
-
-This isn't about hoping it works. We know it works.
+**Minimum 6-month commitment** — we invest heavily in custom setup.
 
 ---
 
 ## Who This Is For
 
-✅ Home service businesses doing $500K-$5M/year
-✅ Owner-operators tired of being the bottleneck
-✅ Teams of 2-15 who can't afford a full-time receptionist
-✅ Businesses in competitive markets where response time wins
-✅ Anyone who's lost a job because they couldn't answer the phone
+✅ **Good fit:**
+- 5+ employees
+- 500+ calls/month
+- Multiple service lines
+- Want to systematize and scale
+- Currently spending $3K+/mo on admin staff or services
 
-### Who This Is NOT For
-❌ Businesses happy with their current call volume
-❌ Companies with dedicated full-time reception staff
-❌ Those unwilling to change how they handle leads
-
----
-
-## Setup Timeline
-
-| Day | What Happens |
-|-----|--------------|
-| 1 | Strategy call — deep dive into your business |
-| 2-3 | Custom AI training on your services, areas, personality |
-| 4-5 | Integration with your calendar, CRM, phone system |
-| 6-7 | Testing and refinement — you call, we perfect |
-| 8 | Soft launch — AI handles 50% of calls |
-| 14 | Full launch — AI handles 100% of calls |
-| 21 | First optimization review |
-| 30 | Performance report and strategy adjustment |
+❌ **Not a fit:**
+- Solo operator (Professional plan is better)
+- Under 200 calls/month
+- Not ready to invest in growth
 
 ---
 
-## What Success Looks Like
+## ROI Example
 
-### Month 1
-- AI answering all calls
-- 15-20 new Google reviews
-- No-shows cut by 50%
-- You're calling back only qualified leads
+| Current State | With AI Operations |
+|---------------|-------------------|
+| 10 missed calls/week | 0 missed calls |
+| 15% no-show rate | 5% no-show rate |
+| 20 reviews/year | 100+ reviews/year |
+| $5K/mo admin costs | $2,497/mo |
 
-### Month 3
-- Ranking top 3 in Google local
-- Predictable lead flow
-- Dashboard shows exactly what's working
-- You haven't missed a call in weeks
-
-### Month 6
-- Revenue up 20-30%
-- Spending less time on admin
-- Scaling without adding headcount
-- Competitors wondering what changed
+**Conservative estimate:** $8,000-15,000/month in recovered revenue + saved costs.
 
 ---
 
-## Pricing & Commitment
+## Setup Process
 
-| Option | Monthly | Commitment | Bonus |
-|--------|---------|------------|-------|
-| Month-to-Month | $2,997 | None | Basic support |
-| 6-Month | $2,497 | 6 months | Weekly strategy calls |
-| 12-Month | $2,197 | 12 months | All above + custom integrations |
+1. **Discovery Call** (Week 1) — Map your current systems, identify gaps
+2. **System Design** (Week 1-2) — Custom call flows, integrations, sequences
+3. **Build & Test** (Week 2-3) — AI training, testing, refinement
+4. **Soft Launch** (Week 3) — Run alongside existing systems
+5. **Full Deployment** (Week 4) — Go live, monitor, optimize
+6. **Monthly Reviews** — Ongoing optimization and reporting
 
-**Start today:** 2-week free trial → build → test → go live
+---
+
+## What Makes This Different
+
+### We're Not a Software Vendor
+We don't hand you a login and disappear. We:
+- Build it custom for your business
+- Manage it ongoing
+- Optimize based on results
+- Act as your fractional AI operations team
+
+### One Partner, Not Five Tools
+Instead of juggling:
+- Answering service ($1,500/mo)
+- Review software ($200/mo)
+- SMS marketing ($150/mo)
+- Chatbot ($100/mo)
+- Virtual assistant ($2,000/mo)
+
+You get **one integrated system** at **$2,497/mo**.
+
+---
+
+## Guarantee
+
+> "If you don't see measurable improvement in missed calls, no-shows, or reviews in the first 60 days, we'll refund your first month."
+
+We put our money where our mouth is.
 
 ---
 
 ## Next Steps
 
-1. **15-min discovery call** — we learn about your business
-2. **Custom proposal** — exact systems you need
-3. **Free trial build** — we create your AI, you test it
-4. **Go live** — start capturing leads immediately
-
-**Book your call: [calendly link]**
+1. **Discovery call** — 30 min to understand your operation
+2. **Custom proposal** — Tailored setup and pricing
+3. **Pilot** — Start with one location or service line
+4. **Scale** — Roll out across your business
 
 ---
 
-*Version 1.0 — Created 2026-03-01*
-*The $2,497/month offer for businesses ready to scale.*
+*Version 2.0 — Updated 2026-03-02*

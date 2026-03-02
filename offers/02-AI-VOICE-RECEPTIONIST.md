@@ -1,4 +1,4 @@
-# AI Voice Receptionist — $497/month
+# AI Voice Receptionist — Professional Plan
 
 ## Never Miss Another Call
 
@@ -31,6 +31,7 @@ AI answers every call instantly, 24/7:
 | Multi-Call Handling | 10 calls at once during heat waves? No problem |
 | Call Recording | Every call recorded + transcribed |
 | Text Summaries | Instant notification after each call |
+| Monthly Reports | See exactly how many calls, bookings, and saves |
 
 ---
 
@@ -60,13 +61,48 @@ Example call:
 
 ## Pricing
 
-| Plan | Monthly | Setup | Best For |
-|------|---------|-------|----------|
-| Starter | $497 | $0 | Solo operators, <200 calls/mo |
-| Growth | $797 | $0 | Small teams, <500 calls/mo |
-| Scale | $1,497 | Custom | High volume, custom integrations |
+### Professional Plan
+| | |
+|---|---|
+| **Setup Fee** | $1,500 (one-time) |
+| **Monthly** | $1,997/month |
 
-**2-week free trial** — test it risk-free.
+**What's included:**
+- Custom AI trained on your business
+- Calendar integration
+- Unlimited inbound calls
+- 24/7 coverage
+- Text/email notifications
+- Call recordings & transcripts
+- Monthly performance reports
+- Ongoing optimization
+- Priority support
+
+### Enterprise Plan — $2,497/month
+Everything in Professional, plus:
+- Multi-location support
+- Custom CRM integrations
+- Outbound appointment reminders
+- SMS follow-up sequences
+- Dedicated account manager
+
+---
+
+## Founding Partner Offer
+
+**For the first 5 clients only:**
+
+| | |
+|---|---|
+| **Setup Fee** | $500 (save $1,000) |
+| **Monthly** | $997/month (save $1,000/mo) |
+
+**In exchange for:**
+- Testimonial for our website
+- Case study rights
+- Google review
+
+*Limited availability — ask if spots remain*
 
 ---
 
@@ -77,36 +113,57 @@ Example call:
 | Missed calls/week | 5 (conservative) |
 | Average job value | $500 |
 | Monthly lost revenue | $10,000 |
-| AI Voice cost | $497 |
-| **Net gain** | **$9,503/month** |
+| AI Voice cost | $1,997 |
+| **Net gain** | **$8,003/month** |
 
-Even if AI only catches 1 job per week, ROI is **4x**.
+Even at just 4 saved calls/month, **you're profitable.**
+
+---
+
+## Comparison
+
+| Option | Monthly Cost | 24/7? | Multi-call? |
+|--------|--------------|-------|-------------|
+| Part-time receptionist | $2,000-3,000 | ❌ | ❌ |
+| Answering service | $1,500-2,500 | ✅ | ❌ |
+| **AI Voice (us)** | **$1,997** | ✅ | ✅ |
 
 ---
 
 ## Setup Timeline
 
-- Day 1: Kickoff call, collect your business info
-- Day 2-3: Build and train your AI
-- Day 4: Testing (you call it, we refine)
-- Day 5: Go live
+- **Day 1:** Kickoff call, collect your business info
+- **Day 2-3:** Build and train your AI
+- **Day 4:** Testing (you call it, we refine)
+- **Day 5:** Go live
+
+---
+
+## Our Guarantee
+
+> "If the AI doesn't catch at least 2-3 jobs in the first 2 weeks that would've gone to voicemail, I'll refund your setup fee."
+
+We're confident because this works. But you shouldn't have to take our word for it.
 
 ---
 
 ## FAQ
 
 **Will customers know it's AI?**
-Most can't tell. Our voices are trained on real human speech patterns. If someone asks, AI will be honest.
+Most can't tell. Our voices sound natural. If someone asks directly, the AI is honest.
 
 **What if there's a question AI can't answer?**
 It takes a message and texts you immediately. You can call back within minutes.
 
 **Can it handle my specific services?**
-Yes. We train it on YOUR business — your services, pricing, hours, service area.
+Yes. We train it on YOUR business — services, pricing, hours, service area.
 
 **What about Spanish speakers?**
-Bilingual option available (+$100/mo).
+Bilingual option available (included in Enterprise, +$200/mo on Professional).
+
+**What if I want to cancel?**
+No long-term contracts. Cancel anytime with 30 days notice.
 
 ---
 
-*Version 1.0 — Created 2026-03-01*
+*Version 2.0 — Updated 2026-03-02*

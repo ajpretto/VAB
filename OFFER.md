@@ -1,9 +1,9 @@
 # AI Voice Assistant Offer — Home Services
 
-## The Offer (v1)
+## The Offer (v2 — Updated Pricing)
 
 ### Headline
-**"Never Miss Another Call. AI Answers 24/7 for $497/month."**
+**"Never Miss Another Call. AI Answers 24/7. White-Glove Setup Included."**
 
 ### Target Market
 - Plumbers, HVAC contractors, electricians, roofers, pest control
@@ -27,123 +27,148 @@ AI voice assistant that:
 5. **Sends you a text summary** after each call
 6. **Works 24/7/365** — weekends, holidays, 2am emergencies
 
-### Pricing
+---
 
-| Plan | Monthly | Setup | Best For |
-|------|---------|-------|----------|
-| Starter | $497 | $0 | Solo operators, <200 calls/mo |
-| Growth | $997 | $0 | Small teams, <500 calls/mo |
-| Scale | $1,997 | Custom | Larger operations, multi-location |
+## Pricing
 
-**Why this pricing works:**
-- $497/mo = $16/day = cost of 1.5 missed calls
-- ROI pitch: "If this catches ONE job per week, it pays for itself 4x over"
-- Lower than hiring a part-time receptionist ($2,000+/mo)
-- Lower than answering services ($1-2/call = $1,000+/mo at volume)
+| Plan | Setup | Monthly | Best For |
+|------|-------|---------|----------|
+| **Professional** | $1,500 | $1,997/mo | Growing businesses, full support |
+| **Enterprise** | Custom | $2,497/mo | Multi-location, advanced integrations |
 
-### What's Included
-- AI voice agent trained on YOUR business
-- Integration with Google Calendar, ServiceTitan, Jobber, or Housecall Pro
+### Founding Client Offer (First 5 Clients Only)
+| Plan | Setup | Monthly | Commitment |
+|------|-------|---------|------------|
+| **Founding Partner** | $500 | $997/mo | Case study + testimonial rights |
+
+---
+
+## Why This Pricing
+
+### $1,997/month Positions You as a Partner, Not a Tool
+- $497/mo = "cheap software I bought"
+- $1,997/mo = "partner who handles this for me"
+
+### Setup Fee Creates Commitment
+- $1,500 covers real work: custom prompts, integrations, training
+- Client is invested from day one — reduces churn
+- You get paid even if they cancel month 2
+
+### You're Still Cheaper Than the Alternative
+| Option | Monthly Cost |
+|--------|--------------|
+| Part-time receptionist | $2,000-3,000 |
+| Answering service | $1,500-2,500 (at volume) |
+| **AI Voice (us)** | **$1,997** |
+
+But AI works 24/7, never calls in sick, handles unlimited calls simultaneously.
+
+### Better Clients
+Higher price filters out:
+- Tire kickers
+- Price shoppers
+- Clients who don't value their time
+- Businesses too small to afford proper solutions
+
+---
+
+## What's Included
+
+### Setup ($1,500 one-time)
+- Custom AI voice agent trained on YOUR business
+- Integration with your calendar (Google, ServiceTitan, Jobber, Housecall Pro)
+- Phone number setup and porting assistance
+- 2 rounds of revision on voice/personality
+- Testing and quality assurance
+- Go-live support
+
+### Monthly ($1,997/mo)
+- Unlimited inbound calls (fair use)
+- 24/7 coverage
 - Text/email notifications after each call
 - Call recordings & transcripts
 - Monthly performance report
-- Unlimited calls (fair use)
+- Ongoing optimization
+- Priority support
 
-### Differentiator
-We don't just sell software — we **install it, train it, and manage it**.
-Most AI voice tools require technical setup. We do everything.
+### Enterprise Add-ons ($2,497/mo tier)
+- Multi-location support
+- Custom CRM integrations
+- Outbound appointment reminders
+- SMS follow-up sequences
+- Dedicated account manager
 
 ---
 
-## Platform Recommendation: **Retell AI**
+## The Founding Partner Offer
+
+For the first 5 clients only:
+
+- **$500 setup** (vs $1,500)
+- **$997/month** (vs $1,997)
+- In exchange for: testimonial, case study rights, Google review
+
+**Why offer this:**
+- Get case studies fast
+- Build social proof
+- Still profitable ($997 - $100 costs = $897 margin)
+- Creates urgency ("only 5 spots")
+
+---
+
+## Platform: Retell AI
 
 ### Why Retell
-Based on research (see comparison doc):
+1. **Fastest response time** (~600ms) — feels human
+2. **Best voice quality** — ElevenLabs integration
+3. **HIPAA compliance included** — no extra fees
+4. **Visual builder** — easy to update call flows
+5. **New: AI QA Analyst** — automated quality monitoring
 
-1. **Fastest response time** (~600ms vs 700-800ms for competitors)
-   - Feels like talking to a human, not waiting for a robot
-   
-2. **Best voice quality** 
-   - ElevenLabs integration for natural-sounding voices
-   
-3. **HIPAA/compliance included**
-   - No extra $1k/mo like VAPI
-   
-4. **Cost-effective at scale**
-   - ~$0.13-0.20/min all-in
-   - 500 min/mo = ~$100 in platform costs
-   - Massive margin on $497/mo plan
-   
-5. **Visual builder**
-   - Can adjust call flows without code once set up
-
-### Cost Structure (our side)
-- Retell: ~$0.15/min average
-- Telephony (Twilio): ~$0.02/min
+### Our Costs
+- Retell: ~$0.15/min
+- Telephony: ~$0.02/min
 - **Total: ~$0.17/min**
-- At 200 min/mo (avg): **$34 platform cost**
-- $497 revenue - $34 cost = **$463 gross profit (93% margin)**
+- At 300 min/mo (avg): **~$50 platform cost**
 
-### Alternative: Bland AI
-- Better for high-volume outbound (we might use this for cold calling ourselves)
-- Simpler API if we need to customize heavily
-- Slightly higher cost but native SMS
+### Margin
+- $1,997 revenue - $50 cost = **$1,947 gross profit (97.5% margin)**
+- Even at high usage (1000 min): $1,997 - $170 = **$1,827 margin (91.5%)**
 
 ---
 
-## Cold Outreach Script (Phone)
+## Sales Approach
 
-**Opening:**
-"Hey [Name], this is Anthony. I run a small tech company here in Tampa and I've been helping [trade] businesses stop losing money on missed calls. Got 30 seconds?"
+### Positioning
+You're not selling software. You're selling:
+- Peace of mind
+- Revenue protection
+- Time freedom
+- Professional image
 
-**Hook:**
-"I built an AI phone system that answers calls 24/7 — books appointments, qualifies jobs, sends you a text summary. Works while you're on a job site."
+### The Conversation
+1. Understand their current pain
+2. Quantify the cost of missed calls
+3. Present AI as the obvious solution
+4. Setup fee shows you're serious
+5. Trial offer removes risk
 
-**Pain question:**
-"Quick question — what happens right now when someone calls and you're up on a roof or under a sink?"
+### Trial Structure (if needed to close)
+> "Tell you what — let me set it up, you use it for 2 weeks. If it doesn't catch at least 2-3 jobs that would've been missed, I'll refund the setup fee. Fair?"
 
-**Close:**
-"Here's what I'd like to do — let me set this up for you for free for 2 weeks. You don't pay anything, I just want to prove it works. If it catches even one job you would've missed, you'll see the value. Fair?"
+Only offer trial if they're hesitant. Lead with full price first.
 
 ---
 
 ## Next Steps
 
-1. **Anthony**: Approve/refine this offer
-2. **Gru**: Build lead list of 100 Tampa home services businesses
-3. **Anthony**: Cold call 20/day for 5 days
-4. **Goal**: 5 free trials → 2-3 paying customers by end of March
+1. ✅ Pricing updated
+2. ⏳ Anthony: Cold call from lead list
+3. ⏳ Land first founding client
+4. ⏳ Get case study
+5. ⏳ Raise to full price
 
 ---
 
-## Inspiration Notes (from Anthony's links)
-
-### Elvis Sun — Agent Orchestration
-Key insight: Use AI (like me) as an **orchestration layer** that holds all business context and delegates to specialized agents. The orchestrator sees the full picture; workers stay focused.
-
-Applicable to us:
-- I can manage the lead list, track outreach, monitor trial performance
-- I can spawn research tasks for new verticals
-- I can draft follow-up sequences based on call outcomes
-
-### Personalized Outreach at Scale
-The everestchris6 example — AI-generated personalized videos/messages for cold outreach.
-
-We could:
-- Generate custom landing pages per prospect
-- Create personalized demo videos showing THEIR phone number being answered
-- Automate LinkedIn connection + DM sequences
-
-### The "Zoe" Model
-Elvis's orchestrator "Zoe" doesn't just do tasks — she **finds work proactively**.
-
-I should be:
-- Scanning for new leads to add to the list
-- Monitoring competitors
-- Surfacing opportunities you haven't thought of
-- Following up on stale conversations
-
----
-
-*Created: 2026-03-01*
-*Status: Draft — awaiting Anthony's feedback*
+*Updated: 2026-03-02*
+*Version: 2.0 — New pricing philosophy*
