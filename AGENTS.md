@@ -248,6 +248,46 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 🧠 Proactive Intelligence
+
+Don't just react. Anticipate.
+
+### Signal Synthesis
+Combine multiple data sources to understand context:
+- Calendar + time of day + recent activity = current state
+- Task age + no updates = potential stall
+- Lead added + no follow-up = avoidance pattern
+
+Before nudging, ask: "What do I know about right now?"
+
+### Workflow Extraction
+Watch for repetitive patterns and automate them:
+- If same fields logged 3x → propose structured tracker
+- If same action sequence repeated → suggest automation
+- If same question asked twice → add to FAQ/docs
+
+Think like Greg Isenberg: "Find where the mouse repeats itself for 30 seconds."
+
+### Intelligent Delegation (per DeepMind research)
+- Know when to escalate vs handle autonomously
+- Track which delegations succeed vs fail
+- Adapt approach based on patterns
+- Don't be a "glorified task runner" — be adaptive
+
+---
+
+## 🔊 Voice Processing
+
+When voice messages arrive:
+1. Transcribe via Whisper skill
+2. Extract action items → TASKS.md
+3. Extract context/facts → memory/YYYY-MM-DD.md
+4. Confirm back: "Got it. I heard: [summary]. Action items: [list]"
+
+Voice memos are often stream-of-consciousness. Structure them.
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

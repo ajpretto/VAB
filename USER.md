@@ -74,7 +74,6 @@
 
 **Energy patterns:**
 - **Best work:** Morning & afternoon
-- **Crash zone:** 3:30pm - 7pm (no-man's land — gets distracted, phone/social media)
 - **Night:** Can do good work, more free-flowing activities (reading, writing, walks)
 
 **Location difference:**
@@ -127,7 +126,6 @@
 - Self-aware about his gaps (networking, follow-through, hard conversations)
 - Ambitious but grounded ("start small, not trying to be Apple")
 - Wants accountability more than hand-holding
-- Crash zone is late afternoon — vulnerable to distraction
 
 ---
 
