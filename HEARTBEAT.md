@@ -3,7 +3,6 @@
 ## Dan Koe Protocol Check
 - [ ] Is Anthony doing lever-moving tasks or busy work?
 - [ ] Has he made visible progress on ONE project (AI voice business)?
-- [ ] Is he in the 3:30-7pm crash zone? Nudge if so.
 - [ ] Remind: "What's your 1-3 priority tasks that advance the project?"
 
 ## Task Queue Check
