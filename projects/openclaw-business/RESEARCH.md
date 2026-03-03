@@ -298,4 +298,147 @@ If you have bandwidth, this could be a quick cash injection while building voice
 
 ---
 
+---
+
+## 14. Income Stacking — Referrals & Creative Revenue
+
+### Affiliate Programs (Verified 2026)
+
+#### Tier 1: High-Value Recurring (40%+)
+
+| Program | Commission | Duration | Notes |
+|---------|------------|----------|-------|
+| **GoHighLevel** | **40% recurring** | Lifetime | + 5% tier 2 on sub-affiliates |
+| **Skool** | **40% recurring** | Lifetime | $99/mo platform = $39.60/referral/mo |
+
+#### Tier 2: Strong Recurring (20%+)
+
+| Program | Commission | Duration | Notes |
+|---------|------------|----------|-------|
+| **ElevenLabs** | 22% recurring | 12 months | TTS for voice agents |
+| **Retell AI** | Has affiliate program | TBD | affiliate.retellai.com |
+| **Cal.com** | 20% recurring | 12 months | Scheduling tool |
+
+#### Tier 3: VPS/Hosting (Essential for OpenClaw)
+
+| Program | Commission | Duration | Notes |
+|---------|------------|----------|-------|
+| **DigitalOcean** | 10% recurring | Lifetime | Every client needs hosting |
+| **Vultr** | $35-$100 | One-time | Good signup bonus |
+| **Hetzner** | Credits | One-time | Budget VPS option |
+| **Some hosts** | 100% first month + 20% recurring | Varies | Research specific programs |
+
+#### Tier 4: No Program (Yet)
+
+| Program | Status |
+|---------|--------|
+| OpenAI | No affiliate program |
+| Anthropic/Claude | Enterprise referral only |
+| Twilio | Partner program (top tiers only) |
+| Calendly | Hidden/unclear |
+
+---
+
+### Income Stacking Strategy
+
+**For Every OpenClaw Client:**
+1. **Setup fee:** $299-$497 (your service)
+2. **VPS referral:** $35-$100 one-time OR 10% recurring
+3. **Monthly retainer:** $97-$197/mo (optional)
+4. **Tool referrals:** As you recommend tools, use affiliate links
+
+**For Every AI Voice Client:**
+1. **Setup fee:** $500-$1,500
+2. **Monthly service:** $997-$1,997/mo
+3. **Retell AI referral:** Commission on their usage
+4. **GoHighLevel CRM:** 40% of $97-$497/mo = $39-$199/mo per client
+5. **ElevenLabs:** 22% if they need custom voices
+
+---
+
+### Math: Stacked Revenue Per Client
+
+**OpenClaw Client (Conservative):**
+| Source | Amount | Frequency |
+|--------|--------|-----------|
+| Setup fee | $299 | One-time |
+| DigitalOcean | $1/mo | Recurring |
+| Monthly retainer | $97/mo | Recurring |
+| **Year 1 Total** | **$1,475** | |
+
+**AI Voice Client (With Stacking):**
+| Source | Amount | Frequency |
+|--------|--------|-----------|
+| Setup fee | $1,500 | One-time |
+| Monthly service | $1,997/mo | Recurring |
+| GoHighLevel (40% of $297) | $119/mo | Recurring |
+| ElevenLabs (22% of ~$50) | $11/mo | 12 months |
+| **Year 1 Total** | **$26,940** | |
+
+---
+
+### Creative Income Sources
+
+#### 1. Content & Education
+- **YouTube tutorials** — OpenClaw setup videos with VPS affiliate links in description
+- **Paid course** — "Set Up Your AI Agent in 2 Hours" ($97-$297)
+- **Skool community** — Monthly membership for ongoing support ($29-$97/mo)
+  - Bonus: 40% affiliate on Skool itself
+
+#### 2. White-Label & Reselling
+- **Retell AI Certified Partner** — Resell voice AI under your brand
+- **GoHighLevel SaaS Mode** — White-label the entire CRM + AI stack
+- **Managed OpenClaw hosting** — Your infrastructure, their agent
+
+#### 3. Upsells & Add-Ons
+- **Custom workflows:** $299-$999 each
+- **Additional integrations:** $149-$299 each
+- **Priority support tier:** +$50-$100/mo
+- **Quarterly optimization calls:** $197/quarter
+- **"AI Operations Audit":** $497 one-time
+
+#### 4. Productized Services
+- **"AI Starter Pack"** — OpenClaw + Voice + CRM bundle
+- **Industry-specific templates** — Real estate agent AI, contractor AI, etc.
+- **Migration service** — Move from competitor to your stack
+
+#### 5. Passive/Scalable
+- **Affiliate content site** — Reviews of AI tools with affiliate links
+- **Template marketplace** — Sell OpenClaw workflow templates
+- **Referral network** — Pay others to refer clients to you
+
+---
+
+### Recommended Stack for Maximum Income
+
+**For AI Voice Business:**
+1. Sign up for GoHighLevel affiliate (40% recurring)
+2. Sign up for Retell AI affiliate
+3. Sign up for ElevenLabs affiliate (22% for 12mo)
+4. Bundle CRM + Voice + Automation for clients
+5. Every $1,997/mo client = ~$2,100+/mo total value
+
+**For OpenClaw Business:**
+1. Sign up for DigitalOcean affiliate (10% recurring)
+2. Sign up for Skool affiliate (40% recurring)
+3. Create YouTube content with affiliate links
+4. Offer Skool community for ongoing support
+5. Every setup client = potential recurring from hosting + community
+
+---
+
+### Action Items
+
+| Priority | Item | Potential |
+|----------|------|-----------|
+| P1 | Sign up for GoHighLevel affiliate | 40% recurring |
+| P1 | Sign up for DigitalOcean affiliate | 10% recurring |
+| P2 | Sign up for ElevenLabs affiliate | 22% for 12mo |
+| P2 | Sign up for Retell AI affiliate | TBD |
+| P2 | Sign up for Skool affiliate | 40% recurring |
+| P3 | Create YouTube setup tutorial | Passive traffic |
+| P3 | Build Skool community | Recurring + affiliate |
+
+---
+
 *Research compiled by Gru, 2026-03-03*
