@@ -13,8 +13,64 @@ Before doing anything else:
 2. Read `USER.md` — this is who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+5. **Read `TASKS.md`** — check for active/queued work
+6. **Update `TASKS.md` immediately** when given ANY new task
 
 Don't ask permission. Just do it.
+
+---
+
+## 📋 Task Management (MANDATORY)
+
+### The Iron Rules:
+- **WRITE IT DOWN FIRST** — Before starting ANY task, add it to TASKS.md
+- **UPDATE AS YOU GO** — After each meaningful step, update the status
+- **NEVER LOSE STATE** — If context is getting long, checkpoint to TASKS.md before it compacts
+- **RESUME, DON'T RESTART** — On session start, continue from TASKS.md state
+
+### Pre-Compaction Checkpoint:
+When you notice context getting long (or receive a compaction warning):
+1. Update TASKS.md with current state
+2. Save any in-progress work to relevant project files
+3. Commit code if applicable
+4. THEN continue (or let compaction happen)
+
+### Task Entry Format:
+```
+| [Brief description] | [Project] | P1/P2/P3 | YYYY-MM-DD | [Status] | [Notes] |
+```
+
+---
+
+## 🎬 Video Business Protocol (MANDATORY)
+
+When working on ANYTHING related to the video ad business:
+
+### Required Reading (EVERY TIME):
+Before taking ANY action, read these files in order:
+1. `synced/remotion-video-ads/CLAUDE.md` — System instructions
+2. `synced/remotion-video-ads/SOP.md` — Standard operating procedure
+3. `synced/remotion-video-ads/video-tasks.json` — Current task queue
+4. The specific `[PROJECT]_RESEARCH.md` and `[PROJECT]_VIDEO_SPEC.md` if working on a project
+
+### This Applies To:
+- Creating videos
+- Discussing video strategy
+- Lead sourcing/outreach
+- Pricing discussions
+- Any mention of "Remotion", "video ads", "apartment videos", etc.
+
+### Quality Standards:
+- **Never cut corners** — Every frame matters
+- **Never skip the docs** — They exist because past mistakes taught lessons
+- **Never assume** — Re-read specs, don't rely on memory
+
+### No Duplicate Videos:
+Before creating ANY video, check if it already exists in:
+1. `synced/remotion-video-ads/finals/` folder
+2. "Remotion Videos" folder on Google Drive
+
+If a video exists for that property — **DO NOT** create a new one.
 
 ## Memory
 
@@ -47,6 +103,12 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Don't run destructive commands without asking.
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
+
+## Git Protocol
+
+- **Always push after editing project files** (especially synced/ai-voice-business/)
+- Use token auth: `git push https://ajpretto:$(cat ~/.github_token_vab)@github.com/ajpretto/VAB.git main`
+- Commit messages should be clear and concise
 
 ## External vs Internal
 

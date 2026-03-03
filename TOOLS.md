@@ -2,34 +2,62 @@
 
 Skills define *how* tools work. This file is for *your* specifics — the stuff that's unique to your setup.
 
-## What Goes Here
+---
 
-Things like:
-- Camera names and locations
-- SSH hosts and aliases  
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+## Anthony's Accounts
 
-## Examples
+### Google
+- **Email:** anthonyjpretto@gmail.com
+- **App Password:** stored locally (not in git)
+- **Calendar OAuth:** configured, token at ~/.gcal_token.pickle
+- **Calendars:** anthonyjpretto@gmail.com, Family, US Holidays
+- **Configured:** 2026-03-02
 
-```markdown
-### Cameras
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
+### GitHub
+- **Username:** ajpretto
+- **Token:** stored at `~/.github_token_vab`
+- **Repos:** github.com/ajpretto/VAB (AI voice business)
+- **Configured:** 2026-03-02
 
-### SSH
-- home-server → 192.168.1.100, user: admin
+---
 
-### TTS
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
+## Scheduled Cron Jobs
 
-## Why Separate?
+| Name | Time (UTC) | Purpose |
+|------|------------|---------|
+| lead-gen-daily | 7:00 | Find 25+ Tampa leads |
+| daily-capabilities-research | 9:00 | AI tools research |
+| competitor-monitoring | 10:00 Tue/Thu | Track competitors |
+| nightly-advisory-council | 3:00 | 8-advisor business analysis |
+| dream-cycle | 4:00 | Memory consolidation |
+| weekly-business-review | 20:00 Sun | Weekly summary |
 
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+---
+
+## Math Study Schedule (Blitzer Algebra & Trig)
+
+- **Book:** Blitzer Algebra and Trigonometry, 6th Edition
+- **Goal:** 4 hrs/week, lock in concepts before calculus
+- **Sessions:** 3x per week (Tue/Thu/Sun)
+- **Calendar:** PENDING SETUP
+
+| Day | Time | Focus |
+|-----|------|-------|
+| Tue | 7:00-8:20am | New section + worked examples |
+| Thu | 7:00-8:20am | Review + new problems |
+| Sun | Flexible 1hr 20min | Weekly review + hardest problems |
+
+---
+
+## Telegram
+- **Chat ID:** 8530957928
+- **Configured:** 2026-03-03
+
+## VPS Info
+
+- **Host:** srv1323962
+- **User:** clawdbot
+- **Workspace:** /home/clawdbot/clawd
 
 ---
 

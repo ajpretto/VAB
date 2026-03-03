@@ -29,12 +29,28 @@ This is my curated memory — the distilled essence of what I've learned, not ra
 
 ## Business Ideas
 
-### Remotion Video Ads (Active)
+### AI Voice Assistants for Home Services (Active — March 2026)
+- Pivot from video ads to selling AI voice assistants + automation workflows
+- Target: Plumbers, HVAC, electricians, roofers, pest control in Tampa Bay
+- Value prop: "Never miss another call. AI answers 24/7."
+- **Pricing (updated 2026-03-02):**
+  - Founding Partner: $500 setup, $997/mo
+  - Professional: $1,500 setup, $1,997/mo  
+  - Enterprise: Custom, $2,497/mo
+- Platform: Retell AI (~$0.15/min cost, ~93% margin)
+- **216 leads collected**, 164 validated (100% valid), cold call script ready
+- **GitHub repo:** github.com/ajpretto/VAB
+- Greg Isenberg playbook: "Agents are the new SaaS" — Anthony sells, I run operations
+- See: `synced/ai-voice-business/`
+
+### Automated Systems Running
+- **6 cron jobs active:** lead-gen, advisory council, research, competitor monitoring, dream cycle, weekly review
+- **Advisory Council:** 8 AI advisors run nightly at 10pm EST
+- **Dream Cycle:** Memory consolidation at 11pm EST (4am UTC)
+
+### Remotion Video Ads (Paused)
 - Made a video ad for Wingspan apartment using Remotion
-- Business model: Create Remotion ads for local businesses
-- Approach: Send half a video as a pitch, offer per-video or subscription pricing
-- Target: $2,000+/month initially
-- Markets: Tampa Bay, FL and Chicago, IL
+- Paused Feb 2026 — pivoted to AI voice (stronger ROI story)
 
 ---
 
@@ -61,4 +77,27 @@ This is my curated memory — the distilled essence of what I've learned, not ra
 
 ---
 
-*Last updated: 2026-02-03*
+---
+
+## Recent Lessons (March 2026)
+
+### 2026-03-01
+- **Move fast on pivots** — Built entire AI voice business infrastructure (164 leads, offers, scripts, cron jobs) in one day
+- **Greg Isenberg framework works** — "Agents are the new SaaS" + Upwork angle for lead gen
+- **Voice notes for call tracking** — Anthony sends audio, I transcribe and track outcomes
+
+### 2026-03-02
+- **Dan Koe Focus Protocol adopted** — 1 hr/day on ONE project = life change in 365 hours
+- **Higher pricing = better clients** — Moved from $497 to $997-$1,997/mo tiers
+- **Memory = files, not conversation** — Write EVERYTHING down immediately
+- **Danger: 16:0 prep-to-action ratio** — Three days of building, zero customer contact
+
+---
+
+## Critical Warning (Advisory Council 2026-03-03)
+
+**MAKE CALLS.** 216 leads, validated numbers, pricing locked, script ready. The only thing missing is ACTION. Every day of prep without calling is a day a competitor is calling YOUR leads. Goal: 10 calls by end of day March 3.
+
+---
+
+*Last updated: 2026-03-03*

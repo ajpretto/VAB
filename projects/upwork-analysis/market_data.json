@@ -1,0 +1,75 @@
+{
+  "analysis_date": "2026-03-02",
+  "source": "Upwork In-Demand Skills 2026, FreelancerFiles, Zapier Report",
+  "ai_skill_growth_2025": {
+    "ai_video_generation_editing": "+329%",
+    "ai_integration": "+178%",
+    "ai_data_annotation": "+154%",
+    "ai_skills_overall": "+109%",
+    "ai_chatbot_development": "+71%",
+    "knowledge_representation": "+31%",
+    "generative_ai_modeling": "+21%"
+  },
+  "hourly_rates_usd": {
+    "machine_learning_ai": {
+      "beginner": 20,
+      "intermediate_low": 25,
+      "intermediate_high": 52,
+      "expert": 95
+    },
+    "workflow_automation": {
+      "range_low": 75,
+      "range_high": 200,
+      "note": "Per Zapier 2024 report"
+    },
+    "full_stack_development": {
+      "beginner": 15,
+      "intermediate_low": 35,
+      "intermediate_high": 70,
+      "expert": 135
+    }
+  },
+  "fixed_price_benchmarks": {
+    "basic_chatbot_small_business": {
+      "low": 500,
+      "high": 1000
+    },
+    "workflow_automation_project": {
+      "low": 500,
+      "high": 5000
+    }
+  },
+  "your_positioning": {
+    "service": "AI Voice Assistant for Home Services",
+    "monthly_price": 497,
+    "premium_bundle": 2497,
+    "margin_percent": 93,
+    "competitor_cost": "Virtual receptionist $500-2000/mo",
+    "leads_validated": 164,
+    "target_market": "Tampa Bay plumbers, HVAC, electricians, roofers, pest control"
+  },
+  "saas_opportunities": [
+    {
+      "name": "AI Voice Assistant",
+      "status": "ACTIVE - You're building this",
+      "manual_cost": "$500-2000/mo virtual receptionist",
+      "your_price": "$497/mo"
+    },
+    {
+      "name": "AI Chatbot for Local Business",
+      "status": "Adjacent - could bundle",
+      "manual_cost": "$2000+/mo chat support",
+      "suggested_price": "$497-997/mo"
+    },
+    {
+      "name": "Appointment Booking Automation",
+      "status": "Natural add-on",
+      "tools": "Cal.com + n8n + voice AI"
+    },
+    {
+      "name": "Lead Qualification Bots",
+      "status": "Premium tier",
+      "manual_cost": "SDR at $40-60k/year"
+    }
+  ]
+}

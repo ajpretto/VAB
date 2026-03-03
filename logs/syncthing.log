@@ -1,0 +1,48 @@
+[start] 2026/02/03 16:23:35 INFO: syncthing v1.27.2-ds4 "Gold Grasshopper" (go1.22.2 linux-amd64) debian@debian 2025-07-21 04:55:34 UTC
+[A4I4V] 2026/02/03 16:23:35 INFO: My ID: A4I4VWA-7RH6PSY-2P6X2FM-I6TG4FS-5OX3E5N-IGWMRA3-3HVL4T5-Q67N4QY
+[A4I4V] 2026/02/03 16:23:35 INFO: Single thread SHA256 performance is 1740 MB/s using minio/sha256-simd (1732 MB/s using crypto/sha256).
+[A4I4V] 2026/02/03 16:23:36 INFO: Hashing performance is 511.77 MB/s
+[A4I4V] 2026/02/03 16:23:36 INFO: Overall send rate is unlimited, receive rate is unlimited
+[A4I4V] 2026/02/03 16:23:36 INFO: TCP listener ([::]:22000) starting
+2026/02/03 16:23:36 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 2048 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+[A4I4V] 2026/02/03 16:23:36 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[A4I4V] 2026/02/03 16:23:36 INFO: QUIC listener ([::]:22000) starting
+[A4I4V] 2026/02/03 16:23:36 INFO: Ready to synchronize "Default Folder" (default) (sendreceive)
+[A4I4V] 2026/02/03 16:23:36 INFO: Ready to synchronize "Remotion Video Ads" (remotion-video-ads) (sendreceive)
+[A4I4V] 2026/02/03 16:23:36 INFO: Using discovery mechanism: global discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[A4I4V] 2026/02/03 16:23:36 INFO: Using discovery mechanism: global discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[A4I4V] 2026/02/03 16:23:36 INFO: Using discovery mechanism: global discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[A4I4V] 2026/02/03 16:23:36 INFO: Using discovery mechanism: IPv4 local broadcast discovery on port 21027
+[A4I4V] 2026/02/03 16:23:36 INFO: Using discovery mechanism: IPv6 local multicast discovery on address [ff12::8384]:21027
+[A4I4V] 2026/02/03 16:23:36 INFO: GUI and API listening on [::]:8384
+[A4I4V] 2026/02/03 16:23:36 INFO: Access the GUI via the following URL: http://127.0.0.1:8384/
+[A4I4V] 2026/02/03 16:23:36 INFO: My name is "srv1323962"
+[A4I4V] 2026/02/03 16:23:36 INFO: Device 5CHHCYM-GXZNLKI-RD4N4W7-FSBQO4F-KA5KLU2-FBP4D4Q-KSGKLNE-VBY33QP is "Anthony-Mac" at [dynamic]
+[A4I4V] 2026/02/03 16:23:36 INFO: Completed initial scan of sendreceive folder "Default Folder" (default)
+[A4I4V] 2026/02/03 16:23:36 INFO: Completed initial scan of sendreceive folder "Remotion Video Ads" (remotion-video-ads)
+[A4I4V] 2026/02/03 16:23:47 INFO: Joined relay relay://172.93.167.83:22067
+[A4I4V] 2026/02/03 16:23:52 INFO: Established secure connection to 5CHHCYM at 147.93.41.128:56972-46.110.171.162:22067/relay-client/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P50-64GP4KI4673C2M3MLD5JLLPKD2
+[A4I4V] 2026/02/03 16:23:52 INFO: Device 5CHHCYM client is "syncthing v2.0.13" named "Anthonys-MacBook-Air-24.local" at 147.93.41.128:56972-46.110.171.162:22067/relay-client/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P50-64GP4KI4673C2M3MLD5JLLPKD2
+[A4I4V] 2026/02/03 16:23:58 INFO: Established secure connection to 5CHHCYM at 147.93.41.128:22000-170.55.174.130:29941/quic-server/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P40-64GP4LB5V8QI2PPFG8S394D64C
+[A4I4V] 2026/02/03 16:23:58 INFO: Additional connection (+1) for device 5CHHCYM at 147.93.41.128:22000-170.55.174.130:29941/quic-server/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P40-64GP4LB5V8QI2PPFG8S394D64C
+[A4I4V] 2026/02/03 16:23:58 INFO: Lost primary connection to 5CHHCYM at 147.93.41.128:56972-46.110.171.162:22067/relay-client/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P50-64GP4KI4673C2M3MLD5JLLPKD2: replacing connection (1 remain)
+[A4I4V] 2026/02/03 16:23:58 INFO: Established secure connection to 5CHHCYM at 147.93.41.128:22000-170.55.174.130:2563/tcp-server/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P30-64GP4LBKK27722B5UQKN0E1O42
+[A4I4V] 2026/02/03 16:23:58 INFO: Additional connection (+1) for device 5CHHCYM at 147.93.41.128:22000-170.55.174.130:2563/tcp-server/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P30-64GP4LBKK27722B5UQKN0E1O42
+[A4I4V] 2026/02/03 16:23:59 INFO: Lost primary connection to 5CHHCYM at 147.93.41.128:22000-170.55.174.130:29941/quic-server/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P40-64GP4LB5V8QI2PPFG8S394D64C: replacing connection (1 remain)
+[A4I4V] 2026/02/03 16:24:06 INFO: Detected 0 NAT services
+[A4I4V] 2026/02/03 16:24:20 INFO: Device 5CHHCYM folder "Remotion Video Ads" (remotion-video-ads) has a new index ID (0xF8C89E2F1FDF323D)
+[A4I4V] 2026/02/03 16:25:32 INFO: Puller (folder "Remotion Video Ads" (remotion-video-ads), item "node_modules/@remotion/.DS_Store"): syncing: finishing: pull: no such file
+[A4I4V] 2026/02/03 16:25:32 INFO: "Remotion Video Ads" (remotion-video-ads): Failed to sync 1 items
+[A4I4V] 2026/02/03 16:25:32 INFO: Folder "Remotion Video Ads" (remotion-video-ads) isn't making sync progress - retrying in 2m9s.
+[A4I4V] 2026/02/03 16:41:08 WARNING: Fatal error: remotion-video-ads Update(7777777-777777N-7777777-777777N-7777777-777777N-7777777-77777Q4, [18]): write /home/clawdbot/.local/state/syncthing/index-v0.14.0.db/000050.log: no space left on device
+panic: write x: no space left on device
+[monitor] 2026/02/03 16:41:08 WARNING: Panic detected, writing to "/home/clawdbot/.local/state/syncthing/panic-20260203-164108.log"
+[monitor] 2026/02/03 16:41:08 WARNING: Please check for existing issues with similar panic message at https://github.com/syncthing/syncthing/issues/
+[monitor] 2026/02/03 16:41:08 WARNING: If no issue with similar panic message exists, please create a new issue with the panic log attached
+[monitor] 2026/02/03 16:41:09 INFO: Reporting crash found in panic-20260203-164108.log (report ID e3b0c442) ...
+[monitor] 2026/02/03 16:41:09 INFO: Syncthing exited: exit status 2
+[start] 2026/02/03 16:41:10 INFO: syncthing v1.27.2-ds4 "Gold Grasshopper" (go1.22.2 linux-amd64) debian@debian 2025-07-21 04:55:34 UTC
+[start] 2026/02/03 16:41:10 WARNING: Error opening database: write /home/clawdbot/.local/state/syncthing/index-v0.14.0.db/000069.ldb: no space left on device (is another instance of Syncthing running?)
+[monitor] 2026/02/03 16:41:10 INFO: Syncthing exited: exit status 1
+[start] 2026/02/03 16:41:12 INFO: syncthing v1.27.2-ds4 "Gold Grasshopper" (go1.22.2 linux-amd64) debian@debian 2025-07-21 04:55:34 UTC
+[monitor] 2026/02/03 16:41:12 INFO: Signal 15 received; exiting

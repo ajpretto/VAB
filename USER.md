@@ -31,8 +31,12 @@
 
 ### Remotion Video Ads (Active idea)
 - Made a video ad for Wingspan apartment using Remotion
-- Business model: Create Remotion ads for local businesses
-- Approach: Send half a video as a pitch, offer per-video or subscription pricing
+- Business model: Create Remotion ads for apartment properties
+- **Approach (updated 2026-02-03):** Mass cold outreach system
+  - Produce significant volume of videos per day
+  - Blast them out via Instagram, LinkedIn, email, cold calling
+  - Target: apartment properties
+  - Expect it'll take time and effort to land first client, then ball starts rolling
 - Realistic mindset: "No reason to start thinking I'm going to be the next Apple"
 
 ### Real Estate Club (Backburner idea)
