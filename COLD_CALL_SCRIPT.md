@@ -17,6 +17,58 @@
 
 ---
 
+## GATEKEEPER / TEAM MEMBER (when you don't get the owner)
+
+**Scenario:** You call and get an employee, receptionist, or office person — not the owner.
+
+**Goal:** Get the owner's name, direct number, and best time to call back.
+
+### First — get the owner's name:
+
+> "Hey, who am I speaking with?"
+> *(they answer)*
+> "Got it — is the owner around? What's their name?"
+
+**Or lead with:**
+> "Hey, I'm trying to reach the owner — who would that be?"
+
+### Then — ask for them:
+
+> "Is [owner name] around? I just had a quick question about handling calls."
+
+**If they ask "What's this about?":**
+> "I help [trade] companies stop losing jobs to missed calls. Who handles that over there — is that [owner] or someone else?"
+
+**If they ask "Is he expecting your call?":**
+> "No, just reaching out. I work with a few [plumbers/HVAC] in Tampa. What's the best time to catch him?"
+
+### Get the intel:
+
+- **Name:** "Who should I ask for?"
+- **Direct line:** "What's the best number to reach him?"
+- **Timing:** "When's he usually in the office?"
+- **Cell:** "Does he prefer calls on his cell or office line?"
+
+### Don't do this:
+
+❌ Don't pitch the employee — they can't say yes  
+❌ Don't leave a long message with them  
+❌ Don't argue or push past them
+
+### If they offer to take a message:
+
+> "Sure — just tell him Anthony called about stopping missed calls. I'll try back [tomorrow/Thursday]. What's the best time?"
+
+*(You're still getting timing intel)*
+
+### If they're protective/suspicious:
+
+> "Totally understand. I'll try back another time. Thanks for your help."
+
+*(Move on. Note to try direct cell or after-hours.)*
+
+---
+
 ## HOOK (20 seconds)
 
 > "I set up AI phone systems that answer your calls 24/7 — books appointments, qualifies emergencies, texts you a summary. Works while you're on a job site. Full white-glove setup, you don't touch anything technical."

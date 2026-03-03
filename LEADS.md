@@ -537,10 +537,83 @@ These businesses have indicators that make them excellent AI voice assistant can
 
 ---
 
+---
+
+## 🆕 March 3, 2026 Expansion
+
+*Added areas: Land O' Lakes, Lutz, Plant City, Temple Terrace, Riverview, Carrollwood*
+*Focus: Family-owned, owner-operated, <100 reviews*
+
+### Land O' Lakes — Plumbing
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 217 | Brooks Plumbing | (813) 695-5566 | brooksplumbingfl.com | Land O' Lakes based |
+| 218 | Paul Carlisle Plumbing | (813) 996-3507 | Yelp listing | 23240 Brandy Rd, Land O' Lakes |
+| 219 | 911 Plumbing | (813) contact site | Yelp listing | Family owned, 20+ years, "Your emergency is our Priority!" |
+
+### Lutz — HVAC
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 220 | FL-Air Heating & Cooling | (813) 800-2665 | Yelp listing | 17910 US-41, Lutz, 24/7 |
+| 221 | Lutz Air Conditioning | (813) 797-7136 | lutzairconditioning.com | AC repair, maintenance, installation |
+| 222 | A/C Repairs | (813) 909-0809 | Yelp listing | Lutz, Mon-Sat |
+| 223 | Air Hawk Heating & Cooling | (813) contact site | airhawkac.com | Family-owned, 24/7 phone support |
+| 224 | Sun Air Services | (813) 694-8989 | sunairtampa.com | Lutz AC services |
+
+### Plant City — Electrical
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 225 | Crevello Electric Inc | (813) 707-6106 | crevelloelectric.com | Full line electrician services |
+| 226 | Watson's Electrical | (813) 730-1063 | business.plantcity.org | Residential/Commercial/Industrial |
+| 227 | ETD Electrical Services | (813) contact site | etdelectricalservices.com | Free estimates, prompt service |
+
+### Temple Terrace — Pest Control
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 228 | Service First Termite & Pest | (813) 519-6535 | service-first-termite-and-pest.com | Perimeter pest control |
+| 229 | Elite Pest Services | (813) 362-7300 | elitepestflorida.com | Pest/termite/mosquito/rodent |
+| 230 | Cross Pest Control | (813) contact site | crosspestcontrol.com | Family-owned, 50+ years, no contracts |
+| 231 | EcoTech Pest Control | (813) contact site | ecotechpcs.com | Locally owned, QualityPro certified |
+| 232 | Pestwise LLC | (813) contact site | pestwisellc.com | Family owned, affordable |
+
+### Riverview — Plumbing
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 233 | Curtis Plumbing | (813) 672-4111 | curtisplumbingfl.com | Riverview's trusted plumber, 24/7 |
+| 234 | The GOAT Plumbing Company | (813) 743-4263 | thegoatplumbingcompany.com | Free estimates |
+| 235 | Florida Plumbers LLC | (813) contact site | floridaplumbersllc.com | Hillsborough County, licensed/insured |
+| 236 | Cape Sewer and Drain | (813) contact site | capeseweranddrain.com | 24/7/365, free estimates |
+
+### Carrollwood/North Tampa — HVAC
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 237 | Carrollwood Air LLC | (813) 239-4685 | carrollwoodairllc.com | Trane Dealer, 5460 Pentail Circle |
+| 238 | Nuccio Heating & AC | (813) 961-7895 | nuccioac.com | Staff 30+ years, total satisfaction focus |
+| 239 | Dymond AC | (813) 758-1099 | dymondac.com | Carrollwood/North Tampa |
+| 240 | 3H AC | (813) 979-4208 | 3hac.com | Brandon/Carrollwood/Land O' Lakes/Lutz/Odessa |
+| 241 | A/C Professionals | (813) 770-2491 | airproshvac.com | Tampa, quick AC repair |
+| 242 | Plan B Air Conditioning | (813) contact site | planbairconditioning.com | Locally owned, 20+ years |
+
+### Tampa Bay — Water Damage Restoration
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 243 | True North Restoration | (813) 680-4804 | tampa.gotruenorth.com | 24/7 emergency, water/fire/mold |
+| 244 | Revive Water Damage | (813) 534-5270 | revivewaterdamagerestoration.com | 24/7, Hillsborough County |
+| 245 | Quality 1 Restoration | (888) 802-8411 | Angi listing | Family owned, water damage/mold |
+
+---
+
 ## Summary
 
-**Total Leads:** 216
-**New this batch:** 52 (St. Pete, Clearwater, Brandon, Wesley Chapel expansion)
+**Total Leads:** 245
+**New this batch (March 3):** 29 (Land O' Lakes, Lutz, Plant City, Temple Terrace, Riverview, Carrollwood)
 **Focus:** Owner-operated, <100 reviews, missed call pain point
 
 **Best Prospects (immediate call):**
@@ -548,4 +621,7 @@ These businesses have indicators that make them excellent AI voice assistant can
 - Bodan Roofing (813) 977-5919 — family-owned, 25+ years
 - Duffey Tree Care (813) 381-4329 — family-owned arborist
 - Genie of Clearwater (727) 446-0189 — 3rd generation, since 1957
+- Cross Pest Control — family-owned, 50+ years, no contracts
+- Nuccio Heating & AC (813) 961-7895 — staff 30+ years loyalty
+- Curtis Plumbing (813) 672-4111 — Riverview's trusted plumber
 
