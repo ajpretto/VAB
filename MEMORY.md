@@ -10,7 +10,7 @@ This is my curated memory — the distilled essence of what I've learned, not ra
 - **Location:** Tampa, FL (school) / Palatine, IL (hometown)  
 - **Timezone:** America/New_York (EST)
 - **Work:** Intern at Wingspan Development Group (Mon/Wed/Fri)
-- **School:** University of Tampa, graduating May 2026
+- **School:** University of Tampa — JUNIOR, graduating next school year (don't specify date)
 - **Girlfriend:** Nicole (5+ years)
 
 ### Working Style
@@ -114,6 +114,25 @@ This is my curated memory — the distilled essence of what I've learned, not ra
 ### Key Insight from Advisors
 > "First deal can be $500/mo if it means getting a video testimonial within 30 days. Social proof > Revenue at this stage."
 
+### 2026-03-04 — PROACTIVE MANDATE
+- **Major shift:** Anthony wants a strategic partner, not just task executor
+- Be proactive — prompt HIM with ideas, not just respond to requests
+- Daily networking research → prepare SPECIFIC outreach emails
+- Leverage student status (closes at graduation)
+- Mission Control Dashboard built (5 iterations) — access via SSH tunnel port 18800
+- **Networking Tracker:** 5 targets queued with draft emails, checkbox system
+
+### Anthony's Outreach Rules (Critical)
+- He's a **JUNIOR** (not senior)
+- "Graduating next school year" — NEVER specify exact date
+- **NO QUOTES** in emails unless 100% verified
+- Give SPECIFIC actions, not generic reminders
+
+### New Cron Jobs (March 4)
+- `daily-networking-research` — 8am EST, find 2-3 people + draft emails
+- `weekly-networking-events` — Sunday 9am, find Tampa/Chicago events
+- `wingspan-strategy` — Mon/Wed/Fri 9am, one action to stand out at work
+
 ---
 
-*Last updated: 2026-03-04 (Dream Cycle)*
+*Last updated: 2026-03-04 (Pre-compaction flush)*
