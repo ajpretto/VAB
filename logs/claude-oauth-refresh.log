@@ -1286,3 +1286,6 @@ Error: Channel is required when multiple channels are configured: telegram, what
 [2026-03-04T03:45:53+00:00] Refreshing token...
 [2026-03-04T03:45:54+00:00] SUCCESS: Token refreshed, expires in 28800s
 [2026-03-04T07:46:54+00:00] Token valid for 239m, skipping refresh
+[2026-03-04T11:47:54+00:00] Refreshing token...
+[2026-03-04T11:47:54+00:00] SUCCESS: Token refreshed, expires in 28800s
+[2026-03-04T15:48:54+00:00] Token valid for 239m, skipping refresh

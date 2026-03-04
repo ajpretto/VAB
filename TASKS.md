@@ -10,6 +10,7 @@ Tasks I'm actively working on right now.
 
 | Task | Project | Priority | Started | Status | Notes |
 |------|---------|----------|---------|--------|-------|
+| **Personalize Mission Control** | Infrastructure | **P1** | 2026-03-04 | Building | Anthony requested while at Wingspan meeting |
 | Fix Mission Control build | Infrastructure | P3 | 2026-03-01 | Tailwind issues | Low priority, debugging PostCSS |
 
 ---
