@@ -8,8 +8,8 @@
 ---
 
 ## Education
-- **University of Tampa** — Junior (by years), Senior (by credits)
-- **Graduating:** Walking May 2026, finishing one online course in summer
+- **University of Tampa** — Junior
+- **Graduating:** Next school year (don't specify exact date in outreach)
 - **Major:** *(tbd)*
 
 ---
