@@ -100,4 +100,20 @@ This is my curated memory — the distilled essence of what I've learned, not ra
 
 ---
 
-*Last updated: 2026-03-03*
+## Recent Lessons (March 2026 — Continued)
+
+### 2026-03-03 — THE BREAKTHROUGH
+- **Anthony started cold calling** — First calls made at 9:03am EST (Day 4)
+- Hit gatekeeper barrier — getting routed to team, not owners
+- Added gatekeeper tactics to cold call script
+- System upgrades: HEARTBEAT.md rewritten with signal synthesis, SOUL.md got adaptive accountability ladder
+- Mission Control opened on LAN (http://147.93.41.128:18789)
+- **Lesson:** Calls happened but NO TRACKING — can't improve what you don't measure
+- Advisory council grade: C- → C+ (execution drought breaking)
+
+### Key Insight from Advisors
+> "First deal can be $500/mo if it means getting a video testimonial within 30 days. Social proof > Revenue at this stage."
+
+---
+
+*Last updated: 2026-03-04 (Dream Cycle)*

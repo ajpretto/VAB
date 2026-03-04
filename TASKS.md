@@ -20,7 +20,8 @@ Tasks assigned but not yet started.
 
 | Task | Project | Priority | Assigned | Notes |
 |------|---------|----------|----------|-------|
-| **COLD CALLS: 10 minimum** | AI Voice Business | **P1** | 2026-03-03 | 🚨 Day 4 with zero calls. MUST happen today. |
+| **LOG yesterday's calls** | AI Voice Business | **P1** | 2026-03-04 | First track what happened March 3 |
+| **COLD CALLS: 10 minimum** | AI Voice Business | **P1** | 2026-03-03 | Day 5 — calls started, keep momentum |
 | Set up Retell AI demo account | AI Voice Business | P1 | 2026-03-01 | Can't close deals without a demo to show |
 | Add carrier lookup API | AI Voice Business | P3 | 2026-03-02 | Twilio or NumVerify for mobile vs landline |
 | Set up file access for Anthony | Infrastructure | P3 | 2026-03-01 | Syncthing or GitHub for doc access |
