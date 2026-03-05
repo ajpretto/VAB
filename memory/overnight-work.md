@@ -130,6 +130,29 @@
 
 ---
 
+## 2026-03-05 09:00 UTC (4am EST)
+
+**Task:** AI capabilities research
+
+### Key Findings
+- **OpenClaw hit 250k stars** — surpassed React, validating AI agent market
+- **DeepSeek-R1** — 90% cheaper than OpenAI, could reduce voice AI costs
+- **n8n** — 174k stars, AI workflow automation with 400+ integrations
+- **Browser Use** — 76k stars, LLM controls browser for automation
+- **Mastra** — Observational Memory cuts token costs 4-10x
+
+### For Anthony's Business:
+1. n8n could automate lead follow-ups, CRM updates, reporting
+2. Browser Use could automate lead enrichment (find owner names)
+3. DeepSeek-R1 could reduce backend costs significantly
+4. WebMCP (emerging standard) = future-proof for AI integrations
+
+Saved to: `synced/ai-voice-business/logs/capabilities-2026-03-05.md`
+
+**Why this task:** Stay ahead of tools that could help or threaten the business.
+
+---
+
 ### Tomorrow's Priorities (March 5)
 
 1. **Resend J.R. Berger email** — Corrected address, draft ready in BERGER.md
