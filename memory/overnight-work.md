@@ -153,6 +153,25 @@ Saved to: `synced/ai-voice-business/logs/capabilities-2026-03-05.md`
 
 ---
 
+## 2026-03-05 10:00 UTC (5am EST)
+
+**Task:** Competitor monitoring update
+
+### Key Updates Found:
+1. **Retell AI price drop** — Premium voice $0.17 → $0.12/min (30% savings)
+2. **Retell AI ASR upgrade** — 50+ languages, better accuracy
+3. **Synthflow $20M Series A** — Big funding, scaling fast
+4. **ZyraTalk Zapier integration** — Better call/chat analytics
+
+### Impact:
+- Anthony's margins just improved 30% on voice costs
+- Synthflow's funding = more competitive pressure coming
+- Updated COMPETITORS.md with changelog
+
+**Why this task:** Weekly competitor pulse check per schedule.
+
+---
+
 ### Tomorrow's Priorities (March 5)
 
 1. **Resend J.R. Berger email** — Corrected address, draft ready in BERGER.md
