@@ -38,3 +38,36 @@
 - magellandevelopment.com/team/j-r-berger
 - Crain's Chicago Business articles
 - RE Journals coverage
+
+---
+
+## Draft Email (Ready to Resend with Corrected Address)
+
+**To:** jberger@magellandevelopment.com  
+**Subject:** Anthony Pretto — UT student, question about Lakeshore East
+
+---
+
+Mr. Berger,
+
+I'm a junior at University of Tampa studying business, and I've been following Magellan's work on Lakeshore East for a class project. The scale of building an entire neighborhood from scratch is something I'm trying to wrap my head around.
+
+I'm interning at Wingspan Development Group right now (they have an office in Mount Prospect), mostly working on their multifamily projects. It's a much smaller scale than what you're doing, but I'm curious how you think about the jump from individual buildings to master-planned communities. That seems like a completely different kind of problem.
+
+Would you have 15 minutes for a call sometime? I'd love to hear how you approached that transition.
+
+Thanks,
+
+Anthony Pretto  
+University of Tampa '27  
+anthonyjpretto@gmail.com
+
+---
+
+**Notes for Anthony:**
+- Corrected email: `jberger@` not `jrberger@`
+- References Lakeshore East specifically (shows research)
+- Mentions Wingspan + Mount Prospect (Chicago connection)
+- Asks about a specific challenge (scaling from buildings to neighborhoods)
+- No generic "what advice would you give" questions
+- Simple ask: 15 min call

@@ -47,12 +47,28 @@
 
 ---
 
+## 2026-03-05 05:00 UTC (midnight EST)
+
+**Task:** Prepare corrected J.R. Berger email
+
+### Completed
+- Wrote fresh draft email for Berger with correct address
+- Saved to `memory/networking/research/BERGER.md`
+- References Lakeshore East (specific project), Wingspan Mount Prospect connection
+- Asks about scaling from individual buildings to master-planned communities
+- Ready to copy/paste and send
+
+**Why this task:** His original email bounced. Highest leverage is making the resend frictionless.
+
+---
+
 ### Tomorrow's Priorities (March 5)
 
-1. **Send John Jackson email** — UT alum connection, ready to go
-2. **Log call outcomes** — Still no tracking from previous calls
-3. **Make 10 calls** — Maintain momentum
-4. **Consider CyberTech|X tonight** — Good networking opportunity if free
+1. **Resend J.R. Berger email** — Corrected address, draft ready in BERGER.md
+2. ~~Send John Jackson email~~ ✅ SENT (Anthony confirmed)
+3. **Log call outcomes** — Still no tracking from previous calls
+4. **Make 10 calls** — Maintain momentum
+5. **Consider CyberTech|X tonight** — 5:30pm, conflicts with walk but doable
 
 ---
 
