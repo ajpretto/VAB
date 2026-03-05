@@ -2,7 +2,7 @@
 
 ## Basic Info
 - **Title:** President, Magellan Development Group
-- **Email:** jrberger@magellandevelopment.com
+- **Email:** jberger@magellandevelopment.com ✅ VERIFIED (format: first_initial+last)
 - **LinkedIn:** linkedin.com/in/j-r-berger-90960b14
 
 ## Background

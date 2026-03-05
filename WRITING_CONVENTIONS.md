@@ -32,6 +32,44 @@
 
 ---
 
+## ⚠️ EMAIL VERIFICATION PROTOCOL (MANDATORY)
+
+**Never guess an email. Verify before including.**
+
+### Step 1: Find Company Email Format
+Search: `"[company name]" email format site:rocketreach.co OR site:leadiq.com`
+
+Common patterns:
+- `first.last@company.com`
+- `flast@company.com` (first initial + last)
+- `first@company.com`
+- `firstl@company.com` (first + last initial)
+
+### Step 2: Verify with Known Emails
+- Check company website for any published emails (contact page, press releases)
+- Look for other employees' emails to confirm pattern
+- Example: If you find `vcasciano@company.com`, the pattern is likely `flast`
+
+### Step 3: Cross-Reference
+- LinkedIn sometimes shows email on profiles
+- Company press releases often include contact emails
+- Check if person has been quoted in articles with contact info
+
+### Step 4: Mark Verification Status
+In research files, always mark emails:
+- ✅ VERIFIED — confirmed via official source or pattern match
+- ⚠️ INFERRED — based on company pattern, not confirmed
+- ❌ UNVERIFIED — guessed, do not use
+
+### Step 5: When in Doubt
+- Use LinkedIn InMail or connection request instead
+- Find a contact form on the company website
+- Call the company and ask for the email directly
+
+**NEVER include an unverified email in a draft. If uncertain, leave blank and note "EMAIL NEEDED - VERIFY BEFORE SENDING".**
+
+---
+
 ## Pre-Outreach Research Workflow (MANDATORY)
 
 Before writing ANY networking email, complete this research:
@@ -65,7 +103,7 @@ Before writing ANY networking email, complete this research:
 - [ ] Does it sound eager and excited, not transactional?
 - [ ] No AI tells (run through conventions above)
 - [ ] Mr./Ms. + last name used
-- [ ] Email address included
+- [ ] **Email address VERIFIED** (not guessed — see Email Verification Protocol above)
 
 ### 5. Save Research
 - Save research notes to `memory/networking/research/[LASTNAME].md`
