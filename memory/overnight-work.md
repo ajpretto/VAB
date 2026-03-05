@@ -83,6 +83,26 @@
 
 ---
 
+## 2026-03-05 07:00 UTC (2am EST)
+
+**Task:** Lead generation — 28 new leads added
+
+### Completed
+- Added 28 new leads to LEADS.md (total now 321)
+- New areas covered: Brandon, Riverview, Wesley Chapel, Plant City, St. Pete handymen, Clearwater pressure washing, Sun City Center, Apollo Beach
+- Categories: Plumbing, HVAC, Appliance Repair, Locksmith, Electrician, Handyman, Pressure Washing, Garage Door
+- Focus: Family-owned, owner-operated businesses
+
+**Best new prospects:**
+- Knights Air Conditioning (Riverview, since 2012)
+- Complete Pro Air (family-owned, NATE certified)
+- The Handyman Company (25+ years, Five Star Rated)
+- Cool Breeze Pressure Washing (24+ years)
+
+**Why this task:** More leads = more opportunities. Hit 321 total.
+
+---
+
 ### Tomorrow's Priorities (March 5)
 
 1. **Resend J.R. Berger email** — Corrected address, draft ready in BERGER.md
