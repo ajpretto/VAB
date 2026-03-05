@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orchestration | Command Center</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --card-bg: #141414;
+      --card-border: #222;
+      --text: #f0f0f0;
+      --text-muted: #777;
+      --accent: #22c55e;
+      --accent-hover: #16a34a;
+      --blue: #3b82f6;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --purple: #a855f7;
+      --orange: #f97316;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 32px;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--purple), var(--blue));
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+    
+    .logo h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 8px;
+    }
+    
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+    
+    .nav-links a:hover {
+      background: var(--card-bg);
+      color: var(--text);
+    }
+    
+    .nav-links a.active {
+      background: var(--purple);
+      color: white;
+    }
+    
+    /* Cards */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .card-title {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 20px;
+    }
+    
+    /* Org Chart */
+    .org-chart {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    
+    .org-level {
+      display: flex;
+      gap: 40px;
+      position: relative;
+    }
+    
+    .org-node {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .org-avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      border: 3px solid var(--card-border);
+      position: relative;
+    }
+    
+    .org-avatar.ceo {
+      background: linear-gradient(135deg, var(--yellow), var(--orange));
+      border-color: var(--yellow);
+    }
+    
+    .org-avatar.agent {
+      background: linear-gradient(135deg, var(--purple), var(--blue));
+      border-color: var(--purple);
+    }
+    
+    .org-avatar.future {
+      background: var(--card-bg);
+      border: 2px dashed var(--card-border);
+      color: var(--text-muted);
+      font-size: 24px;
+    }
+    
+    .status-indicator {
+      position: absolute;
+      bottom: 4px;
+      right: 4px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 2px solid var(--card-bg);
+    }
+    
+    .status-indicator.online {
+      background: var(--accent);
+    }
+    
+    .status-indicator.offline {
+      background: var(--text-muted);
+    }
+    
+    .org-name {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    
+    .org-role {
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+    
+    .org-stats {
+      display: flex;
+      gap: 12px;
+      margin-top: 4px;
+    }
+    
+    .org-stat {
+      font-size: 11px;
+      padding: 2px 8px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 4px;
+      color: var(--text-muted);
+    }
+    
+    /* Connector Lines */
+    .connector-vertical {
+      width: 2px;
+      height: 40px;
+      background: var(--card-border);
+    }
+    
+    .connector-horizontal {
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% - 80px);
+      height: 2px;
+      background: var(--card-border);
+    }
+    
+    .connector-horizontal::before,
+    .connector-horizontal::after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 20px;
+      background: var(--card-border);
+      top: 0;
+    }
+    
+    .connector-horizontal::before { left: 0; }
+    .connector-horizontal::after { right: 0; }
+    
+    /* Goals Section */
+    .goals-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    
+    .goal-card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    
+    .goal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+    
+    .goal-priority {
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    
+    .goal-priority.p1 { background: rgba(239, 68, 68, 0.2); color: var(--red); }
+    .goal-priority.p2 { background: rgba(234, 179, 8, 0.2); color: var(--yellow); }
+    .goal-priority.p3 { background: rgba(59, 130, 246, 0.2); color: var(--blue); }
+    
+    .goal-title {
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+    
+    .goal-description {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+    
+    .goal-progress {
+      margin-bottom: 8px;
+    }
+    
+    .progress-bar {
+      height: 6px;
+      background: var(--card-border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    
+    .progress-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 3px;
+      transition: width 0.3s;
+    }
+    
+    .goal-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    
+    .goal-owner {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .owner-avatar {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      background: var(--purple);
+    }
+    
+    /* Mission Statement */
+    .mission-card {
+      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(59, 130, 246, 0.1));
+      border: 1px solid rgba(168, 85, 247, 0.3);
+      text-align: center;
+      padding: 40px;
+    }
+    
+    .mission-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    
+    .mission-text {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    
+    .mission-subtext {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    
+    /* Tasks Section */
+    .tasks-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    .task-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      transition: all 0.2s;
+    }
+    
+    .task-item:hover {
+      border-color: var(--purple);
+    }
+    
+    .task-status {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+    }
+    
+    .task-status.todo { background: rgba(119, 119, 119, 0.2); }
+    .task-status.progress { background: rgba(59, 130, 246, 0.2); color: var(--blue); }
+    .task-status.done { background: rgba(34, 197, 94, 0.2); color: var(--accent); }
+    
+    .task-content {
+      flex: 1;
+    }
+    
+    .task-title {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    
+    .task-meta {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    
+    .task-assignee {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .task-avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    }
+    
+    /* Grid Layout */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    
+    @media (max-width: 768px) {
+      .grid-2 { grid-template-columns: 1fr; }
+      .org-level { flex-direction: column; gap: 20px; }
+    }
+    
+    /* Add button */
+    .add-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 16px;
+      background: transparent;
+      border: 2px dashed var(--card-border);
+      border-radius: 10px;
+      color: var(--text-muted);
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .add-btn:hover {
+      border-color: var(--purple);
+      color: var(--purple);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <div class="logo-icon">🎯</div>
+        <div>
+          <h1>Orchestration</h1>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Dashboard</a>
+        <a href="orchestration.html" class="active">Orchestration</a>
+        <a href="leads-viewer.html">Leads</a>
+        <a href="networking.html">Networking</a>
+        <a href="life.html">Life</a>
+      </div>
+    </div>
+
+    <!-- Mission Statement -->
+    <div class="card mission-card">
+      <div class="mission-icon">🏢</div>
+      <div class="mission-text">Build $10K MRR AI Voice Business</div>
+      <div class="mission-subtext">Serving Tampa Bay home services contractors with 24/7 AI phone agents</div>
+    </div>
+
+    <!-- Org Chart -->
+    <div class="card">
+      <div class="card-title">📊 Org Chart</div>
+      <div class="org-chart">
+        <!-- CEO Level -->
+        <div class="org-level">
+          <div class="org-node">
+            <div class="org-avatar ceo">
+              👤
+              <div class="status-indicator online"></div>
+            </div>
+            <div class="org-name">Anthony Pretto</div>
+            <div class="org-role">CEO / Founder</div>
+            <div class="org-stats">
+              <span class="org-stat">Sales</span>
+              <span class="org-stat">Strategy</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="connector-vertical"></div>
+        
+        <!-- Agent Level -->
+        <div class="org-level">
+          <div class="org-node">
+            <div class="org-avatar agent">
+              🦹
+              <div class="status-indicator online"></div>
+            </div>
+            <div class="org-name">Gru</div>
+            <div class="org-role">Chief of Staff / AI Agent</div>
+            <div class="org-stats">
+              <span class="org-stat">Research</span>
+              <span class="org-stat">Ops</span>
+              <span class="org-stat">24/7</span>
+            </div>
+          </div>
+          
+          <div class="org-node">
+            <div class="org-avatar future">
+              +
+            </div>
+            <div class="org-name" style="color: var(--text-muted)">Future Agent</div>
+            <div class="org-role">Sales Dev Rep?</div>
+          </div>
+          
+          <div class="org-node">
+            <div class="org-avatar future">
+              +
+            </div>
+            <div class="org-name" style="color: var(--text-muted)">Future Agent</div>
+            <div class="org-role">Customer Success?</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Goals and Tasks Grid -->
+    <div class="grid-2">
+      <!-- Active Goals -->
+      <div class="card">
+        <div class="card-title">🎯 Active Goals</div>
+        <div class="goals-container">
+          <div class="goal-card">
+            <div class="goal-header">
+              <span class="goal-priority p1">P1</span>
+              <span class="goal-meta">Due: March 15</span>
+            </div>
+            <div class="goal-title">Close First Paying Customer</div>
+            <div class="goal-description">Sign one Tampa Bay contractor at $997/mo. Video testimonial within 30 days.</div>
+            <div class="goal-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 40%"></div>
+              </div>
+            </div>
+            <div class="goal-meta">
+              <div class="goal-owner">
+                <div class="owner-avatar">👤</div>
+                <span>Anthony</span>
+              </div>
+              <span>40% complete</span>
+            </div>
+          </div>
+          
+          <div class="goal-card">
+            <div class="goal-header">
+              <span class="goal-priority p2">P2</span>
+              <span class="goal-meta">Ongoing</span>
+            </div>
+            <div class="goal-title">Build Lead Pipeline</div>
+            <div class="goal-description">Maintain 300+ qualified leads. Enrich with owner names for direct contact.</div>
+            <div class="goal-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 100%"></div>
+              </div>
+            </div>
+            <div class="goal-meta">
+              <div class="goal-owner">
+                <div class="owner-avatar" style="background: var(--purple)">🦹</div>
+                <span>Gru</span>
+              </div>
+              <span>321 leads ✓</span>
+            </div>
+          </div>
+          
+          <div class="goal-card">
+            <div class="goal-header">
+              <span class="goal-priority p2">P2</span>
+              <span class="goal-meta">Weekly</span>
+            </div>
+            <div class="goal-title">Networking Pipeline</div>
+            <div class="goal-description">Send 5 networking emails per week. Build Chicago + Tampa relationships.</div>
+            <div class="goal-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 20%"></div>
+              </div>
+            </div>
+            <div class="goal-meta">
+              <div class="goal-owner">
+                <div class="owner-avatar">👤</div>
+                <span>Anthony</span>
+              </div>
+              <span>1/5 this week</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Today's Tasks -->
+      <div class="card">
+        <div class="card-title">📋 Today's Tasks</div>
+        <div class="tasks-list">
+          <div class="task-item">
+            <div class="task-status progress">📞</div>
+            <div class="task-content">
+              <div class="task-title">Make 10 cold calls</div>
+              <div class="task-meta">Use LEADS_ENRICHED.md for owner names</div>
+            </div>
+            <div class="task-assignee">
+              <div class="task-avatar" style="background: linear-gradient(135deg, var(--yellow), var(--orange))">👤</div>
+            </div>
+          </div>
+          
+          <div class="task-item">
+            <div class="task-status todo">✉️</div>
+            <div class="task-content">
+              <div class="task-title">Resend J.R. Berger email</div>
+              <div class="task-meta">Corrected address: jberger@magellandevelopment.com</div>
+            </div>
+            <div class="task-assignee">
+              <div class="task-avatar" style="background: linear-gradient(135deg, var(--yellow), var(--orange))">👤</div>
+            </div>
+          </div>
+          
+          <div class="task-item">
+            <div class="task-status done">✓</div>
+            <div class="task-content">
+              <div class="task-title">Morning research + briefing</div>
+              <div class="task-meta">7 overnight sessions completed</div>
+            </div>
+            <div class="task-assignee">
+              <div class="task-avatar" style="background: var(--purple)">🦹</div>
+            </div>
+          </div>
+          
+          <div class="task-item">
+            <div class="task-status done">✓</div>
+            <div class="task-content">
+              <div class="task-title">Daily networking research</div>
+              <div class="task-meta">Jeri Chen (Magellan) + Mount Prospect discovery</div>
+            </div>
+            <div class="task-assignee">
+              <div class="task-avatar" style="background: var(--purple)">🦹</div>
+            </div>
+          </div>
+          
+          <button class="add-btn" onclick="addTask()">
+            + Add Task
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agent Activity -->
+    <div class="card">
+      <div class="card-title">🤖 Agent Activity (Last 24h)</div>
+      <div class="tasks-list">
+        <div class="task-item">
+          <div class="task-status done">🌙</div>
+          <div class="task-content">
+            <div class="task-title">Overnight Work Sessions (7 total)</div>
+            <div class="task-meta">11pm-7am EST — Jackson email, Berger fix, 28 leads, competitor intel, capabilities research</div>
+          </div>
+          <div class="task-assignee">
+            <div class="task-avatar" style="background: var(--purple)">🦹</div>
+          </div>
+        </div>
+        
+        <div class="task-item">
+          <div class="task-status done">📊</div>
+          <div class="task-content">
+            <div class="task-title">Lead enrichment: 7 owner names found</div>
+            <div class="task-meta">Chris Hloska, Todd Workman, Chris Larson, Jackie Hamlin & Mike Hasten, Doug Shields...</div>
+          </div>
+          <div class="task-assignee">
+            <div class="task-avatar" style="background: var(--purple)">🦹</div>
+          </div>
+        </div>
+        
+        <div class="task-item">
+          <div class="task-status done">💰</div>
+          <div class="task-content">
+            <div class="task-title">Competitor monitoring: Retell price drop</div>
+            <div class="task-meta">Premium voice $0.17 → $0.12/min = 30% better margins</div>
+          </div>
+          <div class="task-assignee">
+            <div class="task-avatar" style="background: var(--purple)">🦹</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function addTask() {
+      const title = prompt('Task title:');
+      if (!title) return;
+      
+      const tasks = JSON.parse(localStorage.getItem('orchestration_tasks') || '[]');
+      tasks.push({
+        id: Date.now(),
+        title: title,
+        status: 'todo',
+        assignee: 'anthony',
+        created: new Date().toISOString()
+      });
+      localStorage.setItem('orchestration_tasks', JSON.stringify(tasks));
+      alert('Task added! (Refresh to see - dynamic loading coming soon)');
+    }
+  </script>
+</body>
+</html>
