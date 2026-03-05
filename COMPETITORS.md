@@ -1,6 +1,6 @@
 # Competitor Analysis — AI Voice Assistants for Home Services
 
-Last updated: 2026-03-03
+Last updated: 2026-03-05
 
 ---
 
@@ -244,8 +244,24 @@ The AI voice assistant market for home services is growing rapidly. Key players 
 
 | Date | Change |
 |------|--------|
+| 2026-03-05 | **Retell AI price drop:** Premium voice $0.17 → $0.12/min (30% reduction). Better margins for Anthony. |
+| 2026-03-05 | **Retell AI ASR upgrade:** 50+ languages, lower WER, clearer transcripts |
+| 2026-03-05 | **Synthflow $20M raise:** Series A closed, targeting $168B conversational AI market |
+| 2026-03-05 | **ZyraTalk Zapier update:** New filtering for call/chat data, better analytics |
 | 2026-03-03 | Initial competitive analysis created |
 
 ---
 
-*Next review: 2026-03-06 (Thursday)*
+## Platform Updates (Anthony's Stack)
+
+### Retell AI (March 2026)
+- **Price drop:** Premium voice now $0.12/min (was $0.17) — 30% cost reduction
+- **ASR upgrade:** Higher accuracy, 50+ languages, better transcription
+- **Enterprise pricing:** Volume discounts available (contact founders@retellai.com)
+- **QA platform:** Automated QA add-on rolled out Jan 2026
+
+**Impact for Anthony:** Better margins at same customer price. Can now offer more competitive rates or pocket the difference.
+
+---
+
+*Next review: 2026-03-10 (Tuesday)*
