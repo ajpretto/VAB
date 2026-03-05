@@ -62,6 +62,27 @@
 
 ---
 
+## 2026-03-05 06:00 UTC (1am EST)
+
+**Task:** Enrich top leads with owner names
+
+### Completed
+- Created `synced/ai-voice-business/LEADS_ENRICHED.md`
+- Found 7 owner names across roofing, plumbing, HVAC leads
+- Owners found:
+  - Chris Hloska (Tampa Bay Roofing, 3rd gen)
+  - Todd Workman (Harbor Roofing)
+  - Doug Shields (Bill Shields Roofing, 3rd gen)
+  - Chris Larson (Larson Plumbing)
+  - Jackie Hamlin & Mike Hasten (Everyday Plumber, mother/son)
+  - McGill family (McGill Plumbing, 3rd gen)
+  - Fontana family (Fontana Brothers AC)
+- Added script adjustment: use owner's first name to bypass gatekeepers
+
+**Why this task:** Anthony hit gatekeepers when cold calling. Knowing owner names = direct access.
+
+---
+
 ### Tomorrow's Priorities (March 5)
 
 1. **Resend J.R. Berger email** — Corrected address, draft ready in BERGER.md
