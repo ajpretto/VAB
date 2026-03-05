@@ -2,9 +2,9 @@
 
 ## Status: ✅ Expanded
 - Target: 175+/week
-- Current: 293 leads
-- Last updated: 2026-03-04
-- New areas: Largo, Tarpon Springs, Palm Harbor, Dunedin, New Port Richey, Oldsmar, Safety Harbor, Seminole, Pinellas Park, Treasure Island
+- Current: 321 leads
+- Last updated: 2026-03-05
+- New areas: Brandon, Riverview, Wesley Chapel, Plant City, St. Pete, Clearwater, Sun City Center, Apollo Beach
 
 ---
 
@@ -720,19 +720,95 @@ These businesses have indicators that make them excellent AI voice assistant can
 
 ---
 
+## New Leads — March 5, 2026
+
+### Brandon — Plumbing
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 294 | Channelside Plumbing | (813) contact site | channelsideplumbing.com | Family-owned, small & large jobs |
+| 295 | Brandon Service Plumbing | (813) contact site | brandonserviceplumbingelectricalheatingairconditioningrepairllc.com | Local family-owned, solid reputation |
+
+### Riverview / South Shore — HVAC
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 296 | Knights Air Conditioning | (813) contact site | knightsairconditioning.com | Since 2012, Riverview/Apollo Beach/Ruskin |
+| 297 | Complete Pro Air | (813) contact site | completeproair.com | Family-owned, NATE certified, 10+ years |
+| 298 | Marlin James AC & Heating | (813) contact site | marlinjames.com | 25+ years, family business |
+| 299 | Air-Cee Cooling | (813) contact site | airceecooling.com | Family-owned, 25+ years HVAC |
+
+### Wesley Chapel — Appliance Repair
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 300 | ER Appliance Wesley Chapel | (813) contact site | erappliance.com | Locally owned, upfront pricing |
+| 301 | Serenity Appliance | (813) contact site | serenityappliance.us | Local appliance repair company |
+| 302 | Element Appliance Repair | (813) contact site | element-appliancerepair.com | Same-day service, local experts |
+
+### Tampa/Carrollwood — Locksmith
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 303 | Greater Carrollwood Locksmith | (813) contact site | greatercarrollwoodlocksmith.com | Residential/commercial/auto |
+| 304 | America's Lock and Key Tampa | (813) contact site | americaslockandkey.com | Locally owned, Tampa area |
+| 305 | Hillsborough Lock & Key | (813) contact site | hillsboroughlockandkey.com | Since 1999, car keys + locksmith |
+
+### Plant City — Electrician
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 306 | EH Electrical Contracting | (863) contact site | ehelectricalcontracting.com | 25+ years, Lakeland/Plant City |
+| 307 | Bolt Electric | (813) contact site | boltelectric.com | Family-owned, 24/7 emergency |
+| 308 | ETD Electrical Services | (813) contact site | etdelectricalservices.com | Family-owned, veteran-led |
+
+### St. Petersburg — Handyman
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 309 | Ken's Handyman Services | (727) contact site | Nextdoor | Small family-owned, reliable |
+| 310 | The Handyman Company | (727) contact site | fivestarrated.com | Family-owned, 25+ years, Five Star Rated |
+| 311 | PRISM Handyman | (727) contact site | prismhandyman.com | Family-owned, 20+ years in St Pete |
+| 312 | St. Pete Property Professionals | (727) contact site | stpetepropertyprofessionals.com | Fully insured, guaranteed work |
+
+### Clearwater — Pressure Washing
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 313 | ClearView Surfaces | (727) contact site | clearviewsurfaces.com | Family-owned, residential/commercial |
+| 314 | Cool Breeze Pressure Washing | (727) contact site | coolbreezepw.com | 24+ years, roof cleaning specialty |
+| 315 | Roof Wash Tampa | (727) contact site | roofwashtampa.com | Local, Largo/Palm Harbor/Clearwater |
+| 316 | Clearwater Soft Wash Pros | (727) contact site | clearwatersoftwashpros.com | Owner accessible, satisfaction guarantee |
+
+### Sun City Center — Multi-Service
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 317 | Integrity Home Solutions | (813) contact site | homeofintegrity.com | HVAC, plumbing, electrical |
+| 318 | Arctic Air Home Services | (813) contact site | arcticair4me.com | HVAC + plumbing, local team |
+| 319 | Quality Complete Home Services | (813) contact site | qchomeservices.com | Since 1981, plumbing |
+
+### Apollo Beach — Garage Door
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 320 | Apollo Beach Garage Door Repair | (813) 803-8900 | garagedoorsapollobeach.com | Local, installation/repair/maintenance |
+| 321 | Local Garage Door Pros | (813) 377-4111 | garagedoorflorida.com | Family-owned, Apollo Beach area |
+
+---
+
 ## Summary
 
-**Total Leads:** 293
-**New this batch (March 4):** 48 (Largo, Tarpon Springs, Palm Harbor, Dunedin, New Port Richey, Oldsmar, Safety Harbor, Seminole, Pinellas Park, Treasure Island)
-**Previous batch (March 3):** 29 (Land O' Lakes, Lutz, Plant City, Temple Terrace, Riverview, Carrollwood)
+**Total Leads:** 321
+**New this batch (March 5):** 28 (Brandon, Riverview, Wesley Chapel, Carrollwood, Plant City, St. Pete, Clearwater, Sun City Center, Apollo Beach)
+**Previous batch (March 4):** 48 (Largo, Tarpon Springs, Palm Harbor, Dunedin, New Port Richey, Oldsmar, Safety Harbor, Seminole, Pinellas Park, Treasure Island)
 **Focus:** Owner-operated, <100 reviews, missed call pain point
 
 **Best Prospects (immediate call):**
-- Geiger's Pest Services (727) 761-9385 — family-owned, 24+ years
-- Bodan Roofing (813) 977-5919 — family-owned, 25+ years
-- Duffey Tree Care (813) 381-4329 — family-owned arborist
-- Genie of Clearwater (727) 446-0189 — 3rd generation, since 1957
-- Cross Pest Control — family-owned, 50+ years, no contracts
-- Nuccio Heating & AC (813) 961-7895 — staff 30+ years loyalty
-- Curtis Plumbing (813) 672-4111 — Riverview's trusted plumber
+- Knights Air Conditioning (813) — Riverview, since 2012
+- Complete Pro Air (813) — family-owned, NATE certified
+- Air-Cee Cooling (813) — family-owned, 25+ years
+- The Handyman Company (727) — 25+ years, Five Star Rated
+- Cool Breeze Pressure Washing (727) — 24+ years experience
+- Local Garage Door Pros (813) 377-4111 — family-owned, Apollo Beach
 
