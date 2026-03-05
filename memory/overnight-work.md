@@ -103,6 +103,33 @@
 
 ---
 
+## 2026-03-05 08:00 UTC (3am EST)
+
+**Task:** Competitor intelligence research
+
+### Completed
+- Created comprehensive COMPETITOR_INTEL.md
+- Mapped competitor pricing across 3 tiers:
+  - Budget ($50-150): IsOn24, Goodcall, My AI Front Desk, ZyraTalk
+  - Mid ($200-400): LeadTruffle, AnswerForce
+  - Premium ($500+): Smith.ai, Avoca AI
+
+### Key Findings for Anthony:
+- His $997/mo pricing has 95%+ margin (Retell costs ~$0.07-0.08/min)
+- ZyraTalk at $99/mo is main "cheap" objection to handle
+- Full receptionist = $35k/year → position as replacement
+- Avoca powering $129M companies = proof AI works at scale
+- Booking rates can go from 10% → 70%+ with AI
+
+### Objection Handling Added:
+- "ZyraTalk is only $99" → DIY with no support
+- "Can I try first?" → Free demo agent offer
+- "We have answering service" → $1-2/min adds up, AI books 24/7
+
+**Why this task:** Know your enemy. Anthony needs to handle pricing objections confidently.
+
+---
+
 ### Tomorrow's Priorities (March 5)
 
 1. **Resend J.R. Berger email** — Corrected address, draft ready in BERGER.md
