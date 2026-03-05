@@ -2,7 +2,7 @@
 
 ## Basic Info
 - **Title:** Director of Entitlements, Gardner Brewer Hudson
-- **Email:** aschaler@gbmmlaw.com
+- **Email:** aschaler@gbmmlaw.com ⚠️ INFERRED (format: flast, based on thudson pattern)
 - **LinkedIn:** linkedin.com/in/alex-schaler-8b9770172
 
 ## Background

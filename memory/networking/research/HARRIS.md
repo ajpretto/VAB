@@ -2,7 +2,7 @@
 
 ## Basic Info
 - **Title:** Associate Vice President, Colliers Florida Multifamily Team
-- **Email:** sebastian.harris@colliers.com
+- **Email:** sebastian.harris@colliers.com ✅ VERIFIED (format: first.last, 94% at Colliers)
 - **LinkedIn:** linkedin.com/in/sebastian-p-harris-61628a65
 
 ## Background

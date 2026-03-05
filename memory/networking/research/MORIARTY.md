@@ -2,7 +2,7 @@
 
 ## Basic Info
 - **Title:** Director of Capital Deployment & Leasing, IDI Logistics
-- **Email:** peter.moriarty@idilogistics.com
+- **Email:** peter.moriarty@idilogistics.com ✅ VERIFIED (format: first.last, confirmed via matt.breaux@idilogistics.com)
 - **Phone:** +1.630.919.1048
 - **LinkedIn:** linkedin.com/in/peter-moriarty-87b81810b
 
