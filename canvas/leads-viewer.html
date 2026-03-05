@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leads Viewer | Command Center</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --card-bg: #141414;
+      --border: #222;
+      --text: #f0f0f0;
+      --text-muted: #777;
+      --accent: #22c55e;
+      --blue: #3b82f6;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 24px;
+    }
+    
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    
+    .header h1 { font-size: 24px; }
+    
+    .back-btn {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 14px;
+    }
+    
+    .filters {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    
+    .filters input, .filters select {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: var(--text);
+      font-size: 14px;
+      min-width: 200px;
+    }
+    
+    .filters input:focus, .filters select:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    
+    .lead-count {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+    
+    .leads-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .leads-table th {
+      text-align: left;
+      padding: 12px;
+      background: var(--card-bg);
+      font-size: 12px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      position: sticky;
+      top: 0;
+    }
+    
+    .leads-table td {
+      padding: 12px;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+    }
+    
+    .leads-table tr:hover {
+      background: rgba(255,255,255,0.02);
+    }
+    
+    .phone-link {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    
+    .phone-link:hover {
+      text-decoration: underline;
+    }
+    
+    .category-badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      background: rgba(59, 130, 246, 0.2);
+      color: var(--blue);
+    }
+    
+    .call-btn {
+      background: var(--accent);
+      border: none;
+      border-radius: 6px;
+      padding: 6px 12px;
+      color: black;
+      font-size: 12px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>📋 Lead Database</h1>
+    <a href="index.html" class="back-btn">← Back to Dashboard</a>
+  </div>
+  
+  <div class="filters">
+    <input type="text" id="search" placeholder="Search business name..." oninput="filterLeads()">
+    <select id="category" onchange="filterLeads()">
+      <option value="">All Categories</option>
+      <option value="plumbing">Plumbing</option>
+      <option value="hvac">HVAC</option>
+      <option value="electrical">Electrical</option>
+      <option value="pest">Pest Control</option>
+      <option value="roofing">Roofing</option>
+      <option value="pool">Pool Service</option>
+      <option value="appliance">Appliance Repair</option>
+      <option value="locksmith">Locksmith</option>
+      <option value="tree">Tree Service</option>
+    </select>
+    <select id="area" onchange="filterLeads()">
+      <option value="">All Areas</option>
+      <option value="tampa">Tampa</option>
+      <option value="st-pete">St. Petersburg</option>
+      <option value="clearwater">Clearwater</option>
+      <option value="brandon">Brandon</option>
+      <option value="wesley-chapel">Wesley Chapel</option>
+      <option value="largo">Largo</option>
+      <option value="tarpon">Tarpon Springs</option>
+      <option value="palm-harbor">Palm Harbor</option>
+    </select>
+  </div>
+  
+  <div class="lead-count" id="lead-count">Loading leads...</div>
+  
+  <table class="leads-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Business</th>
+        <th>Phone</th>
+        <th>Category</th>
+        <th>Area</th>
+        <th>Notes</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="leads-body">
+    </tbody>
+  </table>
+  
+  <script>
+    // Sample leads data - in production this would come from the server
+    const leads = [
+      { id: 1, name: "Tampa Bay Plumbing", phone: "(727) 223-6400", category: "plumbing", area: "clearwater", notes: "27 reviews" },
+      { id: 2, name: "My Plumber Inc", phone: "(813) 774-1199", category: "plumbing", area: "tampa", notes: "24/7 support" },
+      { id: 3, name: "Curtis Plumbing", phone: "(813) 672-4111", category: "plumbing", area: "riverview", notes: "Trusted plumber" },
+      { id: 4, name: "Veterans AC & Heat", phone: "(727) 555-0101", category: "hvac", area: "tarpon", notes: "Veteran-owned" },
+      { id: 5, name: "All Seasons Cooling", phone: "(727) 555-0102", category: "hvac", area: "tarpon", notes: "40+ years" },
+      { id: 6, name: "Hoffman Electrical", phone: "(727) 555-0103", category: "electrical", area: "palm-harbor", notes: "Since 1989" },
+      { id: 7, name: "Homer Electric LLC", phone: "(727) 488-5352", category: "electrical", area: "palm-harbor", notes: "Family-owned" },
+      { id: 8, name: "Geiger's Pest Services", phone: "(727) 761-9385", category: "pest", area: "st-pete", notes: "24+ years" },
+      { id: 9, name: "Cross Pest Control", phone: "(813) 555-0104", category: "pest", area: "tampa", notes: "50+ years, no contracts" },
+      { id: 10, name: "Veteran Owned Roofing", phone: "(727) 555-0105", category: "roofing", area: "new-port-richey", notes: "Family & veteran owned" },
+      { id: 11, name: "McGill Plumbing", phone: "(727) 555-0106", category: "plumbing", area: "largo", notes: "3rd generation, 50+ years" },
+      { id: 12, name: "Blue Bayou Pool Services", phone: "(727) 555-0107", category: "pool", area: "seminole", notes: "Family-owned 13 years" },
+      { id: 13, name: "Triangle Pool Service", phone: "(727) 555-0108", category: "pool", area: "seminole", notes: "Since 1959" },
+      { id: 14, name: "Hometown Appliance Repair", phone: "(813) 851-4719", category: "appliance", area: "pinellas-park", notes: "Same-day service" },
+      { id: 15, name: "Duffey Tree Care", phone: "(813) 381-4329", category: "tree", area: "brandon", notes: "20+ years, certified arborist" },
+    ];
+    
+    // Add more sample data
+    for (let i = 16; i <= 50; i++) {
+      const categories = ['plumbing', 'hvac', 'electrical', 'pest', 'roofing', 'pool', 'appliance', 'locksmith', 'tree'];
+      const areas = ['tampa', 'st-pete', 'clearwater', 'brandon', 'wesley-chapel', 'largo', 'tarpon', 'palm-harbor'];
+      leads.push({
+        id: i,
+        name: `Sample Business ${i}`,
+        phone: `(813) 555-${String(i).padStart(4, '0')}`,
+        category: categories[Math.floor(Math.random() * categories.length)],
+        area: areas[Math.floor(Math.random() * areas.length)],
+        notes: "Family-owned"
+      });
+    }
+    
+    function filterLeads() {
+      const search = document.getElementById('search').value.toLowerCase();
+      const category = document.getElementById('category').value;
+      const area = document.getElementById('area').value;
+      
+      const filtered = leads.filter(lead => {
+        const matchSearch = !search || lead.name.toLowerCase().includes(search);
+        const matchCategory = !category || lead.category === category;
+        const matchArea = !area || lead.area === area;
+        return matchSearch && matchCategory && matchArea;
+      });
+      
+      renderLeads(filtered);
+    }
+    
+    function renderLeads(data) {
+      const tbody = document.getElementById('leads-body');
+      const count = document.getElementById('lead-count');
+      
+      count.textContent = `Showing ${data.length} of ${leads.length} leads`;
+      
+      tbody.innerHTML = data.map(lead => `
+        <tr>
+          <td>${lead.id}</td>
+          <td><strong>${lead.name}</strong></td>
+          <td><a href="tel:${lead.phone}" class="phone-link">${lead.phone}</a></td>
+          <td><span class="category-badge">${lead.category}</span></td>
+          <td>${lead.area}</td>
+          <td style="color: var(--text-muted)">${lead.notes}</td>
+          <td><button class="call-btn" onclick="logCall('${lead.name}')">📞 Call</button></td>
+        </tr>
+      `).join('');
+    }
+    
+    function logCall(business) {
+      // Store in localStorage for the main dashboard to pick up
+      const pendingCall = { business, time: new Date().toISOString() };
+      localStorage.setItem('pendingCall', JSON.stringify(pendingCall));
+      
+      // Open phone dialer if on mobile
+      const lead = leads.find(l => l.name === business);
+      if (lead) {
+        window.location.href = `tel:${lead.phone}`;
+      }
+    }
+    
+    // Initial render
+    filterLeads();
+  </script>
+</body>
+</html>

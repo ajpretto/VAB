@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Networking Outreach | Command Center</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --card-bg: #141414;
+      --border: #222;
+      --text: #f0f0f0;
+      --text-muted: #777;
+      --accent: #22c55e;
+      --blue: #3b82f6;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --purple: #a855f7;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 24px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 32px;
+    }
+    
+    .header h1 { font-size: 24px; }
+    
+    .back-btn {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 14px;
+    }
+    
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    
+    .stat {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 32px;
+      font-weight: 700;
+    }
+    
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    
+    .queue-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    
+    .queue-title {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    
+    .person-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 16px;
+      transition: all 0.2s;
+    }
+    
+    .person-card.active {
+      border-color: var(--accent);
+      box-shadow: 0 0 20px rgba(34, 197, 94, 0.1);
+    }
+    
+    .person-card.sent {
+      opacity: 0.6;
+      border-color: var(--border);
+    }
+    
+    .person-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+    
+    .person-name {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    
+    .person-title {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-top: 4px;
+    }
+    
+    .person-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    
+    .tag {
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    
+    .tag.blue { background: rgba(59, 130, 246, 0.2); color: var(--blue); }
+    .tag.green { background: rgba(34, 197, 94, 0.2); color: var(--accent); }
+    .tag.purple { background: rgba(168, 85, 247, 0.2); color: var(--purple); }
+    .tag.yellow { background: rgba(234, 179, 8, 0.2); color: var(--yellow); }
+    
+    .person-why {
+      background: rgba(255,255,255,0.02);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    
+    .person-why strong {
+      color: var(--accent);
+    }
+    
+    .email-draft {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    
+    .email-subject {
+      font-weight: 600;
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .email-body {
+      font-size: 14px;
+      line-height: 1.7;
+      white-space: pre-wrap;
+    }
+    
+    .actions {
+      display: flex;
+      gap: 12px;
+    }
+    
+    .btn {
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+    }
+    
+    .btn-primary {
+      background: var(--accent);
+      color: black;
+    }
+    
+    .btn-primary:hover {
+      background: #16a34a;
+    }
+    
+    .btn-secondary {
+      background: var(--border);
+      color: var(--text);
+    }
+    
+    .btn-secondary:hover {
+      background: #333;
+    }
+    
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    
+    .copy-btn {
+      background: var(--blue);
+      color: white;
+    }
+    
+    .linkedin-btn {
+      background: #0077b5;
+      color: white;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .sent-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(34, 197, 94, 0.2);
+      color: var(--accent);
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+    
+    .next-notice {
+      background: linear-gradient(135deg, rgba(168,85,247,0.1), rgba(59,130,246,0.1));
+      border: 1px solid rgba(168,85,247,0.3);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 32px;
+      text-align: center;
+    }
+    
+    .next-notice h3 {
+      color: var(--purple);
+      margin-bottom: 8px;
+    }
+    
+    .collapse-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🤝 Networking Outreach</h1>
+    <a href="index.html" class="back-btn">← Dashboard</a>
+  </div>
+  
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-value" id="stat-queue" style="color: var(--blue);">5</div>
+      <div class="stat-label">In Queue</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-sent" style="color: var(--accent);">0</div>
+      <div class="stat-label">Sent</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-responses" style="color: var(--yellow);">0</div>
+      <div class="stat-label">Responses</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-meetings" style="color: var(--purple);">0</div>
+      <div class="stat-label">Meetings</div>
+    </div>
+  </div>
+  
+  <div class="queue-header">
+    <span class="queue-title">📧 Outreach Queue</span>
+    <span style="color: var(--text-muted); font-size: 14px;">Mark as sent to unlock next</span>
+  </div>
+  
+  <div id="people-list"></div>
+  
+  <div class="next-notice">
+    <h3>🎓 78 Days Until Graduation</h3>
+    <p style="color: var(--text-muted);">Every connection you make now compounds. Gru adds new targets daily at 8am.</p>
+  </div>
+  
+  <script>
+    const people = [
+      {
+        id: 1,
+        name: "John B. Jackson",
+        title: "Industrial Broker, Cushman & Wakefield",
+        email: "John.Jackson@cushwake.com",
+        linkedin: "https://www.linkedin.com/in/johnbjacksontampabaybroker/",
+        tags: ["Industrial RE", "Wrote a Book", "Army Veteran"],
+        why: "Desert Storm veteran turned developer turned broker. Wrote 'Warehouse Veteran: Your Tactical Guide to Industrial Real Estate.' Did 2,400+ acres of development before switching to brokerage. #1 Industrial Broker Tampa Bay 2021.",
+        subject: "Anthony Pretto — UT student who found your book",
+        emailBody: `Mr. Jackson,
+
+I'm Anthony Pretto, a junior at UT interning at Wingspan Development Group. I came across your book "Warehouse Veteran" while researching industrial real estate, and I ended up buying a copy.
+
+What caught my attention was your background. You ran a design/build firm and developed over 2,000 acres before moving into brokerage. That's a pretty different path than most brokers I've read about.
+
+I'm curious why you made that switch. Was there something about being on the advisory side that pulled you away from development?
+
+Would you have 15 minutes for a coffee or a call? I'd really appreciate it.
+
+Thanks,
+Anthony Pretto
+University of Tampa
+Wingspan Development Group (Intern)`,
+        status: "active"
+      },
+      {
+        id: 2,
+        name: "Alex Schaler, P.E.",
+        title: "Director of Entitlements, Gardner Brewer Hudson",
+        email: "aschaler@gbmmlaw.com",
+        linkedin: "https://www.linkedin.com/in/alex-schaler-8b9770172/",
+        tags: ["FSU Engineer", "NAIOP Developing Leader", "Built Entitlements Practice"],
+        why: "Civil engineer from FSU who spent 4.5 years at Kimley-Horn before pivoting to entitlements because 'her true passion lies in the entitlements portion.' Built an entire entitlements practice. ULI Young Leaders Chair for 2 years. Noles fan.",
+        subject: "Anthony Pretto — question about your pivot from engineering",
+        emailBody: `Ms. Schaler,
+
+I'm Anthony Pretto, a junior at University of Tampa interning at Wingspan Development Group. Congrats on the Developing Leader award.
+
+I read that you spent four and a half years as a civil engineer at Kimley-Horn before moving into entitlements. Your bio said your "true passion lies in the entitlements portion of a project," and that stuck with me.
+
+I'm curious what made you realize that. Was there a specific project where you felt more excited about the entitlements than the engineering?
+
+I'm still figuring out which part of real estate I want to focus on. Would you have 15 minutes for a coffee or a call?
+
+Thanks,
+Anthony Pretto
+University of Tampa
+Wingspan Development Group (Intern)`,
+        status: "queued"
+      },
+      {
+        id: 3,
+        name: "J.R. Berger",
+        title: "President, Magellan Development Group",
+        email: "jrberger@magellandevelopment.com",
+        linkedin: "https://www.linkedin.com/in/j-r-berger-90960b14/",
+        tags: ["Chicago", "Built St. Regis Chicago", "Expanding Nationally"],
+        why: "President of Magellan, grandson of founder. Built Vista Tower/St. Regis Chicago (3rd tallest in Chicago). Now expanding nationally with projects in Detroit, Boston, Knoxville. Partnered with Dan Gilbert's Bedrock. Around 38 years old.",
+        subject: "Anthony Pretto — question about the Bedrock partnership",
+        emailBody: `Mr. Berger,
+
+I'm Anthony Pretto, a junior at University of Tampa interning at Wingspan Development Group. I grew up in Palatine and we have an office in Mount Prospect, so I'm in Chicago regularly.
+
+I read about Magellan's partnership with Dan Gilbert's Bedrock on the Detroit tower project. You mentioned you'd been following that project for years before getting involved. I'm curious what made the timing finally right.
+
+I'm also interested in how you think about expanding into new markets. Going from Chicago to Detroit, Boston, and Knoxville seems like a big leap from focusing on one city.
+
+Would you have 15 minutes for a call or coffee when I'm in town?
+
+Thanks,
+Anthony Pretto
+University of Tampa '27
+Wingspan Development Group (Intern)`,
+        status: "queued"
+      },
+      {
+        id: 4,
+        name: "Sebastian Harris",
+        title: "Senior Associate, Colliers Tampa (Multi-Housing)",
+        email: "sebastian.harris@colliers.com",
+        linkedin: "https://www.linkedin.com/in/sebastian-p-harris-61628a65/",
+        tags: ["70+ Deals Closed", "Sub-100 Unit Focus", "Digital Marketing Background"],
+        why: "Closed 70+ transactions worth $140M+. Focuses on sub-100 unit properties in Pinellas County. Started in digital marketing before pivoting to CRE. Moved from Marcus & Millichap to Colliers in January 2024.",
+        subject: "Anthony Pretto — question about multifamily brokerage",
+        emailBody: `Mr. Harris,
+
+I'm Anthony Pretto, a junior at UT interning at Wingspan Development Group. We do multifamily development, so I've been trying to understand the brokerage side.
+
+I saw you've closed over 70 transactions and focus specifically on sub-100 unit properties in Pinellas County. That's a pretty specific niche. I'm curious how you landed on that focus and whether it was intentional or just how the deals came in.
+
+I also read you came from a digital marketing background before CRE. That's a pretty different starting point than most people I've talked to.
+
+Would you have 15 minutes for a coffee or a call?
+
+Thanks,
+Anthony Pretto
+University of Tampa
+Wingspan Development Group (Intern)`,
+        status: "queued"
+      },
+      {
+        id: 5,
+        name: "Peter Moriarty",
+        title: "Director of Capital Deployment & Leasing, IDI Logistics",
+        email: "peter.moriarty@idilogistics.com",
+        linkedin: "https://www.linkedin.com/in/peter-moriarty-87b81810b/",
+        tags: ["Chicago", "JLL to Principal Side", "NAIOP Developing Leaders Board"],
+        why: "University of Kansas grad (Finance + Spanish minor). Went from JLL brokerage to IDI Logistics principal side in 2022. On NAIOP Chicago Developing Leaders Board. Works across Chicago and Phoenix markets.",
+        subject: "Anthony Pretto — question about switching to principal side",
+        emailBody: `Mr. Moriarty,
+
+I'm Anthony Pretto, a junior at University of Tampa interning at Wingspan Development Group. I grew up in Palatine and we have an office in Mount Prospect, so I'm in Chicago pretty often.
+
+I saw you started at JLL as an analyst and moved to IDI Logistics in 2022. I'm curious what made you want to switch from the brokerage side to the principal side. Was there something about being at JLL that made you want to be closer to the actual deals?
+
+I'm also interested in how you manage working across two markets. Chicago and Phoenix seem pretty different.
+
+Would you have 15 minutes for a coffee or a call?
+
+Thanks,
+Anthony Pretto
+University of Tampa '27
+Wingspan Development Group (Intern)`,
+        status: "queued"
+      }
+    ];
+    
+    // Load state from localStorage
+    let state = JSON.parse(localStorage.getItem('networkingState') || '{}');
+    if (!state.sent) state.sent = [];
+    if (!state.responses) state.responses = 0;
+    if (!state.meetings) state.meetings = 0;
+    
+    function saveState() {
+      localStorage.setItem('networkingState', JSON.stringify(state));
+    }
+    
+    function updateStats() {
+      const sent = state.sent.length;
+      const queued = people.length - sent;
+      document.getElementById('stat-queue').textContent = queued;
+      document.getElementById('stat-sent').textContent = sent;
+      document.getElementById('stat-responses').textContent = state.responses;
+      document.getElementById('stat-meetings').textContent = state.meetings;
+    }
+    
+    function markAsSent(id) {
+      if (!state.sent.includes(id)) {
+        state.sent.push(id);
+        saveState();
+        render();
+      }
+    }
+    
+    function copyEmail(id) {
+      const person = people.find(p => p.id === id);
+      navigator.clipboard.writeText(person.emailBody);
+      alert('Email copied to clipboard!');
+    }
+    
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text);
+      alert('Copied: ' + text);
+    }
+    
+    function render() {
+      const list = document.getElementById('people-list');
+      let activeFound = false;
+      
+      list.innerHTML = people.map(person => {
+        const isSent = state.sent.includes(person.id);
+        const isActive = !isSent && !activeFound;
+        if (isActive) activeFound = true;
+        
+        return `
+          <div class="person-card ${isActive ? 'active' : ''} ${isSent ? 'sent' : ''}">
+            <div class="person-header">
+              <div>
+                <div class="person-name">${person.name}</div>
+                <div class="person-title">${person.title}</div>
+              </div>
+              <div class="person-tags">
+                ${person.tags.map(tag => `<span class="tag ${getTagColor(tag)}">${tag}</span>`).join('')}
+              </div>
+            </div>
+            
+            <div class="person-why">
+              <strong>Why reach out:</strong> ${person.why}
+            </div>
+            
+            ${!isSent ? `
+              <div class="email-draft">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border);">
+                  <div class="email-subject" style="margin: 0; padding: 0; border: none;">Subject: ${person.subject}</div>
+                  <span onclick="copyToClipboard('${person.email}')" style="color: var(--text-muted); font-size: 13px; cursor: pointer; padding: 4px 8px; background: var(--border); border-radius: 4px;">${person.email} 📋</span>
+                </div>
+                <div class="email-body">${person.emailBody}</div>
+              </div>
+              
+              <div class="actions">
+                <button class="btn btn-primary" onclick="markAsSent(${person.id})">✓ Mark as Sent</button>
+                <button class="btn copy-btn" onclick="copyEmail(${person.id})">📋 Copy Email</button>
+                <a href="${person.linkedin}" target="_blank" class="btn linkedin-btn">in LinkedIn</a>
+              </div>
+            ` : `
+              <div class="sent-badge">✓ Email Sent</div>
+            `}
+          </div>
+        `;
+      }).join('');
+      
+      updateStats();
+    }
+    
+    function getTagColor(tag) {
+      if (tag.includes('UT') || tag.includes('Alum')) return 'green';
+      if (tag.includes('40') || tag.includes('Leader')) return 'yellow';
+      if (tag.includes('Accessible') || tag.includes('Connection')) return 'purple';
+      return 'blue';
+    }
+    
+    render();
+  </script>
+</body>
+</html>

@@ -2,9 +2,9 @@
 
 ## Status: ✅ Expanded
 - Target: 175+/week
-- Current: 216 leads
-- Last updated: 2026-03-02
-- New areas: St. Pete, Clearwater, Brandon, Wesley Chapel
+- Current: 293 leads
+- Last updated: 2026-03-04
+- New areas: Largo, Tarpon Springs, Palm Harbor, Dunedin, New Port Richey, Oldsmar, Safety Harbor, Seminole, Pinellas Park, Treasure Island
 
 ---
 
@@ -610,10 +610,121 @@ These businesses have indicators that make them excellent AI voice assistant can
 
 ---
 
+## 🆕 March 4, 2026 Expansion
+
+*New areas: Largo, Tarpon Springs, Palm Harbor, Dunedin, New Port Richey, Oldsmar, Safety Harbor, Seminole, Pinellas Park*
+*Focus: Owner-operated, family businesses, <100 reviews*
+
+### Largo — Plumbing
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 246 | McGill Plumbing & Water Treatment | (727) contact site | mcgillplumbing.com | 3rd generation family, 50+ years, Pinellas County |
+| 247 | Romo's Plumbing Services | (727) 463-3393 | romosplumbing.com | Family-owned, 20+ years, 12515 Ulmerton Rd |
+| 248 | Largo Plumbing Co | (727) contact site | BBB listing | Family-owned since 70s, Tracy Family since 2013 |
+| 249 | Bourgoing Plumbing LLC | (727) contact site | bourgoingplumbing.com | Family-owned, Largo-based, full service |
+| 250 | Slaughter Plumbing Service | (727) contact site | slaughterplumbing.com | 24-hour emergency, residential/commercial |
+
+### Tarpon Springs — HVAC
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 251 | Veterans AC & Heat | (727) contact site | veteranshvac.com | Veteran-owned, Tarpon Springs/Dunedin |
+| 252 | Shades Air Conditioning | (727) contact site | shadesairflorida.com | Locally owned, 20+ years experience |
+| 253 | All Seasons Cooling & Heating | (727) contact site | allseasonscoolingtarpon.com | 40+ years, Steve the founder |
+| 254 | Cool Seasons Air Conditioning | (727) 433-0117 | coolseasonsairconditioningandheating.com | Full-service HVAC, Tarpon Springs |
+| 255 | Polar Air Conditioning Services | (727) 475-6378 | tarponspringshvac.com | Local Tarpon Springs contractor |
+
+### Palm Harbor — Electrical
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 256 | Hoffman Electrical & A/C | (727) contact site | hoffmanelectrical.com | Family-owned since 1989, residential/commercial |
+| 257 | Tru-Line Electric | (727) contact site | trulineelectric.com | Local Palm Harbor, 30+ years combined experience |
+| 258 | Bright Bay Electric | (727) contact site | brightbayelectricinc.com | Palm Harbor/Tarpon Springs, coastal expertise |
+| 259 | A Advanced Electrical Services | (727) 430-8201 | aaesfl.com | Family-owned, 24/7 emergency |
+| 260 | Palm Harbor & Dunedin Electric | (727) contact site | dunedinelectric.com | Family-owned, 30+ years, 20 electricians |
+| 261 | Homer Electric LLC | (727) 488-5352 | homerelectricfl.com | Family-owned, established 2017 |
+
+### Dunedin — Pest Control
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 262 | Top Bug Man | (813) 422-2155 | topbugman.com | Owner-operated, Dunedin area |
+| 263 | Trident Pest Solutions | (727) 459-3839 | tridentpest.com | Owner-operated, pet/kid friendly |
+| 264 | Coby's Tentless Termite & Pest | (727) contact site | cobyspestcontrol.com | Local, Palm Harbor/Dunedin/Clearwater |
+| 265 | UpRooted Weed & Pest Control | (727) contact site | uprootedpest.com | Local, residential/commercial |
+| 266 | All American Pest Control | (727) contact site | bye-bye-pest.com | Pinellas-based, local experts |
+
+### New Port Richey — Roofing
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 267 | Veteran Owned Roofing | (727) contact site | veteranownedroofing.com | Family-owned, veteran-operated |
+| 268 | Coastal Brothers Roofing | (727) contact site | coastalbrothersroofing.com | Family-owned, localized service |
+| 269 | Steadfast Roofing | (727) contact site | steadfastroofingfl.com | Family-owned, faith-based, certified |
+| 270 | No. 1 Home Roofing | (727) contact site | no1homeroofing.com | Family-owned, conveniently located NPR |
+| 271 | LionHeart Roofing | (727) contact site | lhrflorida.com | Family-owned and operated |
+| 272 | Classic Roofing | (727) contact site | classicroofreplacement.com | Family-owned, 20+ years serving community |
+
+### Oldsmar — Plumbing
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 273 | Elite Plumbing Services | (727) contact site | eliteplumbing.net | Family-ran, 18+ years serving Oldsmar |
+| 274 | Calello Plumbing | (727) contact site | calelloplumbing.com | Since 2008, residential/commercial |
+| 275 | Plumb Crazy Plumbers | (727) contact site | plumbcrazyplumbers.com | Locally owned, family-operated, Oldsmar-based |
+| 276 | Friends Plumbing | (727) contact site | friendsplumbing.com | Family-owned, 348+ Nextdoor faves |
+
+### Safety Harbor — Garage Door
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 277 | Prime Safety Harbor Overhead Doors | (727) 855-8100 | safetyharborgaragedoors.com | Expert local service |
+| 278 | Safety Harbor Garage Door Services | (727) 284-7974 | safetyharborgaragedoor.online | Locally owned, understands local challenges |
+
+### Seminole — Pool Service
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 279 | Pools Next Door | (727) contact site | poolsnextdoor.com | Michael & Cindy Sparks owners, qualified staff |
+| 280 | Blue Bayou Pool Services | (727) contact site | bluebayoupoolservices.com | Family-owned, 13 years Pinellas County |
+| 281 | Chlorine King Pools | (727) contact site | chlorinekingpools.com | Licensed contractor CPC1458983 |
+| 282 | Aqua Scrub Pools & Pavers | (727) contact site | aquascrubpools.com | Locally owned, Pinellas natives |
+| 283 | Triangle Pool Service | (727) contact site | triangle-pool.com | Family-owned since 1959 |
+
+### Pinellas Park — Appliance Repair
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 284 | ER Appliance Repair | (727) contact site | erappliance.com | Family-owned, 10+ years |
+| 285 | Hometown Appliance Repair Pros | (813) 851-4719 | pinellasparkappliancerepairtechs.com | Family-owned, same-day service |
+| 286 | Randy's A/C and Appliance Repair | (727) contact site | Facebook | Family-owned, 20+ years |
+| 287 | Pinnacle Appliance Repair | (727) contact site | pinellasappliancerepair.com | Family-owned, Pinellas County |
+| 288 | Pinellas Appliance Repair | (727) contact site | pinellas-appliance.net | Family-owned, locally operated |
+
+### Treasure Island / Beach Communities — Locksmith
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 289 | Locksmith Treasure Island | (727) 498-2170 | locksmithtreasureisland.com | 24/7 emergency, auto/residential/commercial |
+| 290 | Treasure Island Locksmith | (727) 498-2188 | treasureislandlocksmith.net | 24/7 mobile emergency |
+| 291 | America's Lock and Key | (727) contact site | americaslockandkey.com | 35 years serving Treasure Island |
+
+### Indian Rocks Beach — Handyman
+
+| # | Business | Phone | Website | Notes |
+|---|----------|-------|---------|-------|
+| 292 | Suncoast Repairs | (727) contact site | suncoastrepairs.com | Local, family-owned, variety of projects |
+| 293 | Sunbiz Handyman | (727) contact site | Yellow Pages | Family-owned, quality home improvement |
+
+---
+
 ## Summary
 
-**Total Leads:** 245
-**New this batch (March 3):** 29 (Land O' Lakes, Lutz, Plant City, Temple Terrace, Riverview, Carrollwood)
+**Total Leads:** 293
+**New this batch (March 4):** 48 (Largo, Tarpon Springs, Palm Harbor, Dunedin, New Port Richey, Oldsmar, Safety Harbor, Seminole, Pinellas Park, Treasure Island)
+**Previous batch (March 3):** 29 (Land O' Lakes, Lutz, Plant City, Temple Terrace, Riverview, Carrollwood)
 **Focus:** Owner-operated, <100 reviews, missed call pain point
 
 **Best Prospects (immediate call):**

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthony's Command Center</title>
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --card-bg: #1a1a1a;
+      --border: #2a2a2a;
+      --text: #e0e0e0;
+      --text-muted: #888;
+      --accent: #4ade80;
+      --accent-2: #60a5fa;
+      --warning: #fbbf24;
+      --danger: #f87171;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .header h1 {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    
+    .header .date {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    
+    .card h2 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .card h2 .emoji { font-size: 16px; }
+    
+    .metric {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 12px;
+    }
+    
+    .metric-label { color: var(--text-muted); font-size: 14px; }
+    .metric-value { font-size: 24px; font-weight: 600; }
+    .metric-value.accent { color: var(--accent); }
+    .metric-value.warning { color: var(--warning); }
+    .metric-value.danger { color: var(--danger); }
+    
+    .priority-list { list-style: none; }
+    
+    .priority-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .priority-item:last-child { border-bottom: none; }
+    
+    .priority-badge {
+      background: var(--danger);
+      color: white;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+    
+    .priority-badge.p2 { background: var(--warning); color: #000; }
+    .priority-badge.p3 { background: var(--text-muted); }
+    
+    .priority-text { font-size: 14px; line-height: 1.4; }
+    
+    .lead-category {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      font-size: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .lead-category:last-child { border-bottom: none; }
+    
+    .quick-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    
+    .action-btn {
+      background: var(--border);
+      border: none;
+      border-radius: 8px;
+      padding: 16px 12px;
+      color: var(--text);
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: center;
+    }
+    
+    .action-btn:hover {
+      background: var(--accent);
+      color: #000;
+    }
+    
+    .action-btn .icon {
+      font-size: 20px;
+      display: block;
+      margin-bottom: 4px;
+    }
+    
+    .grade-display {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .grade {
+      font-size: 64px;
+      font-weight: 700;
+      color: var(--warning);
+    }
+    
+    .grade-label {
+      color: var(--text-muted);
+      font-size: 12px;
+      margin-top: 4px;
+    }
+    
+    .trend {
+      color: var(--accent);
+      font-size: 14px;
+      margin-top: 8px;
+    }
+    
+    .call-log {
+      font-size: 14px;
+    }
+    
+    .call-log-empty {
+      color: var(--text-muted);
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 8px;
+    }
+    
+    .status-dot.online { background: var(--accent); }
+    .status-dot.offline { background: var(--danger); }
+    
+    .footer {
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 12px;
+    }
+    
+    .full-width {
+      grid-column: 1 / -1;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🦹 Anthony's Command Center</h1>
+    <div class="date" id="current-date">Day 5 — AI Voice Business</div>
+  </div>
+  
+  <div class="grid">
+    <!-- Advisory Grade -->
+    <div class="card">
+      <h2><span class="emoji">📊</span> Advisory Grade</h2>
+      <div class="grade-display">
+        <div class="grade">C+</div>
+        <div class="grade-label">Overall Performance</div>
+        <div class="trend">↑ Up from C-</div>
+      </div>
+    </div>
+    
+    <!-- Today's Priorities -->
+    <div class="card">
+      <h2><span class="emoji">🎯</span> Today's Priorities</h2>
+      <ul class="priority-list">
+        <li class="priority-item">
+          <span class="priority-badge">P1</span>
+          <span class="priority-text">Log yesterday's calls — track outcomes in TRACKING.md</span>
+        </li>
+        <li class="priority-item">
+          <span class="priority-badge">P1</span>
+          <span class="priority-text">Make 10 cold calls — Day 5, keep momentum</span>
+        </li>
+        <li class="priority-item">
+          <span class="priority-badge p2">P2</span>
+          <span class="priority-text">Try text-first outreach — bypass gatekeepers</span>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Business Metrics -->
+    <div class="card">
+      <h2><span class="emoji">💰</span> Business Metrics</h2>
+      <div class="metric">
+        <span class="metric-label">Total Leads</span>
+        <span class="metric-value accent">293</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label">Calls Made (Logged)</span>
+        <span class="metric-value danger">0</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label">Demos Scheduled</span>
+        <span class="metric-value">0</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label">Monthly Revenue</span>
+        <span class="metric-value">$0</span>
+      </div>
+    </div>
+    
+    <!-- Lead Categories -->
+    <div class="card">
+      <h2><span class="emoji">📋</span> Leads by Category</h2>
+      <div class="lead-category">
+        <span>Plumbing</span>
+        <span>45</span>
+      </div>
+      <div class="lead-category">
+        <span>HVAC</span>
+        <span>38</span>
+      </div>
+      <div class="lead-category">
+        <span>Electrical</span>
+        <span>32</span>
+      </div>
+      <div class="lead-category">
+        <span>Pest Control</span>
+        <span>28</span>
+      </div>
+      <div class="lead-category">
+        <span>Roofing</span>
+        <span>25</span>
+      </div>
+      <div class="lead-category">
+        <span>Other</span>
+        <span>125</span>
+      </div>
+    </div>
+    
+    <!-- Quick Actions -->
+    <div class="card">
+      <h2><span class="emoji">⚡</span> Quick Actions</h2>
+      <div class="quick-actions">
+        <button class="action-btn" onclick="alert('Coming soon: Log a call')">
+          <span class="icon">📞</span>
+          Log Call
+        </button>
+        <button class="action-btn" onclick="alert('Coming soon: View leads')">
+          <span class="icon">📋</span>
+          View Leads
+        </button>
+        <button class="action-btn" onclick="alert('Coming soon: Add task')">
+          <span class="icon">✅</span>
+          Add Task
+        </button>
+        <button class="action-btn" onclick="alert('Coming soon: Send to Gru')">
+          <span class="icon">💬</span>
+          Message Gru
+        </button>
+      </div>
+    </div>
+    
+    <!-- System Status -->
+    <div class="card">
+      <h2><span class="emoji">🖥️</span> System Status</h2>
+      <div class="metric">
+        <span class="metric-label"><span class="status-dot online"></span>Gateway</span>
+        <span class="metric-value" style="font-size: 14px; color: var(--accent);">Online</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label"><span class="status-dot online"></span>Telegram</span>
+        <span class="metric-value" style="font-size: 14px; color: var(--accent);">Connected</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label"><span class="status-dot online"></span>Cron Jobs</span>
+        <span class="metric-value" style="font-size: 14px; color: var(--accent);">6 Active</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label"><span class="status-dot online"></span>VPS</span>
+        <span class="metric-value" style="font-size: 14px; color: var(--accent);">srv1323962</span>
+      </div>
+    </div>
+    
+    <!-- Call Log -->
+    <div class="card full-width">
+      <h2><span class="emoji">📝</span> Recent Call Log</h2>
+      <div class="call-log">
+        <div class="call-log-empty">
+          No calls logged yet.<br>
+          <small>Use "Log Call" to record your outreach.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    Last updated: <span id="last-updated"></span> | Powered by Gru 🦹
+  </div>
+  
+  <script>
+    // Update date
+    const now = new Date();
+    document.getElementById('current-date').textContent = 
+      now.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }) +
+      ' — Day 5';
+    document.getElementById('last-updated').textContent = 
+      now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+    
+    // Try to load data from data.json if available
+    async function loadData() {
+      try {
+        const response = await fetch('data.json');
+        if (response.ok) {
+          const data = await response.json();
+          updateDashboard(data);
+        }
+      } catch (e) {
+        console.log('Using static data');
+      }
+    }
+    
+    function updateDashboard(data) {
+      // Update metrics
+      if (data.metrics) {
+        document.querySelectorAll('.metric-value').forEach(el => {
+          const label = el.previousElementSibling?.textContent;
+          if (label?.includes('Total Leads')) el.textContent = data.metrics.totalLeads;
+          if (label?.includes('Calls Made')) el.textContent = data.metrics.callsMade;
+          if (label?.includes('Demos')) el.textContent = data.metrics.demosScheduled;
+          if (label?.includes('Revenue')) el.textContent = '$' + data.metrics.monthlyRevenue;
+        });
+      }
+      
+      // Update grade
+      if (data.grade) {
+        const gradeEl = document.querySelector('.grade');
+        if (gradeEl) gradeEl.textContent = data.grade.current;
+        const trendEl = document.querySelector('.trend');
+        if (trendEl && data.grade.trend === 'up') {
+          trendEl.textContent = '↑ Up from ' + data.grade.previous;
+        }
+      }
+    }
+    
+    loadData();
+  </script>
+</body>
+</html>

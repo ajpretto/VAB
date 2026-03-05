@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Dashboard | Command Center</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --card-bg: #141414;
+      --border: #222;
+      --text: #f0f0f0;
+      --text-muted: #777;
+      --accent: #22c55e;
+      --blue: #3b82f6;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --purple: #a855f7;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 24px;
+    }
+    
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    
+    .header h1 { font-size: 24px; }
+    
+    .back-btn {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 14px;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 20px;
+    }
+    
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .card-title {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .goal-item {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .goal-item:last-child { border-bottom: none; }
+    
+    .goal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    
+    .goal-title {
+      font-weight: 500;
+    }
+    
+    .goal-timeframe {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    
+    .goal-progress {
+      height: 6px;
+      background: var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    
+    .goal-progress-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 3px;
+    }
+    
+    .habit-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .habit-item:last-child { border-bottom: none; }
+    
+    .habit-checkbox {
+      width: 24px;
+      height: 24px;
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+    
+    .habit-checkbox.checked {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+    
+    .habit-checkbox.checked::after {
+      content: "✓";
+      color: black;
+      font-weight: bold;
+    }
+    
+    .habit-name {
+      flex: 1;
+    }
+    
+    .habit-streak {
+      font-size: 12px;
+      color: var(--yellow);
+    }
+    
+    .quote-card {
+      text-align: center;
+      padding: 32px;
+    }
+    
+    .quote-text {
+      font-size: 18px;
+      font-style: italic;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    
+    .quote-author {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    
+    .principle-item {
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    
+    .principle-item:last-child { border-bottom: none; }
+    
+    .principle-emoji {
+      margin-right: 8px;
+    }
+    
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    
+    .stat-item {
+      text-align: center;
+      padding: 16px;
+      background: rgba(255,255,255,0.02);
+      border-radius: 12px;
+    }
+    
+    .stat-value {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🌟 Life Dashboard</h1>
+    <a href="index.html" class="back-btn">← Back to Business</a>
+  </div>
+  
+  <div class="grid">
+    <!-- 6-Month Goals -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">🎯 6-Month Goals</span>
+      </div>
+      
+      <div class="goal-item">
+        <div class="goal-header">
+          <span class="goal-title">💰 Financial Security</span>
+          <span class="goal-timeframe">By Aug 2026</span>
+        </div>
+        <div class="goal-progress">
+          <div class="goal-progress-fill" style="width: 5%"></div>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); margin-top: 6px;">
+          Business income covering rent + groceries + savings
+        </div>
+      </div>
+      
+      <div class="goal-item">
+        <div class="goal-header">
+          <span class="goal-title">🗣️ Get Out of Shell</span>
+          <span class="goal-timeframe">Ongoing</span>
+        </div>
+        <div class="goal-progress">
+          <div class="goal-progress-fill" style="width: 15%"></div>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); margin-top: 6px;">
+          Better networking, conversation skills, less "closed book"
+        </div>
+      </div>
+      
+      <div class="goal-item">
+        <div class="goal-header">
+          <span class="goal-title">💪 Build Discipline</span>
+          <span class="goal-timeframe">Ongoing</span>
+        </div>
+        <div class="goal-progress">
+          <div class="goal-progress-fill" style="width: 20%"></div>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); margin-top: 6px;">
+          Consistency, no doom scrolling, locked-in routine
+        </div>
+      </div>
+    </div>
+    
+    <!-- Daily Habits -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">✅ Daily Habits</span>
+        <span style="font-size: 12px; color: var(--text-muted);" id="habit-date"></span>
+      </div>
+      
+      <div class="habit-item">
+        <div class="habit-checkbox" onclick="toggleHabit(this, 'workout')" id="habit-workout"></div>
+        <span class="habit-name">🏋️ Morning Workout</span>
+        <span class="habit-streak" id="streak-workout">🔥 0</span>
+      </div>
+      
+      <div class="habit-item">
+        <div class="habit-checkbox" onclick="toggleHabit(this, 'coldcalls')" id="habit-coldcalls"></div>
+        <span class="habit-name">📞 Cold Calls (10+)</span>
+        <span class="habit-streak" id="streak-coldcalls">🔥 0</span>
+      </div>
+      
+      <div class="habit-item">
+        <div class="habit-checkbox" onclick="toggleHabit(this, 'nodoomscroll')" id="habit-nodoomscroll"></div>
+        <span class="habit-name">📵 No Doom Scrolling</span>
+        <span class="habit-streak" id="streak-nodoomscroll">🔥 0</span>
+      </div>
+      
+      <div class="habit-item">
+        <div class="habit-checkbox" onclick="toggleHabit(this, 'sleep')" id="habit-sleep"></div>
+        <span class="habit-name">😴 In Bed by 11pm</span>
+        <span class="habit-streak" id="streak-sleep">🔥 0</span>
+      </div>
+      
+      <div class="habit-item">
+        <div class="habit-checkbox" onclick="toggleHabit(this, 'learning')" id="habit-learning"></div>
+        <span class="habit-name">📚 30min Learning</span>
+        <span class="habit-streak" id="streak-learning">🔥 0</span>
+      </div>
+    </div>
+    
+    <!-- Operating Principles -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">📜 Operating Principles</span>
+      </div>
+      
+      <div class="principle-item">
+        <span class="principle-emoji">⚡</span>
+        <strong>10x Agency Rule:</strong> Act like you have 10x the agency you actually have
+      </div>
+      
+      <div class="principle-item">
+        <span class="principle-emoji">🔄</span>
+        <strong>Close Loops Fast:</strong> Successful people don't let things sit
+      </div>
+      
+      <div class="principle-item">
+        <span class="principle-emoji">🧱</span>
+        <strong>Fix Hardware First:</strong> Sleep, light, water, food → then willpower
+      </div>
+      
+      <div class="principle-item">
+        <span class="principle-emoji">🎯</span>
+        <strong>1 Hour/Day Rule:</strong> 1hr daily on ONE project = life change in 365 hours
+      </div>
+      
+      <div class="principle-item">
+        <span class="principle-emoji">🛡️</span>
+        <strong>No One's Coming:</strong> You have to save yourself
+      </div>
+    </div>
+    
+    <!-- Daily Quote -->
+    <div class="card quote-card">
+      <div class="quote-text" id="daily-quote">
+        "The most successful people are the most disciplined people, no questions asked."
+      </div>
+      <div class="quote-author">— Anthony Pretto</div>
+    </div>
+    
+    <!-- Life Stats -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">📊 Life Stats</span>
+      </div>
+      <div class="stat-grid">
+        <div class="stat-item">
+          <div class="stat-value">78</div>
+          <div class="stat-label">Days to Graduation</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">5+</div>
+          <div class="stat-label">Years with Nicole ❤️</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">Day 5</div>
+          <div class="stat-label">AI Business</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">22</div>
+          <div class="stat-label">Age</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- People -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">👥 Key People</span>
+      </div>
+      
+      <div style="padding: 12px 0; border-bottom: 1px solid var(--border);">
+        <div style="font-weight: 500;">Nicole ❤️</div>
+        <div style="font-size: 12px; color: var(--text-muted);">Girlfriend, 5+ years • Driven, smart, going places</div>
+      </div>
+      
+      <div style="padding: 12px 0; border-bottom: 1px solid var(--border);">
+        <div style="font-weight: 500;">Joey 🤝</div>
+        <div style="font-size: 12px; color: var(--text-muted);">Best friend • Basically a brother</div>
+      </div>
+      
+      <div style="padding: 12px 0; border-bottom: 1px solid var(--border);">
+        <div style="font-weight: 500;">Finn & Sammy 🏠</div>
+        <div style="font-size: 12px; color: var(--text-muted);">Roommates</div>
+      </div>
+      
+      <div style="padding: 12px 0;">
+        <div style="font-weight: 500;">Wingspan Team 🏢</div>
+        <div style="font-size: 12px; color: var(--text-muted);">Real estate dev internship • Wants full-time after graduation</div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Set date
+    document.getElementById('habit-date').textContent = new Date().toLocaleDateString('en-US', {
+      weekday: 'short', month: 'short', day: 'numeric'
+    });
+    
+    // Load habits from localStorage
+    const today = new Date().toDateString();
+    const habitsKey = `habits-${today}`;
+    let habits = JSON.parse(localStorage.getItem(habitsKey) || '{}');
+    
+    // Load streaks
+    let streaks = JSON.parse(localStorage.getItem('habit-streaks') || '{}');
+    
+    // Initialize habit checkboxes
+    ['workout', 'coldcalls', 'nodoomscroll', 'sleep', 'learning'].forEach(habit => {
+      const el = document.getElementById(`habit-${habit}`);
+      if (habits[habit]) {
+        el.classList.add('checked');
+      }
+      const streakEl = document.getElementById(`streak-${habit}`);
+      if (streakEl && streaks[habit]) {
+        streakEl.textContent = `🔥 ${streaks[habit]}`;
+      }
+    });
+    
+    function toggleHabit(el, habit) {
+      el.classList.toggle('checked');
+      habits[habit] = el.classList.contains('checked');
+      localStorage.setItem(habitsKey, JSON.stringify(habits));
+      
+      // Update streak
+      if (habits[habit]) {
+        streaks[habit] = (streaks[habit] || 0) + 1;
+      }
+      localStorage.setItem('habit-streaks', JSON.stringify(streaks));
+      
+      const streakEl = document.getElementById(`streak-${habit}`);
+      if (streakEl) {
+        streakEl.textContent = `🔥 ${streaks[habit] || 0}`;
+      }
+    }
+    
+    // Random quotes
+    const quotes = [
+      { text: "The most successful people are the most disciplined people, no questions asked.", author: "Anthony Pretto" },
+      { text: "Successful people close their loops immediately. They don't waste time.", author: "Anthony Pretto" },
+      { text: "Agents are the new SaaS.", author: "Greg Isenberg" },
+      { text: "1 hour a day on ONE project = life change in 365 hours.", author: "Dan Koe" },
+      { text: "Fix the foundation FIRST: sleep, light, water, food.", author: "@mralexthomas" },
+    ];
+    
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    document.getElementById('daily-quote').innerHTML = `"${randomQuote.text}"`;
+    document.querySelector('.quote-author').textContent = `— ${randomQuote.author}`;
+  </script>
+</body>
+</html>

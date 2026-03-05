@@ -1,76 +1,735 @@
-<!doctype html>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Clawdbot Canvas</title>
-<style>
-  html, body { height: 100%; margin: 0; background: #000; color: #fff; font: 16px/1.4 -apple-system, BlinkMacSystemFont, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
-  .wrap { min-height: 100%; display: grid; place-items: center; padding: 24px; }
-  .card { width: min(720px, 100%); background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.10); border-radius: 16px; padding: 18px 18px 14px; }
-  .title { display: flex; align-items: baseline; gap: 10px; }
-  h1 { margin: 0; font-size: 22px; letter-spacing: 0.2px; }
-  .sub { opacity: 0.75; font-size: 13px; }
-  .row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
-  button { appearance: none; border: 1px solid rgba(255,255,255,0.14); background: rgba(255,255,255,0.10); color: #fff; padding: 10px 12px; border-radius: 12px; font-weight: 600; cursor: pointer; }
-  button:active { transform: translateY(1px); }
-  .ok { color: #24e08a; }
-  .bad { color: #ff5c5c; }
-  .log { margin-top: 14px; opacity: 0.85; font: 12px/1.4 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre-wrap; background: rgba(0,0,0,0.35); border: 1px solid rgba(255,255,255,0.08); padding: 10px; border-radius: 12px; }
-</style>
-<div class="wrap">
-  <div class="card">
-    <div class="title">
-      <h1>Clawdbot Canvas</h1>
-      <div class="sub">Interactive test page (auto-reload enabled)</div>
-    </div>
-
-    <div class="row">
-      <button id="btn-hello">Hello</button>
-      <button id="btn-time">Time</button>
-      <button id="btn-photo">Photo</button>
-      <button id="btn-dalek">Dalek</button>
-    </div>
-
-    <div id="status" class="sub" style="margin-top: 10px;"></div>
-    <div id="log" class="log">Ready.</div>
-  </div>
-</div>
-<script>
-(() => {
-  const logEl = document.getElementById("log");
-  const statusEl = document.getElementById("status");
-  const log = (msg) => { logEl.textContent = String(msg); };
-
-  const hasIOS = () => !!(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.clawdbotCanvasA2UIAction);
-  const hasAndroid = () => !!(window.clawdbotCanvasA2UIAction && typeof window.clawdbotCanvasA2UIAction.postMessage === "function");
-  const hasHelper = () => typeof window.clawdbotSendUserAction === "function";
-  statusEl.innerHTML =
-    "Bridge: " +
-    (hasHelper() ? "<span class='ok'>ready</span>" : "<span class='bad'>missing</span>") +
-    " · iOS=" + (hasIOS() ? "yes" : "no") +
-    " · Android=" + (hasAndroid() ? "yes" : "no");
-
-  window.addEventListener("clawdbot:a2ui-action-status", (ev) => {
-    const d = ev && ev.detail || {};
-    log("Action status: id=" + (d.id || "?") + " ok=" + String(!!d.ok) + (d.error ? (" error=" + d.error) : ""));
-  });
-
-  function send(name, sourceComponentId) {
-    if (!hasHelper()) {
-      log("No action bridge found. Ensure you're viewing this on an iOS/Android Clawdbot node canvas.");
-      return;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Command Center | Anthony Pretto</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --card-bg: #141414;
+      --card-border: #222;
+      --text: #f0f0f0;
+      --text-muted: #777;
+      --accent: #22c55e;
+      --accent-hover: #16a34a;
+      --blue: #3b82f6;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --purple: #a855f7;
     }
-    const ok = window.clawdbotSendUserAction({
-      name,
-      surfaceId: "main",
-      sourceComponentId,
-      context: { t: Date.now() },
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 32px;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--accent), var(--blue));
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+    
+    .logo h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    
+    .logo span {
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 400;
+    }
+    
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    
+    .status-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+      color: var(--accent);
+    }
+    
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    
+    /* Grid Layout */
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 20px;
+    }
+    
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .card-title {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    /* Grade Card */
+    .grade-card { grid-column: span 3; }
+    
+    .grade-display {
+      text-align: center;
+    }
+    
+    .grade-value {
+      font-size: 72px;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--yellow), var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .grade-trend {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      color: var(--accent);
+      font-size: 14px;
+      margin-top: 8px;
+    }
+    
+    /* Metrics Card */
+    .metrics-card { grid-column: span 5; }
+    
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    
+    .metric-item {
+      padding: 16px;
+      background: rgba(255,255,255,0.02);
+      border-radius: 12px;
+    }
+    
+    .metric-value {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    
+    .metric-value.green { color: var(--accent); }
+    .metric-value.red { color: var(--red); }
+    .metric-value.yellow { color: var(--yellow); }
+    .metric-value.blue { color: var(--blue); }
+    
+    .metric-label {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    
+    /* Priorities Card */
+    .priorities-card { grid-column: span 4; }
+    
+    .priority-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--card-border);
+    }
+    
+    .priority-item:last-child { border-bottom: none; }
+    
+    .p-badge {
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    
+    .p-badge.p1 { background: var(--red); color: white; }
+    .p-badge.p2 { background: var(--yellow); color: black; }
+    .p-badge.p3 { background: var(--text-muted); color: white; }
+    
+    .priority-text {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    
+    /* Quick Actions */
+    .actions-card { grid-column: span 6; }
+    
+    .actions-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+    
+    .action-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 20px 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      color: var(--text);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .action-btn:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: black;
+      transform: translateY(-2px);
+    }
+    
+    .action-btn .icon { font-size: 24px; }
+    
+    /* Call Log */
+    .calllog-card { grid-column: span 6; }
+    
+    .call-form {
+      display: grid;
+      grid-template-columns: 1fr 1fr auto;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    
+    .call-form input, .call-form select {
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: var(--text);
+      font-size: 14px;
+    }
+    
+    .call-form input:focus, .call-form select:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    
+    .call-form button {
+      background: var(--accent);
+      border: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      color: black;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    
+    .call-form button:hover {
+      background: var(--accent-hover);
+    }
+    
+    .call-list {
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    
+    .call-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+      background: rgba(255,255,255,0.02);
+      border-radius: 8px;
+      margin-bottom: 8px;
+    }
+    
+    .call-business { font-weight: 500; }
+    .call-outcome {
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+    .call-outcome.connected { background: rgba(34, 197, 94, 0.2); color: var(--accent); }
+    .call-outcome.voicemail { background: rgba(234, 179, 8, 0.2); color: var(--yellow); }
+    .call-outcome.no-answer { background: rgba(239, 68, 68, 0.2); color: var(--red); }
+    
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-muted);
+    }
+    
+    /* Lead Categories */
+    .leads-card { grid-column: span 4; }
+    
+    .lead-bar {
+      margin-bottom: 12px;
+    }
+    
+    .lead-bar-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      margin-bottom: 4px;
+    }
+    
+    .lead-bar-track {
+      height: 8px;
+      background: var(--card-border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    
+    .lead-bar-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 4px;
+      transition: width 0.3s;
+    }
+    
+    /* Schedule */
+    .schedule-card { grid-column: span 4; }
+    
+    .schedule-item {
+      display: flex;
+      gap: 16px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--card-border);
+    }
+    
+    .schedule-item:last-child { border-bottom: none; }
+    
+    .schedule-time {
+      font-size: 13px;
+      color: var(--text-muted);
+      min-width: 60px;
+    }
+    
+    .schedule-event {
+      font-size: 14px;
+    }
+    
+    /* Responsive */
+    @media (max-width: 1200px) {
+      .dashboard-grid { grid-template-columns: repeat(6, 1fr); }
+      .grade-card, .metrics-card, .priorities-card,
+      .actions-card, .calllog-card, .leads-card, .schedule-card {
+        grid-column: span 6;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .dashboard-grid { grid-template-columns: 1fr; }
+      .grade-card, .metrics-card, .priorities-card,
+      .actions-card, .calllog-card, .leads-card, .schedule-card {
+        grid-column: span 1;
+      }
+      .actions-grid { grid-template-columns: repeat(2, 1fr); }
+      .call-form { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <div class="logo-icon">🦹</div>
+        <div>
+          <h1>Command Center</h1>
+          <span>AI Voice Business — Day 5</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <a href="life.html" style="color: var(--text-muted); text-decoration: none; font-size: 14px; margin-right: 16px;">🌟 Life</a>
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          Gru Online
+        </div>
+      </div>
+    </header>
+    
+    <div class="dashboard-grid">
+      <!-- Grade -->
+      <div class="card grade-card">
+        <div class="card-header">
+          <span class="card-title">Advisory Grade</span>
+        </div>
+        <div class="grade-display">
+          <div class="grade-value">C+</div>
+          <div class="grade-trend">
+            <span>↑</span> Up from C-
+          </div>
+        </div>
+      </div>
+      
+      <!-- Metrics -->
+      <div class="card metrics-card">
+        <div class="card-header">
+          <span class="card-title">Business Metrics</span>
+        </div>
+        <div class="metrics-grid">
+          <div class="metric-item">
+            <div class="metric-value green" id="total-leads">293</div>
+            <div class="metric-label">Total Leads</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-value red" id="calls-made">0</div>
+            <div class="metric-label">Calls Logged</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-value yellow" id="demos">0</div>
+            <div class="metric-label">Demos Scheduled</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-value blue" id="revenue">$0</div>
+            <div class="metric-label">Monthly Revenue</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Priorities -->
+      <div class="card priorities-card">
+        <div class="card-header">
+          <span class="card-title">Today's Priorities</span>
+        </div>
+        <div class="priority-item">
+          <span class="p-badge p1">P1</span>
+          <span class="priority-text">Log yesterday's calls</span>
+        </div>
+        <div class="priority-item">
+          <span class="p-badge p1">P1</span>
+          <span class="priority-text">Make 10 cold calls</span>
+        </div>
+        <div class="priority-item">
+          <span class="p-badge p2">P2</span>
+          <span class="priority-text">Try text-first outreach</span>
+        </div>
+      </div>
+      
+      <!-- Quick Actions -->
+      <div class="card actions-card">
+        <div class="card-header">
+          <span class="card-title">Quick Actions</span>
+        </div>
+        <div class="actions-grid">
+          <button class="action-btn" onclick="showCallForm()">
+            <span class="icon">📞</span>
+            Log Call
+          </button>
+          <button class="action-btn" onclick="window.location='leads-viewer.html'">
+            <span class="icon">📋</span>
+            View Leads
+          </button>
+          <button class="action-btn" onclick="sendToGru()">
+            <span class="icon">💬</span>
+            Ask Gru
+          </button>
+          <button class="action-btn" onclick="showScript()">
+            <span class="icon">📝</span>
+            Call Script
+          </button>
+        </div>
+      </div>
+      
+      <!-- Call Log -->
+      <div class="card calllog-card">
+        <div class="card-header">
+          <span class="card-title">Call Log</span>
+        </div>
+        <div class="call-form" id="call-form">
+          <input type="text" id="business-name" placeholder="Business name...">
+          <select id="call-outcome">
+            <option value="">Outcome...</option>
+            <option value="connected">Connected - Spoke to owner</option>
+            <option value="gatekeeper">Gatekeeper - Left message</option>
+            <option value="voicemail">Voicemail</option>
+            <option value="no-answer">No Answer</option>
+            <option value="callback">Callback scheduled</option>
+            <option value="not-interested">Not Interested</option>
+            <option value="demo">Demo Scheduled! 🎉</option>
+          </select>
+          <button onclick="logCall()">Log</button>
+        </div>
+        <div class="call-list" id="call-list">
+          <div class="empty-state">
+            No calls logged today.<br>
+            <small>Start dialing and log your results here!</small>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Networking Pipeline -->
+      <div class="card leads-card">
+        <div class="card-header">
+          <span class="card-title">🤝 Networking Pipeline</span>
+          <a href="networking.html" style="color: var(--accent); font-size: 12px; text-decoration: none;">View All →</a>
+        </div>
+        <div id="networking-list" style="font-size: 14px;">
+          <div style="padding: 12px; background: rgba(34,197,94,0.1); border-radius: 8px; margin-bottom: 12px; border-left: 3px solid var(--accent); cursor: pointer;" onclick="window.location='networking.html'">
+            <div style="font-weight: 600;">5 People Ready to Contact</div>
+            <div style="color: var(--text-muted); font-size: 12px; margin-top: 4px;">Click to view emails & send</div>
+          </div>
+          <div style="padding: 10px 0; border-bottom: 1px solid var(--card-border);">
+            <div style="display: flex; justify-content: space-between;">
+              <span>📧 In Queue</span>
+              <span id="net-queue" style="color: var(--blue);">5</span>
+            </div>
+          </div>
+          <div style="padding: 10px 0; border-bottom: 1px solid var(--card-border);">
+            <div style="display: flex; justify-content: space-between;">
+              <span>✉️ Sent</span>
+              <span id="net-sent" style="color: var(--accent);">0</span>
+            </div>
+          </div>
+          <div style="padding: 10px 0;">
+            <div style="display: flex; justify-content: space-between;">
+              <span>🤝 Meetings Booked</span>
+              <span id="net-meetings" style="color: var(--purple);">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Schedule -->
+      <div class="card schedule-card">
+        <div class="card-header">
+          <span class="card-title">Today's Schedule</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-time">10am</span>
+          <span class="schedule-event">🏢 Wingspan (Work)</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-time">3pm</span>
+          <span class="schedule-event">📞 Cold call block</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-time">10pm</span>
+          <span class="schedule-event">📊 Advisory Council</span>
+        </div>
+      </div>
+      
+      <!-- Quick Notes -->
+      <div class="card" style="grid-column: span 4;">
+        <div class="card-header">
+          <span class="card-title">Quick Notes</span>
+          <button onclick="saveNotes()" style="background: var(--accent); border: none; border-radius: 6px; padding: 6px 12px; color: black; font-size: 12px; cursor: pointer;">Save</button>
+        </div>
+        <textarea id="quick-notes" placeholder="Jot down quick thoughts, call notes, ideas..." style="width: 100%; height: 120px; background: var(--bg); border: 1px solid var(--card-border); border-radius: 8px; padding: 12px; color: var(--text); font-size: 14px; resize: none; font-family: inherit;"></textarea>
+      </div>
+      
+      <!-- Student Advantage -->
+      <div class="card" style="grid-column: span 4;">
+        <div class="card-header">
+          <span class="card-title">🎓 Student Advantage</span>
+        </div>
+        <div style="font-size: 14px; line-height: 1.6;">
+          <div style="background: linear-gradient(135deg, rgba(168,85,247,0.2), rgba(59,130,246,0.2)); padding: 16px; border-radius: 12px; margin-bottom: 12px;">
+            <div style="font-size: 32px; font-weight: 700; color: var(--purple);">78</div>
+            <div style="color: var(--text-muted);">Days until graduation</div>
+          </div>
+          <p style="color: var(--text-muted); margin-bottom: 8px;">
+            "I'm a student interested in your work" opens doors executives would ignore.
+          </p>
+          <p style="color: var(--yellow); font-weight: 500;">
+            ⚠️ This window closes May 2026. USE IT.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Path to B -->
+      <div class="card" style="grid-column: span 4;">
+        <div class="card-header">
+          <span class="card-title">🎯 Path to Grade B</span>
+        </div>
+        <div style="font-size: 14px; line-height: 1.8;">
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+            <span style="color: var(--red);">○</span> Log all calls
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+            <span style="color: var(--red);">○</span> Make 10 calls today
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+            <span style="color: var(--red);">○</span> Schedule first demo
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px; opacity: 0.5;">
+            <span style="color: var(--text-muted);">○</span> Close first client (→ Grade A)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Store calls in localStorage
+    let calls = JSON.parse(localStorage.getItem('calls') || '[]');
+    
+    function renderCalls() {
+      const list = document.getElementById('call-list');
+      if (calls.length === 0) {
+        list.innerHTML = `
+          <div class="empty-state">
+            No calls logged today.<br>
+            <small>Start dialing and log your results here!</small>
+          </div>
+        `;
+        return;
+      }
+      
+      list.innerHTML = calls.map(call => `
+        <div class="call-item">
+          <div>
+            <div class="call-business">${call.business}</div>
+            <div style="font-size: 12px; color: var(--text-muted)">${call.time}</div>
+          </div>
+          <span class="call-outcome ${call.outcome}">${call.outcomeText}</span>
+        </div>
+      `).join('');
+      
+      // Update calls made count
+      document.getElementById('calls-made').textContent = calls.length;
+      
+      // Check for demos
+      const demos = calls.filter(c => c.outcome === 'demo').length;
+      document.getElementById('demos').textContent = demos;
+    }
+    
+    function logCall() {
+      const business = document.getElementById('business-name').value;
+      const outcome = document.getElementById('call-outcome').value;
+      
+      if (!business || !outcome) {
+        alert('Please enter business name and outcome');
+        return;
+      }
+      
+      const outcomeLabels = {
+        'connected': 'Connected',
+        'gatekeeper': 'Gatekeeper',
+        'voicemail': 'Voicemail',
+        'no-answer': 'No Answer',
+        'callback': 'Callback',
+        'not-interested': 'Not Interested',
+        'demo': 'Demo! 🎉'
+      };
+      
+      calls.unshift({
+        business,
+        outcome,
+        outcomeText: outcomeLabels[outcome],
+        time: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
+      });
+      
+      localStorage.setItem('calls', JSON.stringify(calls));
+      
+      // Clear form
+      document.getElementById('business-name').value = '';
+      document.getElementById('call-outcome').value = '';
+      
+      renderCalls();
+      
+      // Celebration for demos!
+      if (outcome === 'demo') {
+        alert('🎉 DEMO SCHEDULED! Great work!');
+      }
+    }
+    
+    function sendToGru() {
+      const msg = prompt('Message for Gru:');
+      if (msg) {
+        alert('Message sent to Gru via Telegram!\n\n(In production, this would actually send)');
+      }
+    }
+    
+    function showScript() {
+      window.open('https://github.com/ajpretto/VAB/blob/main/synced/ai-voice-business/COLD_CALL_SCRIPT.md');
+    }
+    
+    function showCallForm() {
+      document.getElementById('business-name').focus();
+    }
+    
+    // Initialize
+    renderCalls();
+    
+    // Load saved notes
+    const savedNotes = localStorage.getItem('quickNotes');
+    if (savedNotes) {
+      document.getElementById('quick-notes').value = savedNotes;
+    }
+    
+    function saveNotes() {
+      const notes = document.getElementById('quick-notes').value;
+      localStorage.setItem('quickNotes', notes);
+      alert('Notes saved!');
+    }
+    
+    // Auto-save notes on blur
+    document.getElementById('quick-notes').addEventListener('blur', function() {
+      localStorage.setItem('quickNotes', this.value);
     });
-    log(ok ? ("Sent action: " + name) : ("Failed to send action: " + name));
-  }
-
-  document.getElementById("btn-hello").onclick = () => send("hello", "demo.hello");
-  document.getElementById("btn-time").onclick = () => send("time", "demo.time");
-  document.getElementById("btn-photo").onclick = () => send("photo", "demo.photo");
-  document.getElementById("btn-dalek").onclick = () => send("dalek", "demo.dalek");
-})();
-</script>
+  </script>
+</body>
+</html>
