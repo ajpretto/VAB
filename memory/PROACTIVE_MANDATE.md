@@ -19,11 +19,15 @@ Anthony is a college student. This is a **superpower**:
 
 ### 3. Daily Networking Research
 Research and prepare actionable outreach for:
+- **Chicago real estate (PRIORITY)** — developers, adjacent fields, hometown advantage
 - Tampa Bay Business Journal — local movers and shakers
-- Chicago real estate (hometown connections)
 - National real estate Twitter/LinkedIn
 - Wingspan-adjacent opportunities
 - Cool people doing interesting things
+
+**Geographic Priority (Updated 2026-03-04):**
+1. Chicago / Chicagoland — hometown, Wingspan Mount Prospect office, stronger network
+2. Tampa Bay — current location
 
 **Output:** Specific email drafts, not just "you should reach out"
 

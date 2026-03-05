@@ -10,7 +10,6 @@ Tasks I'm actively working on right now.
 
 | Task | Project | Priority | Started | Status | Notes |
 |------|---------|----------|---------|--------|-------|
-| **Personalize Mission Control** | Infrastructure | **P1** | 2026-03-04 | Building | Anthony requested while at Wingspan meeting |
 | Fix Mission Control build | Infrastructure | P3 | 2026-03-01 | Tailwind issues | Low priority, debugging PostCSS |
 
 ---
@@ -49,6 +48,7 @@ Last 10 finished tasks (auto-trim older).
 
 | Task | Project | Completed | Outcome |
 |------|---------|-----------|---------|
+| Personalize Mission Control | Infrastructure | 2026-03-04 | Dashboard + leads viewer + life page, SSH tunnel access |
 | Upwork job analysis | AI Voice Business | 2026-03-02 | Om Patel playbook - market validation complete |
 | Phone validation system | AI Voice Business | 2026-03-02 | 164/164 valid, generated LEADS_VALIDATED.md/csv |
 | Create cold call script | AI Voice Business | 2026-03-01 | COLD_CALL_SCRIPT.md with full objection handling |
