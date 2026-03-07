@@ -61,4 +61,20 @@ Skills define *how* tools work. This file is for *your* specifics — the stuff 
 
 ---
 
+---
+
+## Twitter/X Link Handling
+
+X.com blocks direct fetching. Use FxTwitter API:
+
+**Convert:** `x.com` or `twitter.com` → `api.fxtwitter.com`
+
+Example:
+- Input: `https://x.com/dotta/status/123456`
+- Fetch: `https://api.fxtwitter.com/dotta/status/123456`
+
+Returns JSON with full tweet text, author, media, etc.
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.

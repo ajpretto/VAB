@@ -133,6 +133,37 @@ This is my curated memory — the distilled essence of what I've learned, not ra
 - `weekly-networking-events` — Sunday 9am, find Tampa/Chicago events
 - `wingspan-strategy` — Mon/Wed/Fri 9am, one action to stand out at work
 
+### 2026-03-05 — Lead Scoring Insight
+- **Properties offering rent concessions = HOT leads** (bleeding money on vacancies = need better marketing)
+- Found: New Tampa Palms (3 months free), AER Apartments (1.5 months), 801 Whiting (just opened)
+- **Retell AI price drop:** $0.17 → $0.12/min (30% cost reduction, better margins)
+
+### Warm Connection: Nicholas Family of Companies
+- Mount Prospect developers, built 330 units downtown
+- **Wingspan built projects for them** (including The Dawson)
+- This is a WARM intro path — ask Wingspan manager about the relationship
+
+### Cold Outreach System Architecture
+- Daniel Hangan style: Instantly ($97) + Apollo ($79) + Phantombuster ($69)
+- ~$350/mo total, 10,000 emails/day capacity
+- ROI projection: 21x at conservative conversion
+- Not built yet — waiting on Anthony's budget decision
+
+### 2026-03-06-07 — The Advisory Council Verdict
+- **Grade: D+** — A+ prep, F execution
+- Pattern: 7 days building, 0 days selling
+- 371 leads collected, zero documented sales conversations
+- TRACKING.md completely empty — can't improve what isn't measured
+- Advisory warning: "Every new task that isn't 'pick up phone and dial' is a delay"
+- **MORATORIUM:** No new features, tools, or systems until first $997 collected
+
+### Chicago Networking Targets (March 6)
+Found 2 high-value targets — both co-chair ULI Chicago Young Professionals:
+- **Devin Rowland** — President KMA Companies, teaches DePaul, age 32
+- **Yasamin Enshaeian** — DL3 Realty, architecture→development path
+- Draft emails ready with Wingspan/Mount Prospect/student angles
+- Spring break = prime meeting window
+
 ---
 
-*Last updated: 2026-03-04 (Pre-compaction flush)*
+*Last updated: 2026-03-07 (Dream cycle)*

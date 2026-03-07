@@ -1,234 +1,247 @@
 # Overnight Work Log
 
-## Event Recommendation Preferences (noted 2026-03-05)
-- **Always check calendar first** — mark conflicts if they exist
-- **Variety is good** — mix of event types (tech, real estate, startup, AI)
-- **AI events are interesting** — look for Tampa AI/ML meetups
-- Schedule: Mon/Wed/Fri = Wingspan | Tue/Thu = Class | Evenings often have walks
+## 2026-03-05 15:00 UTC (10pm EST)
+
+**Task:** Research Tampa apartment leads for cold outreach system
+
+**What I Did:**
+1. Researched Tampa Bay apartment management companies
+2. Found 5 major management companies with Tampa presence:
+   - American Landmark (HQ Tampa, 32k units)
+   - Richman Signature Properties (Tampa office)
+   - Northwood Ravin (expanding in Tampa)
+   - Olympus Property (5,500 units in FL)
+   - Garden Communities Florida
+3. Found 7 specific property leads, prioritized by pain signals (concessions = need marketing)
+4. Identified key contacts:
+   - **Devin Lusk** - Director of Marketing, American Landmark (LinkedIn found)
+   - **Richman Signature** - Direct marketing team email: signaturemarketing@richmanmgt.com
+5. Created lead list with scoring: synced/remotion-video-ads/leads/TAMPA_LEADS_2026-03-05.md
+6. Drafted personalized email for top prospect: synced/remotion-video-ads/leads/DRAFT_EMAIL_DEVIN_LUSK.md
+
+**Key Insight:**
+Properties offering rent concessions (1-3 months free) are the hottest leads - they're bleeding money to fill units and need better marketing. Found several in active concession mode:
+- New Tampa Palms: 3 MONTHS FREE
+- AER Apartments: 1.5 months free
+- Novus Westshore: 1 month free
+- 801 Whiting: Just opened Dec 2025, lease-up phase
+
+**Why This Matters:**
+Anthony wanted to build an automated outreach system. Having real, validated leads with contact info and pain signals makes the system immediately actionable. He can start outreach TODAY with these leads while we set up the automation.
+
+**Files Created:**
+- /synced/remotion-video-ads/leads/TAMPA_LEADS_2026-03-05.md
+- /synced/remotion-video-ads/leads/DRAFT_EMAIL_DEVIN_LUSK.md
+
+**Next Steps for Anthony:**
+1. Review leads and approve approach
+2. Decide on budget for tools
+3. Start manual outreach to top 5 while we build automation
 
 ---
 
-## 2026-03-05 04:35 UTC (11:35 PM EST March 4)
+## 2026-03-06 04:00 UTC (11pm EST)
 
-**Task:** Nighttime improvements while Anthony sleeps
+**Task:** Dream cycle + Tampa event research
 
-### Completed Work
+**What I Did:**
+1. Completed dream cycle — reviewed March 5, updated MEMORY.md with key insights
+2. Researched Tampa networking events for March 2026
+3. Found multiple recurring events and resources to monitor
 
-#### 1. John Jackson Email — Ready to Send ✅
-- Deep research on John B. Jackson (Cushman & Wakefield)
-- **Discovered he's a UT alum** — strong connection for Anthony
-- Full research saved to `memory/networking/research/JACKSON.md`
-- Draft email written following WRITING_CONVENTIONS.md
-- References his book "Warehouse Veteran" specifically
-- Simple ask: 15 min coffee/call
+**Events Found:**
 
-**Email is ready to copy/paste and send.**
+| Event | When | Where | 
+|-------|------|-------|
+| Tampa Bay Generative AI | Every Tuesday 6pm | Buffalo Wild Wings, Oldsmar |
+| Greater Tampa REALTORS Connect | 1st Wednesday/month | Varies |
+| Tampa Devs | Mondays + various | TEKsystems, etc. |
+| High Tech Connect | Thursday evenings | Various |
 
-#### 2. Events Found
+**Best Upcoming:**
+- **March 11 (Tuesday)** — Tampa Bay Generative AI @ BWW Oldsmar
+- No schedule conflict, AI-focused, casual networking format
 
-**March 5 (Wednesday) — CyberTech|X 2026 Pitch Night**
-- When: 5:30 PM
-- Where: Hyatt Place Tampa Downtown
-- What: Startup pitch event by Tampa Bay Wave
-- ⚠️ **CONFLICT:** Your 6pm walk overlaps. Would need to skip walk or leave early.
-- Why go: Tech/startup networking, see what's happening in Tampa tech scene
+**Resources to Monitor:**
+- globalnerdy.com — Weekly Tampa Bay tech events (published Fridays)
+- tampa.dev — Tech event aggregator
+- naioptb.org — Commercial RE events
 
-**March 11 (Tuesday) — Tampa Bay Generative AI Meetup** 🤖
-- When: 6:00 PM  
-- Where: Buffalo Wild Wings, Oldsmar
-- What: Casual AI discussions, networking with AI enthusiasts/developers
-- ✅ **NO CONFLICT:** Class ends at 1pm on Tuesdays
-- Why go: AI-focused, casual vibe, recurring (every Tuesday), good for building tech network outside CRE
+**Key Memory Updates:**
+- Retell AI price drop: $0.17 → $0.12/min
+- Lead scoring insight: Properties with concessions = hot leads
+- Nicholas Family warm connection documented
 
-#### 3. Hourly Cron Job Set Up ✅
-- Job: `nighttime-improvements`
-- Schedule: Every hour on the hour
-- Purpose: Do one high-impact thing while Anthony sleeps
-
----
-
-## 2026-03-05 05:00 UTC (midnight EST)
-
-**Task:** Prepare corrected J.R. Berger email
-
-### Completed
-- Wrote fresh draft email for Berger with correct address
-- Saved to `memory/networking/research/BERGER.md`
-- References Lakeshore East (specific project), Wingspan Mount Prospect connection
-- Asks about scaling from individual buildings to master-planned communities
-- Ready to copy/paste and send
-
-**Why this task:** His original email bounced. Highest leverage is making the resend frictionless.
+**Files Updated:**
+- MEMORY.md
+- memory/2026-03-06.md
+- memory/dreams/2026-03-06.md
 
 ---
 
-## 2026-03-05 06:00 UTC (1am EST)
+## 2026-03-06 05:00 UTC (Midnight EST)
 
-**Task:** Enrich top leads with owner names
+**Task:** Wingspan strategic intelligence research
 
-### Completed
-- Created `synced/ai-voice-business/LEADS_ENRICHED.md`
-- Found 7 owner names across roofing, plumbing, HVAC leads
-- Owners found:
-  - Chris Hloska (Tampa Bay Roofing, 3rd gen)
-  - Todd Workman (Harbor Roofing)
-  - Doug Shields (Bill Shields Roofing, 3rd gen)
-  - Chris Larson (Larson Plumbing)
-  - Jackie Hamlin & Mike Hasten (Everyday Plumber, mother/son)
-  - McGill family (McGill Plumbing, 3rd gen)
-  - Fontana family (Fontana Brothers AC)
-- Added script adjustment: use owner's first name to bypass gatekeepers
+**What I Did:**
+1. Deep-dived into Wingspan Development Group's parent structure
+2. Discovered Wingspan is part of **Nicholas Family of Companies** — a $500M+ family conglomerate
+3. Mapped full organizational structure (8 business units)
+4. Identified all 14 members of Wingspan leadership team
+5. Found strategic opportunities for Anthony to leverage
 
-**Why this task:** Anthony hit gatekeepers when cold calling. Knowing owner names = direct access.
+**Key Discovery:**
+Wingspan isn't a small developer — it's part of a massive family empire that includes:
+- **Nicholas & Associates** — $500M/year construction
+- **Spectate Group** — Ice arenas (Nicholas Sportsplex, etc.)
+- **Big Fish Hospitality** — Restaurants (The Prospect in Mount Prospect)
+- Multiple other units (doors, gifting, property management)
 
----
+**Why This Matters:**
+Anthony thought he was interning at a small developer. He's actually working for a second-generation family empire with deep roots in his hometown area. This changes his strategic positioning:
+- Hometown connection = relationship asset
+- Multiple business units = cross-unit opportunities
+- Family business = loyalty/relationships matter
+- Dawn Fletcher Collins (Brand Experience) = direct contact for video/marketing skills
 
-## 2026-03-05 07:00 UTC (2am EST)
+**Files Created:**
+- `memory/research/WINGSPAN_INTEL.md` — Full strategic briefing
 
-**Task:** Lead generation — 28 new leads added
-
-### Completed
-- Added 28 new leads to LEADS.md (total now 321)
-- New areas covered: Brandon, Riverview, Wesley Chapel, Plant City, St. Pete handymen, Clearwater pressure washing, Sun City Center, Apollo Beach
-- Categories: Plumbing, HVAC, Appliance Repair, Locksmith, Electrician, Handyman, Pressure Washing, Garage Door
-- Focus: Family-owned, owner-operated businesses
-
-**Best new prospects:**
-- Knights Air Conditioning (Riverview, since 2012)
-- Complete Pro Air (family-owned, NATE certified)
-- The Handyman Company (25+ years, Five Star Rated)
-- Cool Breeze Pressure Washing (24+ years)
-
-**Why this task:** More leads = more opportunities. Hit 321 total.
+**Action for Anthony (Today at Work):**
+1. Read WINGSPAN_INTEL.md before going to work
+2. Find out who he reports to and their position in org chart
+3. Look for natural opportunity to mention Mount Prospect connection
+4. Consider asking about cross-unit projects or Dawn Fletcher Collins
 
 ---
 
-## 2026-03-05 08:00 UTC (3am EST)
+## 2026-03-06 06:00 UTC (1am EST)
 
-**Task:** Competitor intelligence research
+**Task:** Competitor intel update for AI voice business
 
-### Completed
-- Created comprehensive COMPETITOR_INTEL.md
-- Mapped competitor pricing across 3 tiers:
-  - Budget ($50-150): IsOn24, Goodcall, My AI Front Desk, ZyraTalk
-  - Mid ($200-400): LeadTruffle, AnswerForce
-  - Premium ($500+): Smith.ai, Avoca AI
+**What I Did:**
+1. Researched new AI voice/receptionist competitors
+2. Added 3 new competitors to COMPETITORS.md
+3. Found industry stats to use as sales ammo on cold calls
+4. Updated pricing comparison matrix
 
-### Key Findings for Anthony:
-- His $997/mo pricing has 95%+ margin (Retell costs ~$0.07-0.08/min)
-- ZyraTalk at $99/mo is main "cheap" objection to handle
-- Full receptionist = $35k/year → position as replacement
-- Avoca powering $129M companies = proof AI works at scale
-- Booking rates can go from 10% → 70%+ with AI
+**New Competitors Added:**
+| Company | Price | Threat |
+|---------|-------|--------|
+| **LeadTruffle** | $229-$629/mo | 🔴 HIGH — purpose-built for home services |
+| **Smith.ai** | $292-$1,170/mo | 🟡 Medium — AI + human hybrid |
+| **11x AI (Julian)** | TBD | 🟢 Low — HVAC only |
 
-### Objection Handling Added:
-- "ZyraTalk is only $99" → DIY with no support
-- "Can I try first?" → Free demo agent offer
-- "We have answering service" → $1-2/min adds up, AI books 24/7
+**Key Stats for Cold Calls (Sales Ammo):**
+- **60-80%** of contractor calls go missed
+- **62%** completely unanswered
+- **$210K-$277K/year** lost from missed calls
+- **82%** of customers expect immediate response
+- **42%** of callback promises never happen
 
-**Why this task:** Know your enemy. Anthony needs to handle pricing objections confidently.
+**The Killer Line:**
+> "Every missed call is a $3,500 job going to your competitor."
 
----
+**Files Updated:**
+- `synced/ai-voice-business/COMPETITORS.md`
 
-## 2026-03-05 09:00 UTC (4am EST)
-
-**Task:** AI capabilities research
-
-### Key Findings
-- **OpenClaw hit 250k stars** — surpassed React, validating AI agent market
-- **DeepSeek-R1** — 90% cheaper than OpenAI, could reduce voice AI costs
-- **n8n** — 174k stars, AI workflow automation with 400+ integrations
-- **Browser Use** — 76k stars, LLM controls browser for automation
-- **Mastra** — Observational Memory cuts token costs 4-10x
-
-### For Anthony's Business:
-1. n8n could automate lead follow-ups, CRM updates, reporting
-2. Browser Use could automate lead enrichment (find owner names)
-3. DeepSeek-R1 could reduce backend costs significantly
-4. WebMCP (emerging standard) = future-proof for AI integrations
-
-Saved to: `synced/ai-voice-business/logs/capabilities-2026-03-05.md`
-
-**Why this task:** Stay ahead of tools that could help or threaten the business.
+**Why This Matters:**
+Anthony needs to know his competitive landscape when making cold calls. Now he has:
+1. Updated pricing to reference (he's mid-market, not expensive)
+2. Stats to create urgency ("you're losing $200K/year")
+3. Knowledge of who else is calling his leads
 
 ---
 
-## 2026-03-05 10:00 UTC (5am EST)
+## 2026-03-06 07:00 UTC (2am EST)
 
-**Task:** Competitor monitoring update
+**Task:** Lead generation — find 25+ new leads in expanded Tampa Bay area
 
-### Key Updates Found:
-1. **Retell AI price drop** — Premium voice $0.17 → $0.12/min (30% savings)
-2. **Retell AI ASR upgrade** — 50+ languages, better accuracy
-3. **Synthflow $20M Series A** — Big funding, scaling fast
-4. **ZyraTalk Zapier integration** — Better call/chat analytics
+**What I Did:**
+1. Searched for owner-operated home services businesses in Wesley Chapel, St. Pete, Clearwater, Brandon
+2. Found and added **50 new leads** across 8 categories
+3. Updated LEADS.md from 321 → 371 total leads
 
-### Impact:
-- Anthony's margins just improved 30% on voice costs
-- Synthflow's funding = more competitive pressure coming
-- Updated COMPETITORS.md with changelog
+**New Leads by Category:**
+| Category | Area | Count |
+|----------|------|-------|
+| Plumbers | Wesley Chapel | 6 |
+| HVAC | St. Pete | 9 |
+| Electricians | Clearwater | 7 |
+| Roofers | Brandon | 7 |
+| Pest Control | Tampa Bay | 8 |
+| Garage Door | Wesley Chapel | 2 |
+| Pool Service | St Pete/Clearwater | 5 |
+| Lawn Care | Wesley Chapel | 6 |
+| **TOTAL** | | **50** |
 
-**Why this task:** Weekly competitor pulse check per schedule.
+**Best New Prospects (with phone numbers):**
+- Premier Plumbing of Florida **(813) 244-2001** — BBB, Wesley Chapel
+- A Advanced Electrical **(727) 430-8201** — Family-owned, Clearwater
+- Clear Tech Pools **(727) 347-6770** — 30+ years, St Pete
+- Bay Willow Lawn Service **(813) 810-9166** — Family-owned
 
----
+**Standout Leads:**
+- **Cross Pest Control** — 58 YEARS family-owned (longevity suggests trust concerns = good AI pitch)
+- **Viking Air** — Husband/wife duo, started 2015 (small, tech-forward)
+- **Larry Miller Inc** — 4th gen family-owned, hands-on owner
 
-## 2026-03-05 11:00 UTC (6am EST)
-
-**Task:** Wingspan strategy for today (Wednesday work day)
-
-### Created:
-- `memory/wingspan/2026-03-05-strategy.md`
-
-### Today's Action:
-Ask manager: "Is there a project where you need rent comps pulled?"
-
-### Why:
-- Proactive > reactive
-- Rent comps are always needed
-- Quantifiable deliverable
-- Opens door to more responsibility
-
-**Why this task:** He works today and wants more responsibility. Gave him specific words to say.
-
----
-
-## 🌙 OVERNIGHT SUMMARY (11pm-7am EST)
-
-### Total Sessions: 7
-
-| Time (EST) | Task | Deliverable |
-|------------|------|-------------|
-| 11:35pm | Jackson email | Ready-to-send draft (UT alum hook) |
-| 12:00am | Berger email fix | Corrected address + new draft |
-| 1:00am | Lead enrichment | 7 owner names for direct contact |
-| 2:00am | Lead generation | 28 new leads (321 total) |
-| 3:00am | Competitor intel | Full pricing/positioning doc |
-| 4:00am | AI capabilities | DeepSeek, n8n, Browser Use opportunities |
-| 5:00am | Competitor monitoring | Retell price drop = better margins |
-| 6:00am | Wingspan strategy | Today's action plan |
-
-### Key Wins:
-1. **Berger email ready to resend** with correct address
-2. **321 leads** in pipeline (was 293)
-3. **Retell AI price drop** — 30% better margins for Anthony
-4. **Wingspan script** — specific words to say today
-
-### Morning Priorities:
-1. Resend J.R. Berger email (corrected)
-2. Make 10 cold calls
-3. Ask about rent comp project at Wingspan
-4. Consider CyberTech|X tonight (5:30pm, conflicts with walk)
+**Files Updated:**
+- `synced/ai-voice-business/LEADS.md` (321 → 371 leads)
 
 ---
 
-### Tomorrow's Priorities (March 5)
+## 2026-03-06 09:00 UTC (4am EST)
 
-1. **Resend J.R. Berger email** — Corrected address, draft ready in BERGER.md
-2. ~~Send John Jackson email~~ ✅ SENT (Anthony confirmed)
-3. **Log call outcomes** — Still no tracking from previous calls
-4. **Make 10 calls** — Maintain momentum
-5. **Consider CyberTech|X tonight** — 5:30pm, conflicts with walk but doable
+**Task:** AI tools & capabilities research (daily cron)
+
+**Quick Scan Findings:**
+- MCP ecosystem continues growing (GitHub, Supabase, Azure, Notion, Zapier servers)
+- Retell AI now supports GPT-4.1, intelligent warm transfers, deeper CRM integrations
+- OpenClaw skills of interest: agent-dashboard, agent-dispatch, Zapier MCP
+
+**Low Priority Actions:**
+- Consider Zapier MCP for lead → CRM automation
+- agent-dashboard skill could visualize Gru activity
+
+**Files Created:**
+- `memory/research/AI_TOOLS_2026-03-06.md`
+
+*Light scan, nothing urgent. Focus remains on cold calling and lead gen.*
 
 ---
 
-*Next overnight session at 5:00 AM UTC (midnight EST)*
+## 2026-03-07 04:10 UTC (11:10pm EST)
+
+**Task:** Create Monday call list (dream cycle overnight work)
+
+**What I Did:**
+1. Selected 10 best prospects from 371-lead database
+2. Created `synced/ai-voice-business/MONDAY_CALLS.md`
+3. Included: phone numbers in order, opener script, simple logging format
+
+**Selection Criteria:**
+- Family-owned businesses (trust concerns = good AI pitch)
+- 24/7 service companies (missing calls = pain point)
+- Owner-operated vibes (decision maker likely answers)
+- Long-standing businesses (30+ years = need modernization)
+
+**The 10:**
+1. Tampa Bay Plumbers (813) 758-6237 — 24/7, no call center
+2. Bay Area Plumbing Inc (813) 696-3634 — Owner-operated
+3. Everyday Plumber (813) 872-0200 — Family-owned 30+ years
+4. Premier Plumbing (813) 244-2001 — BBB, Wesley Chapel
+5. Luminous Electric (727) 954-4666 — BBB A+, family-owned
+6. A Advanced Electrical (727) 430-8201 — Family-owned
+7. Harbor Roofing (813) 330-7022 — Small, owner-involved
+8. Larson Plumbing (813) 242-0911 — Family-owned 20+ years
+9. Clear Tech Pools (727) 347-6770 — 30+ years
+10. Air Masters of Tampa Bay (813) 548-4297 — Family roots
+
+**Why This Matters:**
+Advisory council gave a D+ (A+ prep, F execution). The pattern is clear: 7 days building, 0 days selling. The most impactful overnight work isn't more research — it's removing every possible excuse from Monday's calls.
+
+No more prep needed. Numbers are ready. Just dial.
+
+**Files Created:**
+- `synced/ai-voice-business/MONDAY_CALLS.md`
