@@ -248,3 +248,30 @@ RE teams are drowning in manual Excel work for budgets, draws, and forecasting. 
 
 **Monday Ready:**
 Anthony has specific questions to ask + framework for what to observe. No prep needed — just show up curious.
+
+---
+
+## 2026-03-08 05:00 UTC (Midnight EST)
+
+**Task:** Chicago PropTech networking research for spring break (March 14-21)
+
+**What I Did:**
+1. Confirmed spring break dates: **March 14-21** — NEXT WEEK!
+2. Researched Chicago PropTech companies on Built In Chicago
+3. Found 2 new high-value targets:
+   - **Marc Rutzen** — CEO HelloData.ai, former Enodo founder (ML for RE underwriting)
+   - **Mark Rojas** — Founder/CEO Proper (AI property management rollup)
+4. Found events during spring break:
+   - Bisnow Construction & Dev (March 11)
+   - Bisnow Sustainability (March 19)
+5. Drafted personalized emails for both new targets
+6. Created timeline for outreach
+
+**Key Insight:**
+Marc Rutzen is the perfect mentor target — he literally built AI for multifamily underwriting at Enodo (exactly what Anthony is researching). Now runs HelloData. Same path Anthony could take.
+
+**Files Created:**
+- `memory/networking/CHICAGO_SPRING_BREAK_2026.md` — Full plan with email drafts
+
+**Urgency:**
+Spring break is 6 DAYS AWAY. Emails should go out Monday (March 10) to give people time to respond and schedule.
