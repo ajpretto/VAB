@@ -215,33 +215,36 @@ Anthony needs to know his competitive landscape when making cold calls. Now he h
 
 **Task:** Create Monday call list (dream cycle overnight work)
 
+*OBSOLETE — Voice business killed March 7. See pivot below.*
+
+---
+
+## 2026-03-08 04:02 UTC (11:02pm EST March 7)
+
+**Task:** Research RE development workflows + AI opportunities for new direction
+
 **What I Did:**
-1. Selected 10 best prospects from 371-lead database
-2. Created `synced/ai-voice-business/MONDAY_CALLS.md`
-3. Included: phone numbers in order, opener script, simple logging format
+1. Searched for RE development pain points and automation targets
+2. Found McKinsey article (published March 4!) on "agentic AI reshaping real estate"
+3. Analyzed Northspyre research on development finance automation
+4. Identified 6 major automation opportunities:
+   - Budget management (spreadsheet hell)
+   - Draw reporting (document chaos)
+   - Forecasting (gut decisions, stale data)
+   - Vendor management (no performance tracking)
+   - Document management (RFIs scattered)
+   - Code/compliance interpretation
+5. Mapped competitive landscape (CRE Agents, Northspyre, Julius AI)
+6. Created specific discovery questions for Monday at Wingspan
+7. Defined Week 1 success criteria
 
-**Selection Criteria:**
-- Family-owned businesses (trust concerns = good AI pitch)
-- 24/7 service companies (missing calls = pain point)
-- Owner-operated vibes (decision maker likely answers)
-- Long-standing businesses (30+ years = need modernization)
+**Key Insight:**
+> "Spreadsheets are the enemy. Claude is the solution."
 
-**The 10:**
-1. Tampa Bay Plumbers (813) 758-6237 — 24/7, no call center
-2. Bay Area Plumbing Inc (813) 696-3634 — Owner-operated
-3. Everyday Plumber (813) 872-0200 — Family-owned 30+ years
-4. Premier Plumbing (813) 244-2001 — BBB, Wesley Chapel
-5. Luminous Electric (727) 954-4666 — BBB A+, family-owned
-6. A Advanced Electrical (727) 430-8201 — Family-owned
-7. Harbor Roofing (813) 330-7022 — Small, owner-involved
-8. Larson Plumbing (813) 242-0911 — Family-owned 20+ years
-9. Clear Tech Pools (727) 347-6770 — 30+ years
-10. Air Masters of Tampa Bay (813) 548-4297 — Family roots
-
-**Why This Matters:**
-Advisory council gave a D+ (A+ prep, F execution). The pattern is clear: 7 days building, 0 days selling. The most impactful overnight work isn't more research — it's removing every possible excuse from Monday's calls.
-
-No more prep needed. Numbers are ready. Just dial.
+RE teams are drowning in manual Excel work for budgets, draws, and forecasting. The @ideabrowser "Claude Migration" playbook is perfect here: document real workflows, turn them into Claude agents.
 
 **Files Created:**
-- `synced/ai-voice-business/MONDAY_CALLS.md`
+- `memory/research/RE_DEVELOPMENT_AI_RESEARCH.md` — Full research brief
+
+**Monday Ready:**
+Anthony has specific questions to ask + framework for what to observe. No prep needed — just show up curious.

@@ -29,19 +29,22 @@ This is my curated memory — the distilled essence of what I've learned, not ra
 
 ## Business Ideas
 
-### AI Voice Assistants for Home Services (Active — March 2026)
-- Pivot from video ads to selling AI voice assistants + automation workflows
-- Target: Plumbers, HVAC, electricians, roofers, pest control in Tampa Bay
-- Value prop: "Never miss another call. AI answers 24/7."
-- **Pricing (updated 2026-03-02):**
-  - Founding Partner: $500 setup, $997/mo
-  - Professional: $1,500 setup, $1,997/mo  
-  - Enterprise: Custom, $2,497/mo
-- Platform: Retell AI (~$0.15/min cost, ~93% margin)
-- **216 leads collected**, 164 validated (100% valid), cold call script ready
-- **GitHub repo:** github.com/ajpretto/VAB
-- Greg Isenberg playbook: "Agents are the new SaaS" — Anthony sells, I run operations
-- See: `synced/ai-voice-business/`
+### AI for Real Estate Development (Active — March 2026)
+- **The Pivot (March 7):** Voice business felt "gimmicky" — couldn't push through mental block. That's signal, not weakness.
+- **New Direction:** AI agents/automation for RE development workflows
+- **Key Advantage:** Anthony is INSIDE Wingspan 3 days/week — unique access competitors don't have
+- **Trigger:** @ideabrowser "Claude Migration as a Service" — pick vertical, document workflows, build agents
+- **Target:** RE developers, property managers, construction firms
+- **Potential:** $5K-$10K/mo vs $997 (voice) — career-aligned, higher ticket
+- **Week 1 Goal:** "What's one process at Wingspan that would be 10x better with AI?"
+- **Approach:** "Workflow anthropologist" — observe, ask dumb questions, document pain points
+- See: Wingspan intel at `memory/research/WINGSPAN_INTEL.md`
+
+### AI Voice Assistants (ARCHIVED — March 7, 2026)
+- Pivoted away after 8 days of prep, 0 sales conversations
+- 371 leads collected, systems built, but mental block on cold calling
+- **Lesson:** Passion matters. Can't force yourself to sell something that feels wrong.
+- Files archived in `synced/ai-voice-business/`
 
 ### Automated Systems Running
 - **6 cron jobs active:** lead-gen, advisory council, research, competitor monitoring, dream cycle, weekly review
@@ -149,13 +152,13 @@ This is my curated memory — the distilled essence of what I've learned, not ra
 - ROI projection: 21x at conservative conversion
 - Not built yet — waiting on Anthony's budget decision
 
-### 2026-03-06-07 — The Advisory Council Verdict
-- **Grade: D+** — A+ prep, F execution
-- Pattern: 7 days building, 0 days selling
+### 2026-03-06-07 — The Advisory Council Verdict → THE PIVOT
+- Advisory gave D+ (A+ prep, F execution) — 7 days building, 0 selling
 - 371 leads collected, zero documented sales conversations
-- TRACKING.md completely empty — can't improve what isn't measured
-- Advisory warning: "Every new task that isn't 'pick up phone and dial' is a delay"
-- **MORATORIUM:** No new features, tools, or systems until first $997 collected
+- But then: Anthony admitted voice felt "gimmicky" — mental block he couldn't push through
+- **That's not failure, that's signal.** Can't force yourself to sell something that feels wrong.
+- **Pivot (March 7):** AI Voice → AI for Real Estate Development
+- Leverages Wingspan position, career-aligned, higher ticket, genuine passion
 
 ### Chicago Networking Targets (March 6)
 Found 2 high-value targets — both co-chair ULI Chicago Young Professionals:
@@ -166,4 +169,4 @@ Found 2 high-value targets — both co-chair ULI Chicago Young Professionals:
 
 ---
 
-*Last updated: 2026-03-07 (Dream cycle)*
+*Last updated: 2026-03-08 (Dream cycle)*

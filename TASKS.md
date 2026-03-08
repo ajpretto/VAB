@@ -20,15 +20,17 @@ Tasks assigned but not yet started.
 
 | Task | Project | Priority | Assigned | Notes |
 |------|---------|----------|----------|-------|
-| **LOG yesterday's calls** | AI Voice Business | **P1** | 2026-03-04 | First track what happened March 3 |
-| **COLD CALLS: 10 minimum** | AI Voice Business | **P1** | 2026-03-03 | Day 5 — calls started, keep momentum |
-| Set up Retell AI demo account | AI Voice Business | P1 | 2026-03-01 | Can't close deals without a demo to show |
-| Add carrier lookup API | AI Voice Business | P3 | 2026-03-02 | Twilio or NumVerify for mobile vs landline |
+| **Workflow Anthropologist Day 1** | AI for RE Development | **P1** | 2026-03-07 | Observe, ask dumb questions, document |
+| **Find 1 process pain point** | AI for RE Development | **P1** | 2026-03-07 | Week 1 goal |
 | Set up file access for Anthony | Infrastructure | P3 | 2026-03-01 | Syncthing or GitHub for doc access |
 
-### Archived (Pivot)
-- ~~Continue video batch production~~ (Remotion Video Ads) — paused, pivoted to AI voice
-- ~~Cold outreach system~~ (Remotion Video Ads) — replaced by AI voice cold call plan
+### Archived (March 7 Pivot — Voice → RE Development)
+- ~~LOG yesterday's calls~~ (AI Voice Business) — business killed
+- ~~COLD CALLS: 10 minimum~~ (AI Voice Business) — business killed
+- ~~Set up Retell AI demo~~ (AI Voice Business) — business killed
+- ~~Add carrier lookup API~~ (AI Voice Business) — business killed
+- ~~Continue video batch production~~ (Remotion Video Ads) — paused, pivoted to voice
+- ~~Cold outreach system~~ (Remotion Video Ads) — replaced by voice, now both archived
 
 ---
 
