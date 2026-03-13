@@ -4,6 +4,24 @@ Track of autonomous work done during sleeping hours.
 
 ---
 
+## 2026-03-13 (09:00 UTC)
+
+**Task:** Daily AI Capabilities Research (Scheduled Cron)
+
+**Findings:**
+
+| Topic | Key Insight |
+|-------|-------------|
+| MCP 2026 Roadmap | Horizontal scaling, `.well-known` discovery, enterprise auth |
+| Hermes Agent | Self-evolving personal agent via GEPA optimizer (ICLR 2026) |
+| GitHub Trending | OpenClaw 9k→188k stars in 60 days, 1000+ MCP servers |
+
+**Deliverable:** `memory/research/AI_TOOLS_2026-03-13.md`
+
+**Interesting Pattern:** Hermes Agent's self-evolution reads execution traces to understand WHY skills fail, then proposes improvements. Could be applicable to Clawdbot skill improvement.
+
+---
+
 ## 2026-03-13 (06:00 UTC)
 
 **Task:** Networking Target Intel — Personalization Notes
