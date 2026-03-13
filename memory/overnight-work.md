@@ -1,277 +1,294 @@
 # Overnight Work Log
 
-## 2026-03-05 15:00 UTC (10pm EST)
-
-**Task:** Research Tampa apartment leads for cold outreach system
-
-**What I Did:**
-1. Researched Tampa Bay apartment management companies
-2. Found 5 major management companies with Tampa presence:
-   - American Landmark (HQ Tampa, 32k units)
-   - Richman Signature Properties (Tampa office)
-   - Northwood Ravin (expanding in Tampa)
-   - Olympus Property (5,500 units in FL)
-   - Garden Communities Florida
-3. Found 7 specific property leads, prioritized by pain signals (concessions = need marketing)
-4. Identified key contacts:
-   - **Devin Lusk** - Director of Marketing, American Landmark (LinkedIn found)
-   - **Richman Signature** - Direct marketing team email: signaturemarketing@richmanmgt.com
-5. Created lead list with scoring: synced/remotion-video-ads/leads/TAMPA_LEADS_2026-03-05.md
-6. Drafted personalized email for top prospect: synced/remotion-video-ads/leads/DRAFT_EMAIL_DEVIN_LUSK.md
-
-**Key Insight:**
-Properties offering rent concessions (1-3 months free) are the hottest leads - they're bleeding money to fill units and need better marketing. Found several in active concession mode:
-- New Tampa Palms: 3 MONTHS FREE
-- AER Apartments: 1.5 months free
-- Novus Westshore: 1 month free
-- 801 Whiting: Just opened Dec 2025, lease-up phase
-
-**Why This Matters:**
-Anthony wanted to build an automated outreach system. Having real, validated leads with contact info and pain signals makes the system immediately actionable. He can start outreach TODAY with these leads while we set up the automation.
-
-**Files Created:**
-- /synced/remotion-video-ads/leads/TAMPA_LEADS_2026-03-05.md
-- /synced/remotion-video-ads/leads/DRAFT_EMAIL_DEVIN_LUSK.md
-
-**Next Steps for Anthony:**
-1. Review leads and approve approach
-2. Decide on budget for tools
-3. Start manual outreach to top 5 while we build automation
+Track of autonomous work done during sleeping hours.
 
 ---
 
-## 2026-03-06 04:00 UTC (11pm EST)
+## 2026-03-13 (04:00 UTC)
 
-**Task:** Dream cycle + Tampa event research
+**Task:** Dream Cycle + Final Spring Break Prep
 
-**What I Did:**
-1. Completed dream cycle — reviewed March 5, updated MEMORY.md with key insights
-2. Researched Tampa networking events for March 2026
-3. Found multiple recurring events and resources to monitor
+**Context:** Tomorrow is the LAST day before spring break. 4 networking emails still unsent.
 
-**Events Found:**
+**Actions:**
+1. Reviewed March 12 — quiet class day, no conversations
+2. Created urgent morning brief: `memory/2026-03-13.md`
+3. Searched for any missed Chicago events during spring break week
+4. Dream cycle log: `memory/dreams/2026-03-13.md`
 
-| Event | When | Where | 
-|-------|------|-------|
-| Tampa Bay Generative AI | Every Tuesday 6pm | Buffalo Wild Wings, Oldsmar |
-| Greater Tampa REALTORS Connect | 1st Wednesday/month | Varies |
-| Tampa Devs | Mondays + various | TEKsystems, etc. |
-| High Tech Connect | Thursday evenings | Various |
+**Event Search Results:**
+- No new CRE events during March 14-21
+- April 14 Bisnow Construction & Development Summit already captured
+- ULI Chicago confirms Rowland/Enshaeian as YP co-chairs
 
-**Best Upcoming:**
-- **March 11 (Tuesday)** — Tampa Bay Generative AI @ BWW Oldsmar
-- No schedule conflict, AI-focused, casual networking format
+**Key Message Created for Anthony:**
+"Last day to send emails. 10 minutes of action. Copy/paste ready. Don't let 2 weeks of prep go to waste."
 
-**Resources to Monitor:**
-- globalnerdy.com — Weekly Tampa Bay tech events (published Fridays)
-- tampa.dev — Tech event aggregator
-- naioptb.org — Commercial RE events
-
-**Key Memory Updates:**
-- Retell AI price drop: $0.17 → $0.12/min
-- Lead scoring insight: Properties with concessions = hot leads
-- Nicholas Family warm connection documented
-
-**Files Updated:**
-- MEMORY.md
-- memory/2026-03-06.md
-- memory/dreams/2026-03-06.md
+**Impact:** Everything is ready. The only variable now is Anthony hitting send.
 
 ---
 
-## 2026-03-06 05:00 UTC (Midnight EST)
+## 2026-03-12 (07:00 UTC)
 
-**Task:** Wingspan strategic intelligence research
+**Task:** Networking Emails Consolidation — All 4 Priority 1 in One File
 
-**What I Did:**
-1. Deep-dived into Wingspan Development Group's parent structure
-2. Discovered Wingspan is part of **Nicholas Family of Companies** — a $500M+ family conglomerate
-3. Mapped full organizational structure (8 business units)
-4. Identified all 14 members of Wingspan leadership team
-5. Found strategic opportunities for Anthony to leverage
+**Why:** The 4 Priority 1 networking emails (Rutzen, Rowland, Enshaeian, Rojas) were scattered across multiple daily files. Created one consolidated ready-to-send file matching the GC emails format.
 
-**Key Discovery:**
-Wingspan isn't a small developer — it's part of a massive family empire that includes:
-- **Nicholas & Associates** — $500M/year construction
-- **Spectate Group** — Ice arenas (Nicholas Sportsplex, etc.)
-- **Big Fish Hospitality** — Restaurants (The Prospect in Mount Prospect)
-- Multiple other units (doors, gifting, property management)
+**Deliverables:**
+- `memory/networking/NETWORKING_EMAILS_PRIORITY1.md` — All 4 emails ready to copy/paste
 
-**Why This Matters:**
-Anthony thought he was interning at a small developer. He's actually working for a second-generation family empire with deep roots in his hometown area. This changes his strategic positioning:
-- Hometown connection = relationship asset
-- Multiple business units = cross-unit opportunities
-- Family business = loyalty/relationships matter
-- Dawn Fletcher Collins (Brand Experience) = direct contact for video/marketing skills
+**Emails consolidated:**
 
-**Files Created:**
-- `memory/research/WINGSPAN_INTEL.md` — Full strategic briefing
+| Target | Company | Angle |
+|--------|---------|-------|
+| Marc Rutzen | HelloData (ex-Enodo) | AI + RE pioneer |
+| Devin Rowland | KMA / ULI YP Co-Chair | Career mentor, teaches DePaul |
+| Yasamin Enshaeian | DL3 / ULI YP Co-Chair | Architecture → development path |
+| Mark Rojas | Proper AI | PropTech founder |
 
-**Action for Anthony (Today at Work):**
-1. Read WINGSPAN_INTEL.md before going to work
-2. Find out who he reports to and their position in org chart
-3. Look for natural opportunity to mention Mount Prospect connection
-4. Consider asking about cross-unit projects or Dawn Fletcher Collins
+**Also added:**
+- Send checklist with status boxes
+- Questions to ask in meetings (different for PropTech vs career mentors)
+- Post-response protocol
+
+**Impact:** Now BOTH email sets (networking + GC) are single-file, copy/paste ready. Zero friction.
 
 ---
 
-## 2026-03-06 06:00 UTC (1am EST)
+## 2026-03-12 (05:00 UTC)
 
-**Task:** Competitor intel update for AI voice business
+**Task:** GC Validation Emails — Ready-to-Send Drafts
 
-**What I Did:**
-1. Researched new AI voice/receptionist competitors
-2. Added 3 new competitors to COMPETITORS.md
-3. Found industry stats to use as sales ammo on cold calls
-4. Updated pricing comparison matrix
+**Why:** The GC validation targets had scripts but not actual ready-to-send emails. Spring break starts in 2 days. Anthony needs to be able to copy/paste and send.
 
-**New Competitors Added:**
-| Company | Price | Threat |
-|---------|-------|--------|
-| **LeadTruffle** | $229-$629/mo | 🔴 HIGH — purpose-built for home services |
-| **Smith.ai** | $292-$1,170/mo | 🟡 Medium — AI + human hybrid |
-| **11x AI (Julian)** | TBD | 🟢 Low — HVAC only |
+**Deliverables:**
+- `memory/networking/GC_OUTREACH_EMAILS.md` — 3 ready-to-send email drafts
 
-**Key Stats for Cold Calls (Sales Ammo):**
-- **60-80%** of contractor calls go missed
-- **62%** completely unanswered
-- **$210K-$277K/year** lost from missed calls
-- **82%** of customers expect immediate response
-- **42%** of callback promises never happen
+**Emails drafted:**
 
-**The Killer Line:**
-> "Every missed call is a $3,500 job going to your competitor."
+| Target | Company | Method |
+|--------|---------|--------|
+| Ivan Tello | ETI Construction | Direct email (ivan@eticonstruction.net) |
+| Mike Obloy | 3F Construction | LinkedIn |
+| Brian Robison | Summit Design + Build | LinkedIn |
 
-**Files Updated:**
-- `synced/ai-voice-business/COMPETITORS.md`
+**Each email includes:**
+- Proper subject line
+- Wingspan/Nicholas angle (instant credibility)
+- Specific ask (10-15 min during spring break)
+- No pitch, just research framing
 
-**Why This Matters:**
-Anthony needs to know his competitive landscape when making cold calls. Now he has:
-1. Updated pricing to reference (he's mid-market, not expensive)
-2. Stats to create urgency ("you're losing $200K/year")
-3. Knowledge of who else is calling his leads
+**Also added:**
+- Outreach checklist with status boxes
+- Validation questions to ask on calls
+- Post-call documentation template
+
+**Impact:** GC outreach is now as frictionless as the networking emails — just copy, paste, send.
 
 ---
 
-## 2026-03-06 07:00 UTC (2am EST)
+## 2026-03-12 (04:00 UTC)
 
-**Task:** Lead generation — find 25+ new leads in expanded Tampa Bay area
+**Task:** Spring Break Networking Sprint — Consolidate ALL Research into One Action Plan
 
-**What I Did:**
-1. Searched for owner-operated home services businesses in Wesley Chapel, St. Pete, Clearwater, Brandon
-2. Found and added **50 new leads** across 8 categories
-3. Updated LEADS.md from 321 → 371 total leads
+**Why:** Spring break starts in 2 days. Research is scattered across 6+ files. Anthony needs ONE document that says "START HERE" with exactly what to do each day.
 
-**New Leads by Category:**
-| Category | Area | Count |
-|----------|------|-------|
-| Plumbers | Wesley Chapel | 6 |
-| HVAC | St. Pete | 9 |
-| Electricians | Clearwater | 7 |
-| Roofers | Brandon | 7 |
-| Pest Control | Tampa Bay | 8 |
-| Garage Door | Wesley Chapel | 2 |
-| Pool Service | St Pete/Clearwater | 5 |
-| Lawn Care | Wesley Chapel | 6 |
-| **TOTAL** | | **50** |
+**Deliverables:**
+- `memory/networking/SPRING_BREAK_SPRINT_2026.md` — Master action plan
 
-**Best New Prospects (with phone numbers):**
-- Premier Plumbing of Florida **(813) 244-2001** — BBB, Wesley Chapel
-- A Advanced Electrical **(727) 430-8201** — Family-owned, Clearwater
-- Clear Tech Pools **(727) 347-6770** — 30+ years, St Pete
-- Bay Willow Lawn Service **(813) 810-9166** — Family-owned
+**What it contains:**
 
-**Standout Leads:**
-- **Cross Pest Control** — 58 YEARS family-owned (longevity suggests trust concerns = good AI pitch)
-- **Viking Air** — Husband/wife duo, started 2015 (small, tech-forward)
-- **Larry Miller Inc** — 4th gen family-owned, hands-on owner
+| Section | Purpose |
+|---------|---------|
+| Day-by-day timeline | March 14-21 breakdown |
+| 4 networking emails | Rutzen, Rowland, Enshaeian, Rojas with checkboxes |
+| 4 GC validation targets | Ivan, Mike, Brian, Novak with scripts |
+| Talking points | Different scripts for PropTech vs career vs GC meetings |
+| Success metrics | Minimum viable + stretch goals |
+| Chicago logistics | Home base, coffee spots, transit |
+| Post-sprint documentation | What to update after |
 
-**Files Updated:**
-- `synced/ai-voice-business/LEADS.md` (321 → 371 leads)
+**Key Insight:** The research phase is DONE. All targets identified, all scripts written, all emails drafted. Now it's pure execution.
+
+**Impact:** Anthony opens one file, follows the checklist, spring break is productive.
+
+**Critical urgency:** The 4 networking emails MUST go out Thu/Fri or there's no time to schedule meetings for the week.
 
 ---
 
-## 2026-03-06 09:00 UTC (4am EST)
+## 2026-03-11 (04:00-04:30 UTC)
 
-**Task:** AI tools & capabilities research (daily cron)
+**Task:** Bisnow Panelist Research — Maximize Today's Networking Opportunity
 
-**Quick Scan Findings:**
-- MCP ecosystem continues growing (GitHub, Supabase, Azure, Notion, Zapier servers)
-- Retell AI now supports GPT-4.1, intelligent warm transfers, deeper CRM integrations
-- OpenClaw skills of interest: agent-dashboard, agent-dispatch, Zapier MCP
+**Why:** Christopher Coleman (boss's boss) is speaking at Bisnow today. But there are 4 other developers on the same panel. If Anthony attends, he should be able to network with all of them, not just one.
 
-**Low Priority Actions:**
-- Consider Zapier MCP for lead → CRM automation
-- agent-dashboard skill could visualize Gru activity
+**Deliverables:**
+- `memory/research/BISNOW_PANELISTS_BRIEFING.md` — Full briefing on all 5 panelists
+- `memory/WAKE_UP_2026-03-11.md` — Morning decision brief
+- `memory/2026-03-11.md` — Daily log
 
-**Files Created:**
-- `memory/research/AI_TOOLS_2026-03-06.md`
+**Panelists Researched:**
 
-*Light scan, nothing urgent. Focus remains on cold calling and lead gen.*
+| Name | Company | Why They Matter |
+|------|---------|-----------------|
+| Christopher Coleman | Nicholas Family of Companies | Boss's boss — already briefed |
+| Richard Tucker | Tucker Development | **Wingspan JV partner** on Skokie — natural connection |
+| Ramzi Hassan | Edwards Realty | $200M+ projects, music/fashion → experiential retail |
+| Greg Moyer | Moyer Properties | Ex-Marcus & Millichap, $700M+ since 2008 |
+| Courtney Brower | Focus | Architecture → development path, Crain's Notable |
 
----
+**Key Insight:** Richard Tucker's company and Wingspan are JV partners on the Skokie project. Tucker and Coleman will likely reference this during the panel. This gives Anthony a natural conversation starter with both.
 
-## 2026-03-07 04:10 UTC (11:10pm EST)
-
-**Task:** Create Monday call list (dream cycle overnight work)
-
-*OBSOLETE — Voice business killed March 7. See pivot below.*
-
----
-
-## 2026-03-08 04:02 UTC (11:02pm EST March 7)
-
-**Task:** Research RE development workflows + AI opportunities for new direction
-
-**What I Did:**
-1. Searched for RE development pain points and automation targets
-2. Found McKinsey article (published March 4!) on "agentic AI reshaping real estate"
-3. Analyzed Northspyre research on development finance automation
-4. Identified 6 major automation opportunities:
-   - Budget management (spreadsheet hell)
-   - Draw reporting (document chaos)
-   - Forecasting (gut decisions, stale data)
-   - Vendor management (no performance tracking)
-   - Document management (RFIs scattered)
-   - Code/compliance interpretation
-5. Mapped competitive landscape (CRE Agents, Northspyre, Julius AI)
-6. Created specific discovery questions for Monday at Wingspan
-7. Defined Week 1 success criteria
-
-**Key Insight:**
-> "Spreadsheets are the enemy. Claude is the solution."
-
-RE teams are drowning in manual Excel work for budgets, draws, and forecasting. The @ideabrowser "Claude Migration" playbook is perfect here: document real workflows, turn them into Claude agents.
-
-**Files Created:**
-- `memory/research/RE_DEVELOPMENT_AI_RESEARCH.md` — Full research brief
-
-**Monday Ready:**
-Anthony has specific questions to ask + framework for what to observe. No prep needed — just show up curious.
+**Impact:** Anthony now has talking points for ALL 5 panelists, not just his boss's boss. Quality networking > single handshake.
 
 ---
 
-## 2026-03-08 05:00 UTC (Midnight EST)
+## 2026-03-11 (05:00 UTC)
 
-**Task:** Chicago PropTech networking research for spring break (March 14-21)
+**Task:** External GC Validation Targets — Find Chicago GCs to validate draw package pain
 
-**What I Did:**
-1. Confirmed spring break dates: **March 14-21** — NEXT WEEK!
-2. Researched Chicago PropTech companies on Built In Chicago
-3. Found 2 new high-value targets:
-   - **Marc Rutzen** — CEO HelloData.ai, former Enodo founder (ML for RE underwriting)
-   - **Mark Rojas** — Founder/CEO Proper (AI property management rollup)
-4. Found events during spring break:
-   - Bisnow Construction & Dev (March 11)
-   - Bisnow Sustainability (March 19)
-5. Drafted personalized emails for both new targets
-6. Created timeline for outreach
+**Why:** Anthony validated the draw package pain at Nicholas. Now needs to confirm it's industry-wide, not Nicholas-specific. Task queue has "Validate draw pain externally" as P2.
 
-**Key Insight:**
-Marc Rutzen is the perfect mentor target — he literally built AI for multifamily underwriting at Enodo (exactly what Anthony is researching). Now runs HelloData. Same path Anthony could take.
+**Deliverables:**
+- `memory/research/GC_VALIDATION_TARGETS.md` — 4 target GCs with leadership, emails, approach scripts
 
-**Files Created:**
-- `memory/networking/CHICAGO_SPRING_BREAK_2026.md` — Full plan with email drafts
+**Targets Identified:**
 
-**Urgency:**
-Spring break is 6 DAYS AWAY. Emails should go out Monday (March 10) to give people time to respond and schedule.
+| Company | Contact | Why Good |
+|---------|---------|----------|
+| 3F Construction | Mike Obloy (co-founder) | Developer-turned-GC, DePaul grad, institutional clients |
+| ETI Construction | Ivan Tello (Principal) | **Direct email**: ivan@eticonstruction.net, handles billing |
+| Summit Design + Build | Brian Robison (Owner) | Hands-on owner, family business, $2.4B portfolio |
+| Novak Construction | (need to find) | Larger perspective, 51-200 employees, established 1980 |
+
+**Key Finding:** ETI Construction has direct emails on their website — lowest friction outreach path.
+
+**Impact:** When Anthony returns from Bisnow/sends networking emails, he has concrete targets for validating his thesis externally. Can potentially meet these people during spring break.
+
+---
+
+## 2026-03-10 (09:00 UTC)
+
+**Task:** Daily AI tools/capabilities research (scheduled cron)
+
+**Deliverables:**
+- `memory/research/AI_TOOLS_2026-03-10.md`
+
+**Key Findings:**
+- McKinsey published report on agentic AI reshaping RE operating models — validates Anthony's direction
+- n8n (workflow automation) could help automate draw package reminder workflows
+- Dify platform supports MCP integration — potential build platform
+- OpenClaw (this system) now at 210,000 GitHub stars, creator joined OpenAI
+
+**Overnight work sessions complete (4 sessions + 1 cron).**
+
+---
+
+## 2026-03-10 (07:00 UTC)
+
+**Task:** Consolidated wake-up brief
+
+**Why:** Three overnight sessions created great content, but Anthony needs a single "start here" document.
+
+**Deliverables:**
+- `memory/WAKE_UP_2026-03-10.md` — Executive summary with priorities and links
+
+**What it contains:**
+1. Christopher Coleman / Bisnow alert (with what to say at work)
+2. 4 networking emails reminder
+3. Workflow anthropologist focus
+4. File index for overnight research
+5. Suggested timeline for the day
+
+**Philosophy:** Quality over quantity. Don't add more reading; make existing work accessible.
+
+---
+
+## 2026-03-10 (06:00-06:30 UTC)
+
+**Task:** Christopher Coleman briefing for tomorrow's Bisnow event
+
+**Why:** If Anthony can attend (or even just mentions it at work), he should know his boss's boss.
+
+**Deliverables:**
+- `memory/research/CHRISTOPHER_COLEMAN_BRIEFING.md`
+- Company deep dive (Nicholas Family of Companies structure)
+- Talking points and introduction script
+- Questions for Q&A
+- Follow-up strategy
+
+**Key Intel:**
+- Coleman has MBA from Northwestern Kellogg
+- Values "deep, long-lasting relationships" (from his own quote)
+- Nicholas does $500M+/year construction, ~6,000 unit multifamily pipeline
+- Vertically integrated: develop → build → manage → operate restaurants
+- Tucker Development is JV partner on Skokie project (Richard Tucker on same panel)
+
+---
+
+## 2026-03-10 (05:00-05:30 UTC)
+
+**Task:** Chicago events research for spring break networking
+
+**Why:** Spring break starts March 14. Need to maximize Chicago networking window.
+
+**Deliverables:**
+- `memory/networking/CHICAGO_EVENTS_MARCH_2026.md` — Full events calendar
+
+**🔥 CRITICAL FINDING:**
+**Bisnow Future of Chicago Suburbs Real Estate Summit is TOMORROW (March 11)**
+- **Christopher Coleman, President of Nicholas Family of Companies, is a SPEAKER**
+- This is Anthony's boss's boss
+- Event explicitly mentions Wingspan project in Skokie
+- Location: Bell Works, Hoffman Estates (northwest suburbs)
+
+**Anthony should ask Wingspan TODAY if he can attend.**
+
+**Other events found:**
+- March 12: AI in Real Estate Workshop (virtual)
+- March 19: Chicago CRE event
+- April 14: Chicago Construction & Development Summit (mark calendar)
+
+---
+
+## 2026-03-10 (04:00-04:30 UTC)
+
+**Task:** Competitive landscape research for Draw Package Generator
+
+**Why:** Anthony has real project documents now. Before he talks to Nicholas about building a tool, he should understand what exists and where the gaps are.
+
+**Deliverables:**
+1. `memory/research/DRAW_PACKAGE_COMPETITORS.md` — Full competitive analysis
+2. Updated MEMORY.md with key findings
+3. Created `memory/2026-03-10.md` with today's plan
+
+**Key Insights:**
+- GCPay is main competitor (48K users) but enterprise-focused
+- Built Technologies serves lenders, not GCs — different market
+- Gap exists for lightweight, AI-powered tool for smaller GCs
+- Nicholas & Associates as design partner = unique competitive advantage
+
+**Impact:** Anthony now has competitive context for any conversations about the draw package tool.
+
+---
+
+## 2026-03-09 (05:00-09:00 UTC)
+
+**Tasks Completed:**
+1. Chicago networking consolidation (4 targets, ready-to-send emails)
+2. Workflow Anthropologist Field Guide
+3. Monday Morning Briefing
+4. AI Tools Research (CRE Agents, real-estate-mcp, etc.)
+5. CRE Agents competitive deep-dive
+
+---
+
+## 2026-03-08 (04:00-05:00 UTC)
+
+**Task:** Memory consolidation and file cleanup
+
+**Deliverables:** MEMORY.md updated, dream cycle established
+
+---
+
+*Format: Date, time, task, deliverables, impact*

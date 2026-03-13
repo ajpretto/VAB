@@ -97,9 +97,25 @@ This is my curated memory — the distilled essence of what I've learned, not ra
 
 ---
 
-## Critical Warning (Advisory Council 2026-03-03)
+## Draw Package Generator (March 2026)
 
-**MAKE CALLS.** 216 leads, validated numbers, pricing locked, script ready. The only thing missing is ACTION. Every day of prep without calling is a day a competitor is calling YOUR leads. Goal: 10 calls by end of day March 3.
+**Pain Point Validated:** GC draw package creation takes 8-20 hours/project/month
+- Chasing sub invoices + lien waivers
+- Manual G702/G703 form generation
+- Compiling into draw package for lender
+
+**Real Project Data:** Josephine Apartments (Nicholas & Associates as GC)
+- $22.2M contract, 99 units, 18-month timeline
+- Documents: fee schedule, construction budget (41 CSI tabs), schedule
+- Files: `josephine/` folder
+
+**Competitive Landscape:**
+- **GCPay:** Main competitor, 48K users, enterprise-focused, ERP integration required
+- **Built Technologies:** Lender-side (draw review), not GC-side (draw creation)
+- **Procore/Trimble:** Part of larger ecosystems, expensive
+- **Gap:** Lightweight tool for smaller GCs with AI invoice processing
+
+**Strategic Position:** Start with Nicholas as design partner. Build focused MVP, not enterprise platform.
 
 ---
 

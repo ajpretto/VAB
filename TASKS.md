@@ -20,8 +20,9 @@ Tasks assigned but not yet started.
 
 | Task | Project | Priority | Assigned | Notes |
 |------|---------|----------|----------|-------|
-| **Workflow Anthropologist Day 1** | AI for RE Development | **P1** | 2026-03-07 | Observe, ask dumb questions, document |
-| **Find 1 process pain point** | AI for RE Development | **P1** | 2026-03-07 | Week 1 goal |
+| **Workflow Anthropologist — Week 2** | AI for RE Development | **P1** | 2026-03-10 | Continue observing, build relationships, shadow draw process |
+| **Validate draw pain point externally** | AI for RE Development | **P2** | 2026-03-10 | Talk to 2-3 GCs outside Nicholas |
+| **Send 4 networking emails** | Networking | **P1** | 2026-03-10 | Rutzen, Rowland, Enshaeian, Rojas — before spring break |
 | Set up file access for Anthony | Infrastructure | P3 | 2026-03-01 | Syncthing or GitHub for doc access |
 
 ### Archived (March 7 Pivot — Voice → RE Development)
@@ -50,6 +51,7 @@ Last 10 finished tasks (auto-trim older).
 
 | Task | Project | Completed | Outcome |
 |------|---------|-----------|---------|
+| **Find 1 process pain point** | AI for RE Development | 2026-03-09 | Draw package creation for GCs — docs obtained, concept drafted |
 | Personalize Mission Control | Infrastructure | 2026-03-04 | Dashboard + leads viewer + life page, SSH tunnel access |
 | Upwork job analysis | AI Voice Business | 2026-03-02 | Om Patel playbook - market validation complete |
 | Phone validation system | AI Voice Business | 2026-03-02 | 164/164 valid, generated LEADS_VALIDATED.md/csv |
