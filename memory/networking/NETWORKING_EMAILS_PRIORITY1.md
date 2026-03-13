@@ -144,3 +144,32 @@ Log responses in `memory/2026-03-XX.md`.
 ---
 
 *Don't overthink. Copy, paste, send. 🦹*
+
+---
+
+## 🎯 Optional: Personalization Intel (If You Want to Customize)
+
+These are NOT required — the emails above work as-is. But if you want to add a personal touch:
+
+### Marc Rutzen
+- **Recent news:** HelloData was acquired by Grace Hill (2025)
+- **Optional add:** "Congrats on the Grace Hill acquisition — excited to see HelloData scale."
+- **Forbes Tech Council member** — credible, well-connected
+
+### Devin Rowland
+- **Featured in Negocios Now** as a rising leader (age 32)
+- **Teaches at DePaul** — educator mindset, likely enjoys mentoring
+- **No changes needed** — email already strong
+
+### Yasamin Enshaeian
+- **Received FHLBank Chicago grant** (2023) for affordable housing development
+- **Background:** UC Berkeley architecture → Perkins & Will → Community Builders → DL3
+- **Optional add:** "Your path from Perkins & Will to development is exactly what I'm curious about."
+
+### Mark Rojas
+- **Based in SF** — virtual meeting more likely
+- **No recent news found** — email is fine as-is
+
+---
+
+**Bottom line:** The base emails are solid. Personalization is a bonus, not a requirement. Don't let perfect be the enemy of sent.
